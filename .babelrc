@@ -1,0 +1,8 @@
+{
+  "stage": 0,
+  "loose": true,
+  "sourceMap": "inline",
+  "blacklist": [
+    "es6.classes"
+  ]
+}

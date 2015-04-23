@@ -1,0 +1,282 @@
+'scopeName': 'source.zep'
+'name': 'Zephir'
+'fileTypes': [
+  'zep'
+]
+'foldingStartMarker': '^.*\\bfunction\\s*(\\w+\\s*)?\\([^\\)]*\\)(\\s*\\{[^\\}]*)?\\s*$'
+'foldingStopMarker': '^\\s*\\}'
+'patterns': [
+  {
+    'captures':
+      '1':
+        'name': 'support.class.zep'
+      '2':
+        'name': 'support.constant.zep'
+      '3':
+        'name': 'keyword.operator.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'support.class.zep'
+      '2':
+        'name': 'support.constant.zep'
+      '3':
+        'name': 'entity.name.function.zep'
+      '4':
+        'name': 'keyword.operator.zep'
+      '5':
+        'name': 'storage.type.function.zep'
+      '6':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '7':
+        'name': 'variable.parameter.function.zep'
+      '8':
+        'name': 'punctuation.definition.parameters.end.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'support.class.zep'
+      '2':
+        'name': 'support.constant.zep'
+      '3':
+        'name': 'entity.name.function.zep'
+      '4':
+        'name': 'keyword.operator.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'support.class.zep'
+      '2':
+        'name': 'entity.name.function.zep'
+      '3':
+        'name': 'keyword.operator.zep'
+      '4':
+        'name': 'storage.type.function.zep'
+      '5':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '6':
+        'name': 'variable.parameter.function.zep'
+      '7':
+        'name': 'punctuation.definition.parameters.end.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'entity.name.function.zep'
+      '2':
+        'name': 'keyword.operator.zep'
+      '3':
+        'name': 'storage.type.function.zep'
+      '4':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '5':
+        'name': 'variable.parameter.function.zep'
+      '6':
+        'name': 'punctuation.definition.parameters.end.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'storage.type.function.zep'
+      '2':
+        'name': 'entity.name.function.zep'
+      '3':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '4':
+        'name': 'variable.parameter.function.zep'
+      '5':
+        'name': 'punctuation.definition.parameters.end.zep'
+    'match': '\\b(function)\\s+([a-zA-Z_$]\\w*)?\\s*(\\()(.*?)(\\))'
+    'name': 'meta.function.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'entity.name.function.zep'
+      '2':
+        'name': 'storage.type.function.zep'
+      '3':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '4':
+        'name': 'variable.parameter.function.zep'
+      '5':
+        'name': 'punctuation.definition.parameters.end.zep'
+    'match': '\\b([a-zA-Z_?.$][\\w?.$]*)\\s*:\\s*\\b(function)?\\s*(\\()(.*?)(\\))'
+    'name': 'meta.function.zepon.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'string.quoted.single.zep'
+      '2':
+        'name': 'punctuation.definition.string.begin.zep'
+      '3':
+        'name': 'entity.name.function.zep'
+      '4':
+        'name': 'punctuation.definition.string.end.zep'
+      '5':
+        'name': 'string.quoted.double.zep'
+      '6':
+        'name': 'punctuation.definition.string.begin.zep'
+      '7':
+        'name': 'entity.name.function.zep'
+      '8':
+        'name': 'punctuation.definition.string.end.zep'
+      '9':
+        'name': 'entity.name.function.zep'
+      '10':
+        'name': 'punctuation.definition.parameters.begin.zep'
+      '11':
+        'name': 'variable.parameter.function.zep'
+      '12':
+        'name': 'punctuation.definition.parameters.end.zep'
+    'comment': 'Attempt to match "foo": function'
+    'match': '(?:((\')([^\']*)(\'))|((")([^"]*)(")))\\s*:\\s*\\b(function)?\\s*(\\()([^)]*)(\\))'
+    'undefined': 'name'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'keyword.operator.new.zep'
+      '2':
+        'name': 'entity.name.type.instance.zep'
+    'match': '(new)\\s+(\\w+(?:\\.\\w*)?)'
+    'name': 'meta.class.instance.constructor'
+  }
+  {
+    'match': '\\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\\.[0-9]+)?))\\b'
+    'name': 'constant.numeric.zep'
+  }
+  {
+    'match': '<([a-zA-Z0-9\\_\\\\]+\!)>'
+    'name': 'string.regexp.zep'
+  }
+  {
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.zep'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.zep'
+    'name': 'string.quoted.single.zep'
+    'patterns': [
+      {
+        'match': '\\\\(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]?|37[0-7]?|[4-7][0-7]?|.)'
+        'name': 'constant.character.escape.zep'
+      }
+    ]
+  }
+  {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.zep'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.zep'
+    'name': 'string.quoted.double.zep'
+    'patterns': [
+      {
+        'match': '\\\\(x\\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
+        'name': 'constant.character.escape.zep'
+      }
+    ]
+  }
+  {
+    'begin': '/\\*\\*(?!/)'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.zep'
+    'end': '\\*/'
+    'name': 'comment.block.documentation.zep'
+  }
+  {
+    'begin': '/\\*'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.zep'
+    'end': '\\*/'
+    'name': 'comment.block.zep'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'punctuation.definition.comment.zep'
+    'match': '(//).*$\\n?'
+    'name': 'comment.line.double-slash.zep'
+  }
+  {
+    'match': '\\b(boolean|string|char|class|trait|namespace|use|as|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned|self)\\b'
+    'name': 'storage.type.zep'
+  }
+  {
+    'match': '\\b(const|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|throws|clone)\\b'
+    'name': 'storage.modifier.zep'
+  }
+  {
+    'match': '\\b(echo|require|break|case|catch|let|continue|default|do|else|elseif|for|goto|if|return|switch|throw|try|while|loop)\\b'
+    'name': 'keyword.control.zep'
+  }
+  {
+    'match': '\\b(in|reverse|instanceof|new|typeof)\\b'
+    'name': 'keyword.operator.zep'
+  }
+  {
+    'match': '\\btrue\\b'
+    'name': 'constant.language.boolean.true.zep'
+  }
+  {
+    'match': '\\bfalse\\b'
+    'name': 'constant.language.boolean.false.zep'
+  }
+  {
+    'match': '\\bnull\\b'
+    'name': 'constant.language.null.zep'
+  }
+  {
+    'match': '\\b(parent|self|this)\\b'
+    'name': 'variable.language.zep'
+  }
+  {
+    'match': '\\b(PHP_EOL|PHP_VERSION|([A-Z0-9\\_]+))\\b'
+    'name': 'string.regexp.zep'
+  }
+  {
+    'match': '->|::'
+    'name': 'keyword.operator.zep'
+  }
+  {
+    'match': '!|\\$|%|&|\\*|\\-\\-|\\-|\\+\\+|\\+|~|===|==|=|!=|!==|<=|>=|<<=|>>=|>>>=|<>|<|>|!|&&|\\|\\||\\?\\:|\\*=|(?<!\\()/=|%=|\\+=|\\-=|&=|\\.=|\\^=|\\b(in|instanceof|new|typeof|void)\\b'
+    'name': 'keyword.operator.zep'
+  }
+  {
+    'match': '\\;'
+    'name': 'punctuation.terminator.statement.zep'
+  }
+  {
+    'match': ',[ |\\t]*'
+    'name': 'meta.delimiter.object.comma.zep'
+  }
+  {
+    'match': '\\.'
+    'name': 'meta.delimiter.method.period.zep'
+  }
+  {
+    'match': '\\{|\\}'
+    'name': 'meta.brace.curly.zep'
+  }
+  {
+    'match': '\\(|\\)'
+    'name': 'meta.brace.round.zep'
+  }
+  {
+    'match': '\\[|\\]'
+    'name': 'meta.brace.square.zep'
+  }
+]
