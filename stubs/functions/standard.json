@@ -1,0 +1,7429 @@
+[
+    {
+        "name": "constant",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.constant.php",
+        "args": [
+            {
+                "name": "const_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bin2hex",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bin2hex.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "hex2bin",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.hex2bin.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sleep",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sleep.php",
+        "args": [
+            {
+                "name": "seconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "usleep",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.usleep.php",
+        "args": [
+            {
+                "name": "micro_seconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "time_nanosleep",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.time_nanosleep.php",
+        "args": [
+            {
+                "name": "seconds",
+                "type": "mixed"
+            },
+            {
+                "name": "nanoseconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "time_sleep_until",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.time_sleep_until.php",
+        "args": [
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strptime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strptime.php",
+        "args": [
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.flush.php",
+        "args": []
+    },
+    {
+        "name": "wordwrap",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wordwrap.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "width",
+                "type": "mixed"
+            },
+            {
+                "name": "break",
+                "type": "mixed"
+            },
+            {
+                "name": "cut",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "htmlspecialchars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.htmlspecialchars.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "quote_style",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            },
+            {
+                "name": "double_encode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "htmlentities",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.htmlentities.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "quote_style",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            },
+            {
+                "name": "double_encode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "html_entity_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.html_entity_decode.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "quote_style",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "htmlspecialchars_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.htmlspecialchars_decode.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "quote_style",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_html_translation_table",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_html_translation_table.php",
+        "args": [
+            {
+                "name": "table",
+                "type": "mixed"
+            },
+            {
+                "name": "quote_style",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sha1",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sha1.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "raw_output",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sha1_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sha1_file.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "raw_output",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "md5",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.md5.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "raw_output",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "md5_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.md5_file.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "raw_output",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "crc32",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.crc32.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iptcparse",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iptcparse.php",
+        "args": [
+            {
+                "name": "iptcdata",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iptcembed",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iptcembed.php",
+        "args": [
+            {
+                "name": "iptcdata",
+                "type": "mixed"
+            },
+            {
+                "name": "jpeg_file_name",
+                "type": "mixed"
+            },
+            {
+                "name": "spool",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getimagesize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getimagesize.php",
+        "args": [
+            {
+                "name": "imagefile",
+                "type": "mixed"
+            },
+            {
+                "name": "info",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getimagesizefromstring",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getimagesizefromstring.php",
+        "args": [
+            {
+                "name": "imagefile",
+                "type": "mixed"
+            },
+            {
+                "name": "info",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "image_type_to_mime_type",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.image_type_to_mime_type.php",
+        "args": [
+            {
+                "name": "imagetype",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "image_type_to_extension",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.image_type_to_extension.php",
+        "args": [
+            {
+                "name": "imagetype",
+                "type": "mixed"
+            },
+            {
+                "name": "include_dot",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "phpinfo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.phpinfo.php",
+        "args": [
+            {
+                "name": "what",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "phpversion",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.phpversion.php",
+        "args": [
+            {
+                "name": "extension",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "phpcredits",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.phpcredits.php",
+        "args": [
+            {
+                "name": "flag",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "php_sapi_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.php_sapi_name.php",
+        "args": []
+    },
+    {
+        "name": "php_uname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.php_uname.php",
+        "args": []
+    },
+    {
+        "name": "php_ini_scanned_files",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.php_ini_scanned_files.php",
+        "args": []
+    },
+    {
+        "name": "php_ini_loaded_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.php_ini_loaded_file.php",
+        "args": []
+    },
+    {
+        "name": "strnatcmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strnatcmp.php",
+        "args": [
+            {
+                "name": "s1",
+                "type": "mixed"
+            },
+            {
+                "name": "s2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strnatcasecmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strnatcasecmp.php",
+        "args": [
+            {
+                "name": "s1",
+                "type": "mixed"
+            },
+            {
+                "name": "s2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "substr_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.substr_count.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strspn",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strspn.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "mask",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strcspn",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strcspn.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "mask",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strtok",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strtok.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "token",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strtoupper",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strtoupper.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strtolower",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strtolower.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strpos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strpos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stripos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stripos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strrpos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strrpos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strripos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strripos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strrev",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strrev.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "hebrev",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.hebrev.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "max_chars_per_line",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "hebrevc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.hebrevc.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "max_chars_per_line",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "nl2br",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.nl2br.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "is_xhtml",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "basename",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.basename.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "suffix",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dirname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dirname.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pathinfo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pathinfo.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stripslashes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stripslashes.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stripcslashes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stripcslashes.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strstr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strstr.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "part",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stristr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stristr.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "part",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strrchr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strrchr.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_shuffle",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_shuffle.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_word_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_word_count.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "charlist",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_split",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_split.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "split_length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strpbrk",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strpbrk.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "char_list",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "substr_compare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.substr_compare.php",
+        "args": [
+            {
+                "name": "main_str",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "case_sensitivity",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strcoll",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strcoll.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "money_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.money_format.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "substr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.substr.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "substr_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.substr_replace.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "quotemeta",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.quotemeta.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ucfirst",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ucfirst.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "lcfirst",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.lcfirst.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ucwords",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ucwords.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "delimiters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strtr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strtr.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "from",
+                "type": "mixed"
+            },
+            {
+                "name": "to",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "addslashes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.addslashes.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "addcslashes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.addcslashes.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "charlist",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rtrim",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rtrim.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "character_mask",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_replace.php",
+        "args": [
+            {
+                "name": "search",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "replace_count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_ireplace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_ireplace.php",
+        "args": [
+            {
+                "name": "search",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "replace_count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_repeat",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_repeat.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "mult",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "count_chars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.count_chars.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chunk_split",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chunk_split.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "chunklen",
+                "type": "mixed"
+            },
+            {
+                "name": "ending",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "trim",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.trim.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "character_mask",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ltrim",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ltrim.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "character_mask",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strip_tags",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strip_tags.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "allowable_tags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "similar_text",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.similar_text.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            },
+            {
+                "name": "percent",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "explode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.explode.php",
+        "args": [
+            {
+                "name": "separator",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "implode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.implode.php",
+        "args": [
+            {
+                "name": "glue",
+                "type": "mixed"
+            },
+            {
+                "name": "pieces",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.join.php",
+        "args": [
+            {
+                "name": "glue",
+                "type": "mixed"
+            },
+            {
+                "name": "pieces",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "setlocale",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.setlocale.php",
+        "args": [
+            {
+                "name": "category",
+                "type": "mixed"
+            },
+            {
+                "name": "locales",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "localeconv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.localeconv.php",
+        "args": []
+    },
+    {
+        "name": "nl_langinfo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.nl_langinfo.php",
+        "args": [
+            {
+                "name": "item",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "soundex",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.soundex.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "levenshtein",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.levenshtein.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            },
+            {
+                "name": "cost_ins",
+                "type": "mixed"
+            },
+            {
+                "name": "cost_rep",
+                "type": "mixed"
+            },
+            {
+                "name": "cost_del",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chr.php",
+        "args": [
+            {
+                "name": "codepoint",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ord",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ord.php",
+        "args": [
+            {
+                "name": "character",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "parse_str",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.parse_str.php",
+        "args": [
+            {
+                "name": "encoded_string",
+                "type": "mixed"
+            },
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_getcsv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_getcsv.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "delimiter",
+                "type": "mixed"
+            },
+            {
+                "name": "enclosure",
+                "type": "mixed"
+            },
+            {
+                "name": "escape",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_pad",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_pad.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "pad_length",
+                "type": "mixed"
+            },
+            {
+                "name": "pad_string",
+                "type": "mixed"
+            },
+            {
+                "name": "pad_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chop",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chop.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "character_mask",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strchr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strchr.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "part",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sprintf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sprintf.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "printf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.printf.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "vprintf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.vprintf.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "vsprintf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.vsprintf.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fprintf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fprintf.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "vfprintf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.vfprintf.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sscanf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sscanf.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fscanf",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fscanf.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "parse_url",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.parse_url.php",
+        "args": [
+            {
+                "name": "url",
+                "type": "mixed"
+            },
+            {
+                "name": "component",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "urlencode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.urlencode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "urldecode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.urldecode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rawurlencode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rawurlencode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rawurldecode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rawurldecode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "http_build_query",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.http_build_query.php",
+        "args": [
+            {
+                "name": "formdata",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "arg_separator",
+                "type": "mixed"
+            },
+            {
+                "name": "enc_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "readlink",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.readlink.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "linkinfo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.linkinfo.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "symlink",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.symlink.php",
+        "args": [
+            {
+                "name": "target",
+                "type": "mixed"
+            },
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "link",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.link.php",
+        "args": [
+            {
+                "name": "target",
+                "type": "mixed"
+            },
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "unlink",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.unlink.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "exec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.exec.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            },
+            {
+                "name": "output",
+                "type": "mixed"
+            },
+            {
+                "name": "return_value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.system.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            },
+            {
+                "name": "return_value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "escapeshellcmd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.escapeshellcmd.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "escapeshellarg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.escapeshellarg.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "passthru",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.passthru.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            },
+            {
+                "name": "return_value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shell_exec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shell_exec.php",
+        "args": [
+            {
+                "name": "cmd",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "proc_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.proc_open.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            },
+            {
+                "name": "descriptorspec",
+                "type": "mixed"
+            },
+            {
+                "name": "pipes",
+                "type": "mixed"
+            },
+            {
+                "name": "cwd",
+                "type": "mixed"
+            },
+            {
+                "name": "env",
+                "type": "mixed"
+            },
+            {
+                "name": "other_options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "proc_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.proc_close.php",
+        "args": [
+            {
+                "name": "process",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "proc_terminate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.proc_terminate.php",
+        "args": [
+            {
+                "name": "process",
+                "type": "mixed"
+            },
+            {
+                "name": "signal",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "proc_get_status",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.proc_get_status.php",
+        "args": [
+            {
+                "name": "process",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "proc_nice",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.proc_nice.php",
+        "args": [
+            {
+                "name": "priority",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rand",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rand.php",
+        "args": [
+            {
+                "name": "min",
+                "type": "mixed"
+            },
+            {
+                "name": "max",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "srand",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.srand.php",
+        "args": [
+            {
+                "name": "seed",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getrandmax",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getrandmax.php",
+        "args": []
+    },
+    {
+        "name": "mt_rand",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mt_rand.php",
+        "args": [
+            {
+                "name": "min",
+                "type": "mixed"
+            },
+            {
+                "name": "max",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mt_srand",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mt_srand.php",
+        "args": [
+            {
+                "name": "seed",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mt_getrandmax",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mt_getrandmax.php",
+        "args": []
+    },
+    {
+        "name": "getservbyname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getservbyname.php",
+        "args": [
+            {
+                "name": "service",
+                "type": "mixed"
+            },
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getservbyport",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getservbyport.php",
+        "args": [
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getprotobyname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getprotobyname.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getprotobynumber",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getprotobynumber.php",
+        "args": [
+            {
+                "name": "proto",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getmyuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getmyuid.php",
+        "args": []
+    },
+    {
+        "name": "getmygid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getmygid.php",
+        "args": []
+    },
+    {
+        "name": "getmypid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getmypid.php",
+        "args": []
+    },
+    {
+        "name": "getmyinode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getmyinode.php",
+        "args": []
+    },
+    {
+        "name": "getlastmod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getlastmod.php",
+        "args": []
+    },
+    {
+        "name": "base64_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.base64_decode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "strict",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "base64_encode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.base64_encode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "password_hash",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.password_hash.php",
+        "args": [
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "algo",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "password_get_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.password_get_info.php",
+        "args": [
+            {
+                "name": "hash",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "password_needs_rehash",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.password_needs_rehash.php",
+        "args": [
+            {
+                "name": "hash",
+                "type": "mixed"
+            },
+            {
+                "name": "algo",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "password_verify",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.password_verify.php",
+        "args": [
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "hash",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "convert_uuencode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.convert_uuencode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "convert_uudecode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.convert_uudecode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "abs",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.abs.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ceil",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ceil.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.floor.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "round",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.round.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            },
+            {
+                "name": "precision",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sin",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sin.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "cos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.cos.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "tan",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.tan.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "asin",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.asin.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "acos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.acos.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "atan",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.atan.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "atanh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.atanh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "atan2",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.atan2.php",
+        "args": [
+            {
+                "name": "y",
+                "type": "mixed"
+            },
+            {
+                "name": "x",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sinh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sinh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "cosh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.cosh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "tanh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.tanh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "asinh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.asinh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "acosh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.acosh.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "expm1",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.expm1.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "log1p",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.log1p.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pi",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pi.php",
+        "args": []
+    },
+    {
+        "name": "is_finite",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_finite.php",
+        "args": [
+            {
+                "name": "val",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_nan",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_nan.php",
+        "args": [
+            {
+                "name": "val",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_infinite",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_infinite.php",
+        "args": [
+            {
+                "name": "val",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pow",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pow.php",
+        "args": [
+            {
+                "name": "base",
+                "type": "mixed"
+            },
+            {
+                "name": "exponent",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "exp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.exp.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "log",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.log.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            },
+            {
+                "name": "base",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "log10",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.log10.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sqrt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sqrt.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "hypot",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.hypot.php",
+        "args": [
+            {
+                "name": "num1",
+                "type": "mixed"
+            },
+            {
+                "name": "num2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "deg2rad",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.deg2rad.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rad2deg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rad2deg.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bindec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bindec.php",
+        "args": [
+            {
+                "name": "binary_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "hexdec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.hexdec.php",
+        "args": [
+            {
+                "name": "hexadecimal_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "octdec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.octdec.php",
+        "args": [
+            {
+                "name": "octal_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "decbin",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.decbin.php",
+        "args": [
+            {
+                "name": "decimal_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "decoct",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.decoct.php",
+        "args": [
+            {
+                "name": "decimal_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dechex",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dechex.php",
+        "args": [
+            {
+                "name": "decimal_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "base_convert",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.base_convert.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            },
+            {
+                "name": "frombase",
+                "type": "mixed"
+            },
+            {
+                "name": "tobase",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "number_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.number_format.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            },
+            {
+                "name": "num_decimal_places",
+                "type": "mixed"
+            },
+            {
+                "name": "dec_separator",
+                "type": "mixed"
+            },
+            {
+                "name": "thousands_separator",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fmod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fmod.php",
+        "args": [
+            {
+                "name": "x",
+                "type": "mixed"
+            },
+            {
+                "name": "y",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "inet_ntop",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.inet_ntop.php",
+        "args": [
+            {
+                "name": "in_addr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "inet_pton",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.inet_pton.php",
+        "args": [
+            {
+                "name": "ip_address",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ip2long",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ip2long.php",
+        "args": [
+            {
+                "name": "ip_address",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "long2ip",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.long2ip.php",
+        "args": [
+            {
+                "name": "proper_address",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getenv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getenv.php",
+        "args": [
+            {
+                "name": "varname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "putenv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.putenv.php",
+        "args": [
+            {
+                "name": "setting",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getopt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getopt.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "opts",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sys_getloadavg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sys_getloadavg.php",
+        "args": []
+    },
+    {
+        "name": "microtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.microtime.php",
+        "args": [
+            {
+                "name": "get_as_float",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gettimeofday",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gettimeofday.php",
+        "args": [
+            {
+                "name": "get_as_float",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getrusage",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getrusage.php",
+        "args": [
+            {
+                "name": "who",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "uniqid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.uniqid.php",
+        "args": [
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "more_entropy",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "quoted_printable_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.quoted_printable_decode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "quoted_printable_encode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.quoted_printable_encode.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "convert_cyr_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.convert_cyr_string.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "from",
+                "type": "mixed"
+            },
+            {
+                "name": "to",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_current_user",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_current_user.php",
+        "args": []
+    },
+    {
+        "name": "set_time_limit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_time_limit.php",
+        "args": [
+            {
+                "name": "seconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "header_register_callback",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.header_register_callback.php",
+        "args": [
+            {
+                "name": "callback",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_cfg_var",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_cfg_var.php",
+        "args": [
+            {
+                "name": "option_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "magic_quotes_runtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.magic_quotes_runtime.php",
+        "args": [
+            {
+                "name": "new_setting",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "set_magic_quotes_runtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_magic_quotes_runtime.php",
+        "args": [
+            {
+                "name": "new_setting",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_magic_quotes_gpc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_magic_quotes_gpc.php",
+        "args": []
+    },
+    {
+        "name": "get_magic_quotes_runtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_magic_quotes_runtime.php",
+        "args": []
+    },
+    {
+        "name": "error_log",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.error_log.php",
+        "args": [
+            {
+                "name": "message",
+                "type": "mixed"
+            },
+            {
+                "name": "message_type",
+                "type": "mixed"
+            },
+            {
+                "name": "destination",
+                "type": "mixed"
+            },
+            {
+                "name": "extra_headers",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "error_get_last",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.error_get_last.php",
+        "args": []
+    },
+    {
+        "name": "call_user_func",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.call_user_func.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "call_user_func_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.call_user_func_array.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "call_user_method",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.call_user_method.php",
+        "args": [
+            {
+                "name": "method_name",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "call_user_method_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.call_user_method_array.php",
+        "args": [
+            {
+                "name": "method_name",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "params",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "forward_static_call",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.forward_static_call.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "forward_static_call_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.forward_static_call_array.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "serialize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.serialize.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "unserialize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.unserialize.php",
+        "args": [
+            {
+                "name": "variable_representation",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "var_dump",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.var_dump.php",
+        "args": [
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "var_export",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.var_export.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "return",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "debug_zval_dump",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.debug_zval_dump.php",
+        "args": [
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "print_r",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.print_r.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "return",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "memory_get_usage",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.memory_get_usage.php",
+        "args": [
+            {
+                "name": "real_usage",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "memory_get_peak_usage",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.memory_get_peak_usage.php",
+        "args": [
+            {
+                "name": "real_usage",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "register_shutdown_function",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.register_shutdown_function.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "register_tick_function",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.register_tick_function.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "unregister_tick_function",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.unregister_tick_function.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "highlight_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.highlight_file.php",
+        "args": [
+            {
+                "name": "file_name",
+                "type": "mixed"
+            },
+            {
+                "name": "return",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "show_source",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.show_source.php",
+        "args": [
+            {
+                "name": "file_name",
+                "type": "mixed"
+            },
+            {
+                "name": "return",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "highlight_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.highlight_string.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "return",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "php_strip_whitespace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.php_strip_whitespace.php",
+        "args": [
+            {
+                "name": "file_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ini_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ini_get.php",
+        "args": [
+            {
+                "name": "varname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ini_get_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ini_get_all.php",
+        "args": [
+            {
+                "name": "extension",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ini_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ini_set.php",
+        "args": [
+            {
+                "name": "varname",
+                "type": "mixed"
+            },
+            {
+                "name": "newvalue",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ini_alter",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ini_alter.php",
+        "args": [
+            {
+                "name": "varname",
+                "type": "mixed"
+            },
+            {
+                "name": "newvalue",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ini_restore",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ini_restore.php",
+        "args": [
+            {
+                "name": "varname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_include_path",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_include_path.php",
+        "args": []
+    },
+    {
+        "name": "set_include_path",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_include_path.php",
+        "args": [
+            {
+                "name": "new_include_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "restore_include_path",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.restore_include_path.php",
+        "args": []
+    },
+    {
+        "name": "setcookie",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.setcookie.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "expires",
+                "type": "mixed"
+            },
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "domain",
+                "type": "mixed"
+            },
+            {
+                "name": "secure",
+                "type": "mixed"
+            },
+            {
+                "name": "httponly",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "setrawcookie",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.setrawcookie.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "expires",
+                "type": "mixed"
+            },
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "domain",
+                "type": "mixed"
+            },
+            {
+                "name": "secure",
+                "type": "mixed"
+            },
+            {
+                "name": "httponly",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "header",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.header.php",
+        "args": [
+            {
+                "name": "header",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "http_response_code",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "header_remove",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.header_remove.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "headers_sent",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.headers_sent.php",
+        "args": [
+            {
+                "name": "file",
+                "type": "mixed"
+            },
+            {
+                "name": "line",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "headers_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.headers_list.php",
+        "args": []
+    },
+    {
+        "name": "http_response_code",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.http_response_code.php",
+        "args": [
+            {
+                "name": "response_code",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "connection_aborted",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.connection_aborted.php",
+        "args": []
+    },
+    {
+        "name": "connection_status",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.connection_status.php",
+        "args": []
+    },
+    {
+        "name": "ignore_user_abort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ignore_user_abort.php",
+        "args": [
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "parse_ini_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.parse_ini_file.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "process_sections",
+                "type": "mixed"
+            },
+            {
+                "name": "scanner_mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "parse_ini_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.parse_ini_string.php",
+        "args": [
+            {
+                "name": "ini_string",
+                "type": "mixed"
+            },
+            {
+                "name": "process_sections",
+                "type": "mixed"
+            },
+            {
+                "name": "scanner_mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_uploaded_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_uploaded_file.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "move_uploaded_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.move_uploaded_file.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "new_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gethostbyaddr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gethostbyaddr.php",
+        "args": [
+            {
+                "name": "ip_address",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gethostbyname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gethostbyname.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gethostbynamel",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gethostbynamel.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gethostname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gethostname.php",
+        "args": []
+    },
+    {
+        "name": "dns_check_record",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dns_check_record.php",
+        "args": [
+            {
+                "name": "host",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "checkdnsrr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.checkdnsrr.php",
+        "args": [
+            {
+                "name": "host",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dns_get_mx",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dns_get_mx.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "mxhosts",
+                "type": "mixed"
+            },
+            {
+                "name": "weight",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getmxrr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getmxrr.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "mxhosts",
+                "type": "mixed"
+            },
+            {
+                "name": "weight",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dns_get_record",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dns_get_record.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "authns",
+                "type": "mixed"
+            },
+            {
+                "name": "addtl",
+                "type": "mixed"
+            },
+            {
+                "name": "raw",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "intval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.intval.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "base",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "floatval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.floatval.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "doubleval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.doubleval.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strval.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "boolval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.boolval.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gettype",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gettype.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "settype",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.settype.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_null",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_null.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_resource",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_resource.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_bool",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_bool.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_long",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_long.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_float",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_float.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_int",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_int.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_integer",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_integer.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_double",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_double.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_real",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_real.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_numeric",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_numeric.php",
+        "args": [
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_string.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_array.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_object",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_object.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_scalar",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_scalar.php",
+        "args": [
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_callable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_callable.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "syntax_only",
+                "type": "mixed"
+            },
+            {
+                "name": "callable_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pclose",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pclose.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "popen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.popen.php",
+        "args": [
+            {
+                "name": "command",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "readfile",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.readfile.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rewind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rewind.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rmdir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rmdir.php",
+        "args": [
+            {
+                "name": "dirname",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "umask",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.umask.php",
+        "args": [
+            {
+                "name": "mask",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fclose",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fclose.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "feof",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.feof.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fgetc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fgetc.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fgets",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fgets.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fgetss",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fgetss.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "allowable_tags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fread",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fread.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fopen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fopen.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "use_include_path",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fpassthru",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fpassthru.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ftruncate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ftruncate.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "size",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fstat",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fstat.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fseek",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fseek.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "whence",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ftell",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ftell.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fflush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fflush.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fwrite",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fwrite.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fputs",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fputs.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mkdir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mkdir.php",
+        "args": [
+            {
+                "name": "pathname",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "recursive",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rename",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rename.php",
+        "args": [
+            {
+                "name": "old_name",
+                "type": "mixed"
+            },
+            {
+                "name": "new_name",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "copy",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.copy.php",
+        "args": [
+            {
+                "name": "source_file",
+                "type": "mixed"
+            },
+            {
+                "name": "destination_file",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "tempnam",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.tempnam.php",
+        "args": [
+            {
+                "name": "dir",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "tmpfile",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.tmpfile.php",
+        "args": []
+    },
+    {
+        "name": "file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.file.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "file_get_contents",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.file_get_contents.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "maxlen",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "file_put_contents",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.file_put_contents.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_select",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_select.php",
+        "args": [
+            {
+                "name": "read_streams",
+                "type": "mixed"
+            },
+            {
+                "name": "write_streams",
+                "type": "mixed"
+            },
+            {
+                "name": "except_streams",
+                "type": "mixed"
+            },
+            {
+                "name": "tv_sec",
+                "type": "mixed"
+            },
+            {
+                "name": "tv_usec",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_create",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_create.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "params",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_set_params",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_set_params.php",
+        "args": [
+            {
+                "name": "stream_or_context",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_get_params",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_get_params.php",
+        "args": [
+            {
+                "name": "stream_or_context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_set_option",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_set_option.php",
+        "args": [
+            {
+                "name": "stream_or_context",
+                "type": "mixed"
+            },
+            {
+                "name": "wrappername",
+                "type": "mixed"
+            },
+            {
+                "name": "optionname",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_get_options",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_get_options.php",
+        "args": [
+            {
+                "name": "stream_or_context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_get_default",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_get_default.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_context_set_default",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_context_set_default.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_filter_prepend",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_filter_prepend.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "filtername",
+                "type": "mixed"
+            },
+            {
+                "name": "read_write",
+                "type": "mixed"
+            },
+            {
+                "name": "filterparams",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_filter_append",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_filter_append.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "filtername",
+                "type": "mixed"
+            },
+            {
+                "name": "read_write",
+                "type": "mixed"
+            },
+            {
+                "name": "filterparams",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_filter_remove",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_filter_remove.php",
+        "args": [
+            {
+                "name": "stream_filter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_client",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_client.php",
+        "args": [
+            {
+                "name": "remoteaddress",
+                "type": "mixed"
+            },
+            {
+                "name": "errcode",
+                "type": "mixed"
+            },
+            {
+                "name": "errstring",
+                "type": "mixed"
+            },
+            {
+                "name": "timeout",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_server",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_server.php",
+        "args": [
+            {
+                "name": "localaddress",
+                "type": "mixed"
+            },
+            {
+                "name": "errcode",
+                "type": "mixed"
+            },
+            {
+                "name": "errstring",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_accept",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_accept.php",
+        "args": [
+            {
+                "name": "serverstream",
+                "type": "mixed"
+            },
+            {
+                "name": "timeout",
+                "type": "mixed"
+            },
+            {
+                "name": "peername",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_get_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_get_name.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "want_peer",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_recvfrom",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_recvfrom.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "amount",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "remote_addr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_sendto",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_sendto.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "target_addr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_enable_crypto",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_enable_crypto.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "enable",
+                "type": "mixed"
+            },
+            {
+                "name": "cryptokind",
+                "type": "mixed"
+            },
+            {
+                "name": "sessionstream",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_shutdown",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_shutdown.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "how",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_socket_pair",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_socket_pair.php",
+        "args": [
+            {
+                "name": "domain",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_copy_to_stream",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_copy_to_stream.php",
+        "args": [
+            {
+                "name": "source",
+                "type": "mixed"
+            },
+            {
+                "name": "dest",
+                "type": "mixed"
+            },
+            {
+                "name": "maxlen",
+                "type": "mixed"
+            },
+            {
+                "name": "pos",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_get_contents",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_contents.php",
+        "args": [
+            {
+                "name": "source",
+                "type": "mixed"
+            },
+            {
+                "name": "maxlen",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_supports_lock",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_supports_lock.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fgetcsv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fgetcsv.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "delimiter",
+                "type": "mixed"
+            },
+            {
+                "name": "enclosure",
+                "type": "mixed"
+            },
+            {
+                "name": "escape",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fputcsv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fputcsv.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "fields",
+                "type": "mixed"
+            },
+            {
+                "name": "delimiter",
+                "type": "mixed"
+            },
+            {
+                "name": "enclosure",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "flock",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.flock.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "operation",
+                "type": "mixed"
+            },
+            {
+                "name": "wouldblock",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_meta_tags",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_meta_tags.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "use_include_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_set_read_buffer",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_set_read_buffer.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "buffer",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_set_write_buffer",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_set_write_buffer.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "buffer",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "set_file_buffer",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_file_buffer.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "buffer",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_set_chunk_size",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_set_chunk_size.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "chunk_size",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "set_socket_blocking",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_socket_blocking.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_set_blocking",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_set_blocking.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_set_blocking",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_blocking.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_get_meta_data",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_meta_data.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_get_line",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_line.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "maxlen",
+                "type": "mixed"
+            },
+            {
+                "name": "ending",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_wrapper_register",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_wrapper_register.php",
+        "args": [
+            {
+                "name": "protocol",
+                "type": "mixed"
+            },
+            {
+                "name": "classname",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_register_wrapper",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_register_wrapper.php",
+        "args": [
+            {
+                "name": "protocol",
+                "type": "mixed"
+            },
+            {
+                "name": "classname",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_wrapper_unregister",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_wrapper_unregister.php",
+        "args": [
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_wrapper_restore",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_wrapper_restore.php",
+        "args": [
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_get_wrappers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_wrappers.php",
+        "args": []
+    },
+    {
+        "name": "stream_get_transports",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_transports.php",
+        "args": []
+    },
+    {
+        "name": "stream_resolve_include_path",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_resolve_include_path.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_is_local",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_is_local.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_headers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_headers.php",
+        "args": [
+            {
+                "name": "url",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_set_timeout",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_set_timeout.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "seconds",
+                "type": "mixed"
+            },
+            {
+                "name": "microseconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_set_timeout",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_timeout.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "seconds",
+                "type": "mixed"
+            },
+            {
+                "name": "microseconds",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_get_status",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_get_status.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "realpath",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.realpath.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fnmatch",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fnmatch.php",
+        "args": [
+            {
+                "name": "pattern",
+                "type": "mixed"
+            },
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fsockopen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fsockopen.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "errno",
+                "type": "mixed"
+            },
+            {
+                "name": "errstr",
+                "type": "mixed"
+            },
+            {
+                "name": "timeout",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pfsockopen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pfsockopen.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "errno",
+                "type": "mixed"
+            },
+            {
+                "name": "errstr",
+                "type": "mixed"
+            },
+            {
+                "name": "timeout",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pack",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pack.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "unpack",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.unpack.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "input",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_browser",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_browser.php",
+        "args": [
+            {
+                "name": "browser_name",
+                "type": "mixed"
+            },
+            {
+                "name": "return_array",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "crypt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.crypt.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "salt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "opendir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.opendir.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "closedir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.closedir.php",
+        "args": [
+            {
+                "name": "dir_handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chdir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chdir.php",
+        "args": [
+            {
+                "name": "directory",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getcwd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getcwd.php",
+        "args": []
+    },
+    {
+        "name": "rewinddir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rewinddir.php",
+        "args": [
+            {
+                "name": "dir_handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "readdir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.readdir.php",
+        "args": [
+            {
+                "name": "dir_handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dir.php",
+        "args": [
+            {
+                "name": "directory",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "scandir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.scandir.php",
+        "args": [
+            {
+                "name": "dir",
+                "type": "mixed"
+            },
+            {
+                "name": "sorting_order",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "glob",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.glob.php",
+        "args": [
+            {
+                "name": "pattern",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fileatime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fileatime.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "filectime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.filectime.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "filegroup",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.filegroup.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fileinode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fileinode.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "filemtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.filemtime.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fileowner",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fileowner.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "fileperms",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.fileperms.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "filesize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.filesize.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "filetype",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.filetype.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "file_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.file_exists.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_writable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_writable.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_writeable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_writeable.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_readable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_readable.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_executable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_executable.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_file.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_dir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_dir.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_link",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_link.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stat",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stat.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "lstat",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.lstat.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chown",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chown.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chgrp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chgrp.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "group",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "lchown",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.lchown.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "lchgrp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.lchgrp.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "group",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "chmod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.chmod.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "touch",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.touch.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "atime",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "clearstatcache",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.clearstatcache.php",
+        "args": [
+            {
+                "name": "clear_realpath_cache",
+                "type": "mixed"
+            },
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "disk_total_space",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.disk_total_space.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "disk_free_space",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.disk_free_space.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "diskfreespace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.diskfreespace.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "realpath_cache_size",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.realpath_cache_size.php",
+        "args": []
+    },
+    {
+        "name": "realpath_cache_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.realpath_cache_get.php",
+        "args": []
+    },
+    {
+        "name": "mail",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mail.php",
+        "args": [
+            {
+                "name": "to",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "message",
+                "type": "mixed"
+            },
+            {
+                "name": "additional_headers",
+                "type": "mixed"
+            },
+            {
+                "name": "additional_parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ezmlm_hash",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ezmlm_hash.php",
+        "args": [
+            {
+                "name": "addr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "openlog",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.openlog.php",
+        "args": [
+            {
+                "name": "ident",
+                "type": "mixed"
+            },
+            {
+                "name": "option",
+                "type": "mixed"
+            },
+            {
+                "name": "facility",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "syslog",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.syslog.php",
+        "args": [
+            {
+                "name": "priority",
+                "type": "mixed"
+            },
+            {
+                "name": "message",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "closelog",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.closelog.php",
+        "args": []
+    },
+    {
+        "name": "lcg_value",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.lcg_value.php",
+        "args": []
+    },
+    {
+        "name": "metaphone",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.metaphone.php",
+        "args": [
+            {
+                "name": "text",
+                "type": "mixed"
+            },
+            {
+                "name": "phones",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ob_start",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_start.php",
+        "args": [
+            {
+                "name": "user_function",
+                "type": "mixed"
+            },
+            {
+                "name": "chunk_size",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ob_flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_flush.php",
+        "args": []
+    },
+    {
+        "name": "ob_clean",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_clean.php",
+        "args": []
+    },
+    {
+        "name": "ob_end_flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_end_flush.php",
+        "args": []
+    },
+    {
+        "name": "ob_end_clean",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_end_clean.php",
+        "args": []
+    },
+    {
+        "name": "ob_get_flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_flush.php",
+        "args": []
+    },
+    {
+        "name": "ob_get_clean",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_clean.php",
+        "args": []
+    },
+    {
+        "name": "ob_get_length",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_length.php",
+        "args": []
+    },
+    {
+        "name": "ob_get_level",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_level.php",
+        "args": []
+    },
+    {
+        "name": "ob_get_status",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_status.php",
+        "args": [
+            {
+                "name": "full_status",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ob_get_contents",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_get_contents.php",
+        "args": []
+    },
+    {
+        "name": "ob_implicit_flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_implicit_flush.php",
+        "args": [
+            {
+                "name": "flag",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ob_list_handlers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_list_handlers.php",
+        "args": []
+    },
+    {
+        "name": "ksort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ksort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "krsort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.krsort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "natsort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.natsort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "natcasesort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.natcasesort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "asort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.asort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "arsort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.arsort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "rsort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.rsort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "usort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.usort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "cmp_function",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "uasort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.uasort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "cmp_function",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "uksort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.uksort.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "cmp_function",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shuffle",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shuffle.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_walk",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_walk.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "funcname",
+                "type": "mixed"
+            },
+            {
+                "name": "userdata",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_walk_recursive",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_walk_recursive.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "funcname",
+                "type": "mixed"
+            },
+            {
+                "name": "userdata",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.count.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.end.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "prev",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.prev.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.next.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "reset",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.reset.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.current.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "key",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.key.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "min",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.min.php",
+        "args": [
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "max",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.max.php",
+        "args": [
+            {
+                "name": "args",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "in_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.in_array.php",
+        "args": [
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "strict",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_search",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_search.php",
+        "args": [
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "strict",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "extract",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.extract.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "extract_type",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "compact",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.compact.php",
+        "args": [
+            {
+                "name": "var_names",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_fill",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_fill.php",
+        "args": [
+            {
+                "name": "start_key",
+                "type": "mixed"
+            },
+            {
+                "name": "num",
+                "type": "mixed"
+            },
+            {
+                "name": "val",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_fill_keys",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_fill_keys.php",
+        "args": [
+            {
+                "name": "keys",
+                "type": "mixed"
+            },
+            {
+                "name": "val",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.range.php",
+        "args": [
+            {
+                "name": "low",
+                "type": "mixed"
+            },
+            {
+                "name": "high",
+                "type": "mixed"
+            },
+            {
+                "name": "step",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_multisort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_multisort.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_order",
+                "type": "mixed"
+            },
+            {
+                "name": "sort_flags",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_push",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_push.php",
+        "args": [
+            {
+                "name": "stack",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_pop",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_pop.php",
+        "args": [
+            {
+                "name": "stack",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_shift",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_shift.php",
+        "args": [
+            {
+                "name": "stack",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_unshift",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_unshift.php",
+        "args": [
+            {
+                "name": "stack",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_splice",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_splice.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "replacement",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_slice",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_slice.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "preserve_keys",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_merge",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_merge.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_merge_recursive",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_merge_recursive.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_replace.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_replace_recursive",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_replace_recursive.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_keys",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_keys.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "search_value",
+                "type": "mixed"
+            },
+            {
+                "name": "strict",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_values",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_values.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_count_values",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_count_values.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_column",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_column.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "column_key",
+                "type": "mixed"
+            },
+            {
+                "name": "index_key",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_reverse",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_reverse.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "preserve_keys",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_reduce",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_reduce.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "callback",
+                "type": "mixed"
+            },
+            {
+                "name": "initial",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_pad",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_pad.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "pad_size",
+                "type": "mixed"
+            },
+            {
+                "name": "pad_value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_flip",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_flip.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_change_key_case",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_change_key_case.php",
+        "args": [
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "case",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_rand",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_rand.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "num_req",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_unique",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_unique.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_intersect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_intersect.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_intersect_key",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_intersect_key.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_intersect_ukey",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_intersect_ukey.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_compare_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_uintersect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_uintersect.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_compare_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_intersect_assoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_intersect_assoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_uintersect_assoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_uintersect_assoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_compare_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_intersect_uassoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_intersect_uassoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_compare_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_uintersect_uassoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_uintersect_uassoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_compare_func",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_compare_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_diff",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_diff.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_diff_key",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_diff_key.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_diff_ukey",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_diff_ukey.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_comp_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_udiff",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_udiff.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_comp_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_diff_assoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_diff_assoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_udiff_assoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_udiff_assoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_comp_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_diff_uassoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_diff_uassoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_comp_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_udiff_uassoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_udiff_uassoc.php",
+        "args": [
+            {
+                "name": "arr1",
+                "type": "mixed"
+            },
+            {
+                "name": "arr2",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_data_comp_func",
+                "type": "mixed"
+            },
+            {
+                "name": "callback_key_comp_func",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_sum",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_sum.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_product",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_product.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_filter",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_filter.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "callback",
+                "type": "mixed"
+            },
+            {
+                "name": "use_keys",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_map",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_map.php",
+        "args": [
+            {
+                "name": "callback",
+                "type": "mixed"
+            },
+            {
+                "name": "arrays",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_chunk",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_chunk.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            },
+            {
+                "name": "size",
+                "type": "mixed"
+            },
+            {
+                "name": "preserve_keys",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_combine",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_combine.php",
+        "args": [
+            {
+                "name": "keys",
+                "type": "mixed"
+            },
+            {
+                "name": "values",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "array_key_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.array_key_exists.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "search",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "pos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pos.php",
+        "args": [
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sizeof",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sizeof.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "key_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.key_exists.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "search",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "assert",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.assert.php",
+        "args": [
+            {
+                "name": "assertion",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "assert_options",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.assert_options.php",
+        "args": [
+            {
+                "name": "what",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "version_compare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.version_compare.php",
+        "args": [
+            {
+                "name": "ver1",
+                "type": "mixed"
+            },
+            {
+                "name": "ver2",
+                "type": "mixed"
+            },
+            {
+                "name": "oper",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ftok",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ftok.php",
+        "args": [
+            {
+                "name": "pathname",
+                "type": "mixed"
+            },
+            {
+                "name": "proj",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "str_rot13",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.str_rot13.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_get_filters",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_get_filters.php",
+        "args": []
+    },
+    {
+        "name": "stream_filter_register",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_filter_register.php",
+        "args": [
+            {
+                "name": "filtername",
+                "type": "mixed"
+            },
+            {
+                "name": "classname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_bucket_make_writeable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_bucket_make_writeable.php",
+        "args": [
+            {
+                "name": "brigade",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_bucket_prepend",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_bucket_prepend.php",
+        "args": [
+            {
+                "name": "brigade",
+                "type": "mixed"
+            },
+            {
+                "name": "bucket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_bucket_append",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_bucket_append.php",
+        "args": [
+            {
+                "name": "brigade",
+                "type": "mixed"
+            },
+            {
+                "name": "bucket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "stream_bucket_new",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.stream_bucket_new.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            },
+            {
+                "name": "buffer",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "output_add_rewrite_var",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.output_add_rewrite_var.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "output_reset_rewrite_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.output_reset_rewrite_vars.php",
+        "args": []
+    },
+    {
+        "name": "sys_get_temp_dir",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sys_get_temp_dir.php",
+        "args": []
+    },
+    {
+        "name": "dl",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dl.php",
+        "args": [
+            {
+                "name": "extension_filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "cli_set_process_title",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.cli_set_process_title.php",
+        "args": [
+            {
+                "name": "title",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "cli_get_process_title",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.cli_get_process_title.php",
+        "args": []
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "name": "zip_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_open.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_close.php",
+        "args": [
+            {
+                "name": "zip",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_read",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_read.php",
+        "args": [
+            {
+                "name": "zip",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_open.php",
+        "args": [
+            {
+                "name": "zip_dp",
+                "type": "mixed"
+            },
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_close.php",
+        "args": [
+            {
+                "name": "zip_ent",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_read",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_read.php",
+        "args": [
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_filesize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_filesize.php",
+        "args": [
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_name.php",
+        "args": [
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_compressedsize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_compressedsize.php",
+        "args": [
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zip_entry_compressionmethod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zip_entry_compressionmethod.php",
+        "args": [
+            {
+                "name": "zip_entry",
+                "type": "mixed"
+            }
+        ]
+    }
+]

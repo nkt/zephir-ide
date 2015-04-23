@@ -1,0 +1,687 @@
+[
+    {
+        "name": "gmp_init",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_init.php",
+        "args": [
+            {
+                "name": "number",
+                "type": "mixed"
+            },
+            {
+                "name": "base",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_import",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_import.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "word_size",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_export",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_export.php",
+        "args": [
+            {
+                "name": "gmpnumber",
+                "type": "mixed"
+            },
+            {
+                "name": "word_size",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_intval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_intval.php",
+        "args": [
+            {
+                "name": "gmpnumber",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_strval",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_strval.php",
+        "args": [
+            {
+                "name": "gmpnumber",
+                "type": "mixed"
+            },
+            {
+                "name": "base",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_add",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_add.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_sub",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_sub.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_mul",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_mul.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_div_qr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_div_qr.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            },
+            {
+                "name": "round",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_div_q",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_div_q.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            },
+            {
+                "name": "round",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_div_r",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_div_r.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            },
+            {
+                "name": "round",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_div",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_div.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            },
+            {
+                "name": "round",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_mod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_mod.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_divexact",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_divexact.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_neg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_neg.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_abs",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_abs.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_fact",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_fact.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_sqrt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_sqrt.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_sqrtrem",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_sqrtrem.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_root",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_root.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "nth",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_rootrem",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_rootrem.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "nth",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_pow",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_pow.php",
+        "args": [
+            {
+                "name": "base",
+                "type": "mixed"
+            },
+            {
+                "name": "exp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_powm",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_powm.php",
+        "args": [
+            {
+                "name": "base",
+                "type": "mixed"
+            },
+            {
+                "name": "exp",
+                "type": "mixed"
+            },
+            {
+                "name": "mod",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_perfect_square",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_perfect_square.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_prob_prime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_prob_prime.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "reps",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_gcd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_gcd.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_gcdext",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_gcdext.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_invert",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_invert.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_jacobi",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_jacobi.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_legendre",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_legendre.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_cmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_cmp.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_sign",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_sign.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_random",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_random.php",
+        "args": [
+            {
+                "name": "limiter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_random_bits",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_random_bits.php",
+        "args": [
+            {
+                "name": "bits",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_random_range",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_random_range.php",
+        "args": [
+            {
+                "name": "min",
+                "type": "mixed"
+            },
+            {
+                "name": "max",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_and",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_and.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_or",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_or.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_com",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_com.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_xor",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_xor.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_setbit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_setbit.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "index",
+                "type": "mixed"
+            },
+            {
+                "name": "set_clear",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_clrbit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_clrbit.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "index",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_testbit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_testbit.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "index",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_scan0",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_scan0.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_scan1",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_scan1.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_popcount",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_popcount.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_hamdist",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_hamdist.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            },
+            {
+                "name": "b",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmp_nextprime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmp_nextprime.php",
+        "args": [
+            {
+                "name": "a",
+                "type": "mixed"
+            }
+        ]
+    }
+]

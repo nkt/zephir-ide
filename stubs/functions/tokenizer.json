@@ -1,0 +1,24 @@
+[
+    {
+        "name": "token_get_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.token_get_all.php",
+        "args": [
+            {
+                "name": "source",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "token_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.token_name.php",
+        "args": [
+            {
+                "name": "token",
+                "type": "mixed"
+            }
+        ]
+    }
+]

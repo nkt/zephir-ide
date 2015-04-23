@@ -1,0 +1,380 @@
+[
+    {
+        "name": "readgzfile",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.readgzfile.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "use_include_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzrewind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzrewind.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzclose",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzclose.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzeof",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzeof.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzgetc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzgetc.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzgets",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzgets.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzgetss",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzgetss.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "allowable_tags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzread",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzread.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzopen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzopen.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "use_include_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzpassthru",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzpassthru.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzseek",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzseek.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "whence",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gztell",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gztell.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzwrite",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzwrite.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzputs",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzputs.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzfile",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzfile.php",
+        "args": [
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "use_include_path",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzcompress",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzcompress.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "encoding",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzuncompress",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzuncompress.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "max_decoded_len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzdeflate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzdeflate.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "encoding",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzinflate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzinflate.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "max_decoded_len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzencode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzencode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "encoding",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gzdecode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gzdecode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "max_decoded_len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zlib_encode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zlib_encode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "encoding",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zlib_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zlib_decode.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "max_decoded_len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "zlib_get_coding_type",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zlib_get_coding_type.php",
+        "args": []
+    },
+    {
+        "name": "ob_gzhandler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ob_gzhandler.php",
+        "args": [
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    }
+]

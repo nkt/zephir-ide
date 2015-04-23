@@ -1,0 +1,761 @@
+[
+    {
+        "name": "strtotime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strtotime.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "now",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "idate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.idate.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmdate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmdate.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mktime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mktime.php",
+        "args": [
+            {
+                "name": "hour",
+                "type": "mixed"
+            },
+            {
+                "name": "min",
+                "type": "mixed"
+            },
+            {
+                "name": "sec",
+                "type": "mixed"
+            },
+            {
+                "name": "mon",
+                "type": "mixed"
+            },
+            {
+                "name": "day",
+                "type": "mixed"
+            },
+            {
+                "name": "year",
+                "type": "mixed"
+            },
+            {
+                "name": "is_dst",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmmktime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmmktime.php",
+        "args": [
+            {
+                "name": "hour",
+                "type": "mixed"
+            },
+            {
+                "name": "min",
+                "type": "mixed"
+            },
+            {
+                "name": "sec",
+                "type": "mixed"
+            },
+            {
+                "name": "mon",
+                "type": "mixed"
+            },
+            {
+                "name": "day",
+                "type": "mixed"
+            },
+            {
+                "name": "year",
+                "type": "mixed"
+            },
+            {
+                "name": "is_dst",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "checkdate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.checkdate.php",
+        "args": [
+            {
+                "name": "month",
+                "type": "mixed"
+            },
+            {
+                "name": "day",
+                "type": "mixed"
+            },
+            {
+                "name": "year",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strftime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strftime.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gmstrftime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gmstrftime.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.time.php",
+        "args": []
+    },
+    {
+        "name": "localtime",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.localtime.php",
+        "args": [
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            },
+            {
+                "name": "associative_array",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "getdate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.getdate.php",
+        "args": [
+            {
+                "name": "timestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_create",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_create.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_create_immutable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_create_immutable.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_create_from_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_create_from_format.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_create_immutable_from_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_create_immutable_from_format.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_parse",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_parse.php",
+        "args": [
+            {
+                "name": "date",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_parse_from_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_parse_from_format.php",
+        "args": [
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "date",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_get_last_errors",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_get_last_errors.php",
+        "args": []
+    },
+    {
+        "name": "date_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_format.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_modify",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_modify.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "modify",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_add",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_add.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "interval",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_sub",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_sub.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "interval",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_timezone_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_timezone_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_timezone_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_timezone_set.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "timezone",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_offset_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_offset_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_diff",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_diff.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "object2",
+                "type": "mixed"
+            },
+            {
+                "name": "absolute",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_time_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_time_set.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "hour",
+                "type": "mixed"
+            },
+            {
+                "name": "minute",
+                "type": "mixed"
+            },
+            {
+                "name": "second",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_date_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_date_set.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "year",
+                "type": "mixed"
+            },
+            {
+                "name": "month",
+                "type": "mixed"
+            },
+            {
+                "name": "day",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_isodate_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_isodate_set.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "year",
+                "type": "mixed"
+            },
+            {
+                "name": "week",
+                "type": "mixed"
+            },
+            {
+                "name": "day",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_timestamp_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_timestamp_set.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "unixtimestamp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_timestamp_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_timestamp_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_open.php",
+        "args": [
+            {
+                "name": "timezone",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_name_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_name_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_name_from_abbr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_name_from_abbr.php",
+        "args": [
+            {
+                "name": "abbr",
+                "type": "mixed"
+            },
+            {
+                "name": "gmtoffset",
+                "type": "mixed"
+            },
+            {
+                "name": "isdst",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_offset_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_offset_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "datetime",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_transitions_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_transitions_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp_begin",
+                "type": "mixed"
+            },
+            {
+                "name": "timestamp_end",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_location_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_location_get.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_identifiers_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_identifiers_list.php",
+        "args": [
+            {
+                "name": "what",
+                "type": "mixed"
+            },
+            {
+                "name": "country",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "timezone_abbreviations_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_abbreviations_list.php",
+        "args": []
+    },
+    {
+        "name": "timezone_version_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.timezone_version_get.php",
+        "args": []
+    },
+    {
+        "name": "date_interval_create_from_date_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_interval_create_from_date_string.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_interval_format",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_interval_format.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_default_timezone_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_default_timezone_set.php",
+        "args": [
+            {
+                "name": "timezone_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_default_timezone_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_default_timezone_get.php",
+        "args": []
+    },
+    {
+        "name": "date_sunrise",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_sunrise.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "latitude",
+                "type": "mixed"
+            },
+            {
+                "name": "longitude",
+                "type": "mixed"
+            },
+            {
+                "name": "zenith",
+                "type": "mixed"
+            },
+            {
+                "name": "gmt_offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_sunset",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_sunset.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            },
+            {
+                "name": "latitude",
+                "type": "mixed"
+            },
+            {
+                "name": "longitude",
+                "type": "mixed"
+            },
+            {
+                "name": "zenith",
+                "type": "mixed"
+            },
+            {
+                "name": "gmt_offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "date_sun_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.date_sun_info.php",
+        "args": [
+            {
+                "name": "time",
+                "type": "mixed"
+            },
+            {
+                "name": "latitude",
+                "type": "mixed"
+            },
+            {
+                "name": "longitude",
+                "type": "mixed"
+            }
+        ]
+    }
+]

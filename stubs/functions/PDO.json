@@ -1,0 +1,8 @@
+[
+    {
+        "name": "pdo_drivers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.pdo_drivers.php",
+        "args": []
+    }
+]

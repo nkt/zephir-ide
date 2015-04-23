@@ -1,0 +1,140 @@
+[
+    {
+        "name": "bzopen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzopen.php",
+        "args": [
+            {
+                "name": "file",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzread",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzread.php",
+        "args": [
+            {
+                "name": "bz",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzwrite",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzwrite.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzflush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzflush.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzclose",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzclose.php",
+        "args": [
+            {
+                "name": "fp",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzerrno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzerrno.php",
+        "args": [
+            {
+                "name": "bz",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzerrstr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzerrstr.php",
+        "args": [
+            {
+                "name": "bz",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzerror",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzerror.php",
+        "args": [
+            {
+                "name": "bz",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzcompress",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzcompress.php",
+        "args": [
+            {
+                "name": "source",
+                "type": "mixed"
+            },
+            {
+                "name": "blocksize",
+                "type": "mixed"
+            },
+            {
+                "name": "workfactor",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bzdecompress",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bzdecompress.php",
+        "args": [
+            {
+                "name": "source",
+                "type": "mixed"
+            },
+            {
+                "name": "small",
+                "type": "mixed"
+            }
+        ]
+    }
+]

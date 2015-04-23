@@ -1,0 +1,100 @@
+[
+    {
+        "name": "finfo_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.finfo_open.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "arg",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "finfo_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.finfo_close.php",
+        "args": [
+            {
+                "name": "finfo",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "finfo_set_flags",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.finfo_set_flags.php",
+        "args": [
+            {
+                "name": "finfo",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "finfo_file",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.finfo_file.php",
+        "args": [
+            {
+                "name": "finfo",
+                "type": "mixed"
+            },
+            {
+                "name": "filename",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "finfo_buffer",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.finfo_buffer.php",
+        "args": [
+            {
+                "name": "finfo",
+                "type": "mixed"
+            },
+            {
+                "name": "string",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mime_content_type",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mime_content_type.php",
+        "args": [
+            {
+                "name": "string",
+                "type": "mixed"
+            }
+        ]
+    }
+]

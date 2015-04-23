@@ -1,0 +1,200 @@
+[
+    {
+        "name": "preg_match",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_match.php",
+        "args": [
+            {
+                "name": "pattern",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "subpatterns",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_match_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_match_all.php",
+        "args": [
+            {
+                "name": "pattern",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "subpatterns",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_replace.php",
+        "args": [
+            {
+                "name": "regex",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            },
+            {
+                "name": "count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_replace_callback",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_replace_callback.php",
+        "args": [
+            {
+                "name": "regex",
+                "type": "mixed"
+            },
+            {
+                "name": "callback",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            },
+            {
+                "name": "count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_filter",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_filter.php",
+        "args": [
+            {
+                "name": "regex",
+                "type": "mixed"
+            },
+            {
+                "name": "replace",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            },
+            {
+                "name": "count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_split",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_split.php",
+        "args": [
+            {
+                "name": "pattern",
+                "type": "mixed"
+            },
+            {
+                "name": "subject",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_quote",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_quote.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "delim_char",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_grep",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_grep.php",
+        "args": [
+            {
+                "name": "regex",
+                "type": "mixed"
+            },
+            {
+                "name": "input",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "preg_last_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.preg_last_error.php",
+        "args": []
+    }
+]

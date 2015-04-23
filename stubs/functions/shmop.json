@@ -1,0 +1,96 @@
+[
+    {
+        "name": "shmop_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_open.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "size",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shmop_read",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_read.php",
+        "args": [
+            {
+                "name": "shmid",
+                "type": "mixed"
+            },
+            {
+                "name": "start",
+                "type": "mixed"
+            },
+            {
+                "name": "count",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shmop_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_close.php",
+        "args": [
+            {
+                "name": "shmid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shmop_size",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_size.php",
+        "args": [
+            {
+                "name": "shmid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shmop_write",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_write.php",
+        "args": [
+            {
+                "name": "shmid",
+                "type": "mixed"
+            },
+            {
+                "name": "data",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "shmop_delete",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.shmop_delete.php",
+        "args": [
+            {
+                "name": "shmid",
+                "type": "mixed"
+            }
+        ]
+    }
+]

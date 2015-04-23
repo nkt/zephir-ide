@@ -1,0 +1,62 @@
+[
+    {
+        "name": "sem_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sem_get.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "max_acquire",
+                "type": "mixed"
+            },
+            {
+                "name": "perm",
+                "type": "mixed"
+            },
+            {
+                "name": "auto_release",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sem_acquire",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sem_acquire.php",
+        "args": [
+            {
+                "name": "sem_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "nowait",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sem_release",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sem_release.php",
+        "args": [
+            {
+                "name": "sem_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "sem_remove",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.sem_remove.php",
+        "args": [
+            {
+                "name": "sem_identifier",
+                "type": "mixed"
+            }
+        ]
+    }
+]

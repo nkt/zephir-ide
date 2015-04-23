@@ -1,0 +1,845 @@
+[
+    {
+        "name": "ldap_connect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_connect.php",
+        "args": [
+            {
+                "name": "hostname",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_close.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_bind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_bind.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "bind_rdn",
+                "type": "mixed"
+            },
+            {
+                "name": "bind_password",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_sasl_bind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_sasl_bind.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "binddn",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "sasl_mech",
+                "type": "mixed"
+            },
+            {
+                "name": "sasl_realm",
+                "type": "mixed"
+            },
+            {
+                "name": "sasl_authz_id",
+                "type": "mixed"
+            },
+            {
+                "name": "props",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_unbind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_unbind.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_read",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_read.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "base_dn",
+                "type": "mixed"
+            },
+            {
+                "name": "filter",
+                "type": "mixed"
+            },
+            {
+                "name": "attributes",
+                "type": "mixed"
+            },
+            {
+                "name": "attrsonly",
+                "type": "mixed"
+            },
+            {
+                "name": "sizelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "timelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "deref",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_list.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "base_dn",
+                "type": "mixed"
+            },
+            {
+                "name": "filter",
+                "type": "mixed"
+            },
+            {
+                "name": "attributes",
+                "type": "mixed"
+            },
+            {
+                "name": "attrsonly",
+                "type": "mixed"
+            },
+            {
+                "name": "sizelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "timelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "deref",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_search",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_search.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "base_dn",
+                "type": "mixed"
+            },
+            {
+                "name": "filter",
+                "type": "mixed"
+            },
+            {
+                "name": "attributes",
+                "type": "mixed"
+            },
+            {
+                "name": "attrsonly",
+                "type": "mixed"
+            },
+            {
+                "name": "sizelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "timelimit",
+                "type": "mixed"
+            },
+            {
+                "name": "deref",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_free_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_free_result.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_count_entries",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_count_entries.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_first_entry",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_first_entry.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_next_entry",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_next_entry.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_entries",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_entries.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_first_attribute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_first_attribute.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_next_attribute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_next_attribute.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_attributes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_attributes.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_values",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_values.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "attribute",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_values_len",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_values_len.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "attribute",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_dn",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_dn.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "result_entry_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_explode_dn",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_explode_dn.php",
+        "args": [
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "with_attrib",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_dn2ufn",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_dn2ufn.php",
+        "args": [
+            {
+                "name": "dn",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_add",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_add.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_delete",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_delete.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_modify_batch",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_modify_batch.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "modifications_info",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_modify",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_modify.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_mod_add",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_mod_add.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_mod_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_mod_replace.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_mod_del",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_mod_del.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_errno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_errno.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_err2str",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_err2str.php",
+        "args": [
+            {
+                "name": "errno",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_error.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_compare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_compare.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "attribute",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_sort",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_sort.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "sortfilter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_rename",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_rename.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "dn",
+                "type": "mixed"
+            },
+            {
+                "name": "newrdn",
+                "type": "mixed"
+            },
+            {
+                "name": "newparent",
+                "type": "mixed"
+            },
+            {
+                "name": "deleteoldrdn",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_get_option",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_get_option.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "option",
+                "type": "mixed"
+            },
+            {
+                "name": "retval",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_set_option",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_set_option.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            },
+            {
+                "name": "option",
+                "type": "mixed"
+            },
+            {
+                "name": "newval",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_first_reference",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_first_reference.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_next_reference",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_next_reference.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_parse_reference",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_parse_reference.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "entry",
+                "type": "mixed"
+            },
+            {
+                "name": "referrals",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_parse_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_parse_result.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "errcode",
+                "type": "mixed"
+            },
+            {
+                "name": "matcheddn",
+                "type": "mixed"
+            },
+            {
+                "name": "errmsg",
+                "type": "mixed"
+            },
+            {
+                "name": "referrals",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_start_tls",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_start_tls.php",
+        "args": [
+            {
+                "name": "link_identifier",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_set_rebind_proc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_set_rebind_proc.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "callback",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_escape",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_escape.php",
+        "args": [
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "ignore",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_control_paged_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_control_paged_result.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "pagesize",
+                "type": "mixed"
+            },
+            {
+                "name": "iscritical",
+                "type": "mixed"
+            },
+            {
+                "name": "cookie",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "ldap_control_paged_result_response",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.ldap_control_paged_result_response.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "cookie",
+                "type": "mixed"
+            },
+            {
+                "name": "estimated",
+                "type": "mixed"
+            }
+        ]
+    }
+]

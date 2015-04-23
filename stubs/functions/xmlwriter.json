@@ -1,0 +1,663 @@
+[
+    {
+        "name": "xmlwriter_open_uri",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_open_uri.php",
+        "args": [
+            {
+                "name": "uri",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_open_memory",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_open_memory.php",
+        "args": []
+    },
+    {
+        "name": "xmlwriter_set_indent",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_set_indent.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "indent",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_set_indent_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_set_indent_string.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "indentString",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_comment",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_comment.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_comment",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_comment.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_attribute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_attribute.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_attribute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_attribute.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_attribute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_attribute.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_attribute_ns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_attribute_ns.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "uri",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_attribute_ns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_attribute_ns.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "uri",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_full_end_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_full_end_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_element_ns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_element_ns.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "uri",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_element_ns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_element_ns.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "prefix",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "uri",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_pi",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_pi.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "target",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_pi",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_pi.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_pi",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_pi.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "target",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_cdata",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_cdata.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_cdata",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_cdata.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_cdata",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_cdata.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_text",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_text.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_raw",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_raw.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_document",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_document.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "version",
+                "type": "mixed"
+            },
+            {
+                "name": "encoding",
+                "type": "mixed"
+            },
+            {
+                "name": "standalone",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_document",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_document.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_comment",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_comment.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_dtd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_dtd.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifiedName",
+                "type": "mixed"
+            },
+            {
+                "name": "publicId",
+                "type": "mixed"
+            },
+            {
+                "name": "systemId",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_dtd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_dtd.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_dtd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_dtd.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "publicId",
+                "type": "mixed"
+            },
+            {
+                "name": "systemId",
+                "type": "mixed"
+            },
+            {
+                "name": "subset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_dtd_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_dtd_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifiedName",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_dtd_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_dtd_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_dtd_element",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_dtd_element.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_dtd_attlist",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_dtd_attlist.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_dtd_attlist",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_dtd_attlist.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_dtd_attlist",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_dtd_attlist.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_start_dtd_entity",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_start_dtd_entity.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "isparam",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_end_dtd_entity",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_end_dtd_entity.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_write_dtd_entity",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_write_dtd_entity.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "content",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_output_memory",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_output_memory.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "flush",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "xmlwriter_flush",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.xmlwriter_flush.php",
+        "args": [
+            {
+                "name": "xmlwriter",
+                "type": "mixed"
+            },
+            {
+                "name": "empty",
+                "type": "mixed"
+            }
+        ]
+    }
+]

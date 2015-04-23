@@ -1,0 +1,13 @@
+[
+    {
+        "name": "dom_import_simplexml",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dom_import_simplexml.php",
+        "args": [
+            {
+                "name": "node",
+                "type": "mixed"
+            }
+        ]
+    }
+]

@@ -1,0 +1,596 @@
+[
+    {
+        "name": "zend_version",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.zend_version.php",
+        "args": []
+    },
+    {
+        "name": "func_num_args",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.func_num_args.php",
+        "args": []
+    },
+    {
+        "name": "func_get_arg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.func_get_arg.php",
+        "args": [
+            {
+                "name": "arg_num",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "func_get_args",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.func_get_args.php",
+        "args": []
+    },
+    {
+        "name": "strlen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strlen.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strcmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strcmp.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strncmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strncmp.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strcasecmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strcasecmp.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "strncasecmp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.strncasecmp.php",
+        "args": [
+            {
+                "name": "str1",
+                "type": "mixed"
+            },
+            {
+                "name": "str2",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.each.php",
+        "args": [
+            {
+                "name": "arr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "error_reporting",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.error_reporting.php",
+        "args": [
+            {
+                "name": "new_error_level",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "define",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.define.php",
+        "args": [
+            {
+                "name": "constant_name",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "case_insensitive",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "defined",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.defined.php",
+        "args": [
+            {
+                "name": "constant_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_class",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_class.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_called_class",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_called_class.php",
+        "args": []
+    },
+    {
+        "name": "get_parent_class",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_parent_class.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "method_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.method_exists.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "method",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "property_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.property_exists.php",
+        "args": [
+            {
+                "name": "object_or_class",
+                "type": "mixed"
+            },
+            {
+                "name": "property_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "class_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.class_exists.php",
+        "args": [
+            {
+                "name": "classname",
+                "type": "mixed"
+            },
+            {
+                "name": "autoload",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "interface_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.interface_exists.php",
+        "args": [
+            {
+                "name": "classname",
+                "type": "mixed"
+            },
+            {
+                "name": "autoload",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "trait_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.trait_exists.php",
+        "args": [
+            {
+                "name": "traitname",
+                "type": "mixed"
+            },
+            {
+                "name": "autoload",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "function_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.function_exists.php",
+        "args": [
+            {
+                "name": "function_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "class_alias",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.class_alias.php",
+        "args": [
+            {
+                "name": "user_class_name",
+                "type": "mixed"
+            },
+            {
+                "name": "alias_name",
+                "type": "mixed"
+            },
+            {
+                "name": "autoload",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_included_files",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_included_files.php",
+        "args": []
+    },
+    {
+        "name": "get_required_files",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_required_files.php",
+        "args": []
+    },
+    {
+        "name": "is_subclass_of",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_subclass_of.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "class_name",
+                "type": "mixed"
+            },
+            {
+                "name": "allow_string",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_a",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_a.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            },
+            {
+                "name": "class_name",
+                "type": "mixed"
+            },
+            {
+                "name": "allow_string",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_class_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_class_vars.php",
+        "args": [
+            {
+                "name": "class_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_object_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_object_vars.php",
+        "args": [
+            {
+                "name": "obj",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_class_methods",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_class_methods.php",
+        "args": [
+            {
+                "name": "class",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "trigger_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.trigger_error.php",
+        "args": [
+            {
+                "name": "message",
+                "type": "mixed"
+            },
+            {
+                "name": "error_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "user_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.user_error.php",
+        "args": [
+            {
+                "name": "message",
+                "type": "mixed"
+            },
+            {
+                "name": "error_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "set_error_handler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_error_handler.php",
+        "args": [
+            {
+                "name": "error_handler",
+                "type": "mixed"
+            },
+            {
+                "name": "error_types",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "restore_error_handler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.restore_error_handler.php",
+        "args": []
+    },
+    {
+        "name": "set_exception_handler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.set_exception_handler.php",
+        "args": [
+            {
+                "name": "exception_handler",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "restore_exception_handler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.restore_exception_handler.php",
+        "args": []
+    },
+    {
+        "name": "get_declared_classes",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_declared_classes.php",
+        "args": []
+    },
+    {
+        "name": "get_declared_traits",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_declared_traits.php",
+        "args": []
+    },
+    {
+        "name": "get_declared_interfaces",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_declared_interfaces.php",
+        "args": []
+    },
+    {
+        "name": "get_defined_functions",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_defined_functions.php",
+        "args": []
+    },
+    {
+        "name": "get_defined_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_defined_vars.php",
+        "args": []
+    },
+    {
+        "name": "create_function",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.create_function.php",
+        "args": [
+            {
+                "name": "args",
+                "type": "mixed"
+            },
+            {
+                "name": "code",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_resource_type",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_resource_type.php",
+        "args": [
+            {
+                "name": "res",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_loaded_extensions",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_loaded_extensions.php",
+        "args": [
+            {
+                "name": "zend_extensions",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "extension_loaded",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.extension_loaded.php",
+        "args": [
+            {
+                "name": "extension_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_extension_funcs",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_extension_funcs.php",
+        "args": [
+            {
+                "name": "extension_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "get_defined_constants",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.get_defined_constants.php",
+        "args": [
+            {
+                "name": "categorize",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "debug_backtrace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.debug_backtrace.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            },
+            {
+                "name": "limit",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "debug_print_backtrace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.debug_print_backtrace.php",
+        "args": [
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "gc_collect_cycles",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gc_collect_cycles.php",
+        "args": []
+    },
+    {
+        "name": "gc_enabled",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gc_enabled.php",
+        "args": []
+    },
+    {
+        "name": "gc_enable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gc_enable.php",
+        "args": []
+    },
+    {
+        "name": "gc_disable",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.gc_disable.php",
+        "args": []
+    }
+]

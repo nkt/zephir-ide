@@ -1,0 +1,76 @@
+[
+    {
+        "name": "wddx_serialize_value",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_serialize_value.php",
+        "args": [
+            {
+                "name": "var",
+                "type": "mixed"
+            },
+            {
+                "name": "comment",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "wddx_serialize_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_serialize_vars.php",
+        "args": [
+            {
+                "name": "var_names",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "wddx_packet_start",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_packet_start.php",
+        "args": [
+            {
+                "name": "comment",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "wddx_packet_end",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_packet_end.php",
+        "args": [
+            {
+                "name": "packet_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "wddx_add_vars",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_add_vars.php",
+        "args": [
+            {
+                "name": "packet_id",
+                "type": "mixed"
+            },
+            {
+                "name": "var_names",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "wddx_deserialize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.wddx_deserialize.php",
+        "args": [
+            {
+                "name": "packet",
+                "type": "mixed"
+            }
+        ]
+    }
+]

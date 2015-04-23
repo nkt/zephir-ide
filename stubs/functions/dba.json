@@ -1,0 +1,218 @@
+[
+    {
+        "name": "dba_open",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_open.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "handlername",
+                "type": "mixed"
+            },
+            {
+                "name": "handler_parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_popen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_popen.php",
+        "args": [
+            {
+                "name": "path",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "handlername",
+                "type": "mixed"
+            },
+            {
+                "name": "handler_parameters",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_close.php",
+        "args": [
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_delete",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_delete.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_exists",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_exists.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_fetch",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_fetch.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "skip",
+                "type": "mixed"
+            },
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_insert",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_insert.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_replace",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_replace.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            },
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_firstkey",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_firstkey.php",
+        "args": [
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_nextkey",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_nextkey.php",
+        "args": [
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_optimize",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_optimize.php",
+        "args": [
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_sync",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_sync.php",
+        "args": [
+            {
+                "name": "handle",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_handlers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_handlers.php",
+        "args": [
+            {
+                "name": "full_info",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "dba_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_list.php",
+        "args": []
+    },
+    {
+        "name": "dba_key_split",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.dba_key_split.php",
+        "args": [
+            {
+                "name": "key",
+                "type": "mixed"
+            }
+        ]
+    }
+]

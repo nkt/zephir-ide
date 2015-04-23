@@ -1,0 +1,64 @@
+[
+    {
+        "name": "libxml_set_streams_context",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_set_streams_context.php",
+        "args": [
+            {
+                "name": "context",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "libxml_use_internal_errors",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_use_internal_errors.php",
+        "args": [
+            {
+                "name": "use_errors",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "libxml_get_last_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_get_last_error.php",
+        "args": []
+    },
+    {
+        "name": "libxml_clear_errors",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_clear_errors.php",
+        "args": []
+    },
+    {
+        "name": "libxml_get_errors",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_get_errors.php",
+        "args": []
+    },
+    {
+        "name": "libxml_disable_entity_loader",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_disable_entity_loader.php",
+        "args": [
+            {
+                "name": "disable",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "libxml_set_external_entity_loader",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.libxml_set_external_entity_loader.php",
+        "args": [
+            {
+                "name": "resolver_function",
+                "type": "mixed"
+            }
+        ]
+    }
+]

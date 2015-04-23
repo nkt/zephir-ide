@@ -1,0 +1,24 @@
+[
+    {
+        "name": "use_soap_error_handler",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.use_soap_error_handler.php",
+        "args": [
+            {
+                "name": "handler",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "is_soap_fault",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.is_soap_fault.php",
+        "args": [
+            {
+                "name": "object",
+                "type": "mixed"
+            }
+        ]
+    }
+]

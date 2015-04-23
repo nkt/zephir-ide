@@ -1,0 +1,184 @@
+[
+    {
+        "name": "iconv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv.php",
+        "args": [
+            {
+                "name": "in_charset",
+                "type": "mixed"
+            },
+            {
+                "name": "out_charset",
+                "type": "mixed"
+            },
+            {
+                "name": "str",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_get_encoding",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_get_encoding.php",
+        "args": [
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_set_encoding",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_set_encoding.php",
+        "args": [
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_strlen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strlen.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_substr",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_substr.php",
+        "args": [
+            {
+                "name": "str",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_strpos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strpos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_strrpos",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strrpos.php",
+        "args": [
+            {
+                "name": "haystack",
+                "type": "mixed"
+            },
+            {
+                "name": "needle",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_mime_encode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_encode.php",
+        "args": [
+            {
+                "name": "field_name",
+                "type": "mixed"
+            },
+            {
+                "name": "field_value",
+                "type": "mixed"
+            },
+            {
+                "name": "preference",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_mime_decode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_decode.php",
+        "args": [
+            {
+                "name": "encoded_string",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "iconv_mime_decode_headers",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_decode_headers.php",
+        "args": [
+            {
+                "name": "headers",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    }
+]

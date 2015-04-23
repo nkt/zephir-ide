@@ -1,0 +1,563 @@
+[
+    {
+        "name": "socket_select",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_select.php",
+        "args": [
+            {
+                "name": "read_fds",
+                "type": "mixed"
+            },
+            {
+                "name": "write_fds",
+                "type": "mixed"
+            },
+            {
+                "name": "except_fds",
+                "type": "mixed"
+            },
+            {
+                "name": "tv_sec",
+                "type": "mixed"
+            },
+            {
+                "name": "tv_usec",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_create",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create.php",
+        "args": [
+            {
+                "name": "domain",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "protocol",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_create_listen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create_listen.php",
+        "args": [
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "backlog",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_create_pair",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create_pair.php",
+        "args": [
+            {
+                "name": "domain",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "protocol",
+                "type": "mixed"
+            },
+            {
+                "name": "fd",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_accept",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_accept.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_set_nonblock",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_nonblock.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_set_block",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_block.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_listen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_listen.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "backlog",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_close.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_write",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_write.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "buf",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_read",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_read.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_getsockname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getsockname.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "addr",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_getpeername",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getpeername.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "addr",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_connect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_connect.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "addr",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_strerror",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_strerror.php",
+        "args": [
+            {
+                "name": "errno",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_bind",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_bind.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "addr",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_recv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recv.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "buf",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_send",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_send.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "buf",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_recvfrom",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recvfrom.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "buf",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_sendto",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_sendto.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "buf",
+                "type": "mixed"
+            },
+            {
+                "name": "len",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "addr",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_get_option",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_get_option.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "optname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_set_option",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_option.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "optname",
+                "type": "mixed"
+            },
+            {
+                "name": "optval",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_shutdown",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_shutdown.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "how",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_last_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_last_error.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_clear_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_clear_error.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_import_stream",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_import_stream.php",
+        "args": [
+            {
+                "name": "stream",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_sendmsg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_sendmsg.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "msghdr",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_recvmsg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recvmsg.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "msghdr",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_cmsg_space",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_cmsg_space.php",
+        "args": [
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_getopt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getopt.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "optname",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "socket_setopt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.socket_setopt.php",
+        "args": [
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "level",
+                "type": "mixed"
+            },
+            {
+                "name": "optname",
+                "type": "mixed"
+            },
+            {
+                "name": "optval",
+                "type": "mixed"
+            }
+        ]
+    }
+]

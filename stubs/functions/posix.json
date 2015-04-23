@@ -1,0 +1,345 @@
+[
+    {
+        "name": "posix_kill",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_kill.php",
+        "args": [
+            {
+                "name": "pid",
+                "type": "mixed"
+            },
+            {
+                "name": "sig",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getpid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getpid.php",
+        "args": []
+    },
+    {
+        "name": "posix_getppid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getppid.php",
+        "args": []
+    },
+    {
+        "name": "posix_getuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getuid.php",
+        "args": []
+    },
+    {
+        "name": "posix_setuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_setuid.php",
+        "args": [
+            {
+                "name": "uid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_geteuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_geteuid.php",
+        "args": []
+    },
+    {
+        "name": "posix_seteuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_seteuid.php",
+        "args": [
+            {
+                "name": "uid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getgid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getgid.php",
+        "args": []
+    },
+    {
+        "name": "posix_setgid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_setgid.php",
+        "args": [
+            {
+                "name": "gid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getegid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getegid.php",
+        "args": []
+    },
+    {
+        "name": "posix_setegid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_setegid.php",
+        "args": [
+            {
+                "name": "gid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getgroups",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getgroups.php",
+        "args": []
+    },
+    {
+        "name": "posix_getlogin",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getlogin.php",
+        "args": []
+    },
+    {
+        "name": "posix_getpgrp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getpgrp.php",
+        "args": []
+    },
+    {
+        "name": "posix_setsid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_setsid.php",
+        "args": []
+    },
+    {
+        "name": "posix_setpgid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_setpgid.php",
+        "args": [
+            {
+                "name": "pid",
+                "type": "mixed"
+            },
+            {
+                "name": "pgid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getpgid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getpgid.php",
+        "args": [
+            {
+                "name": "pid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getsid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getsid.php",
+        "args": [
+            {
+                "name": "pid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_uname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_uname.php",
+        "args": []
+    },
+    {
+        "name": "posix_times",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_times.php",
+        "args": []
+    },
+    {
+        "name": "posix_ctermid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_ctermid.php",
+        "args": []
+    },
+    {
+        "name": "posix_ttyname",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_ttyname.php",
+        "args": [
+            {
+                "name": "fd",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_isatty",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_isatty.php",
+        "args": [
+            {
+                "name": "fd",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getcwd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getcwd.php",
+        "args": []
+    },
+    {
+        "name": "posix_mkfifo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_mkfifo.php",
+        "args": [
+            {
+                "name": "pathname",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_mknod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_mknod.php",
+        "args": [
+            {
+                "name": "pathname",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            },
+            {
+                "name": "major",
+                "type": "mixed"
+            },
+            {
+                "name": "minor",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_access",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_access.php",
+        "args": [
+            {
+                "name": "file",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getgrnam",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getgrnam.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getgrgid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getgrgid.php",
+        "args": [
+            {
+                "name": "gid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getpwnam",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getpwnam.php",
+        "args": [
+            {
+                "name": "username",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getpwuid",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getpwuid.php",
+        "args": [
+            {
+                "name": "uid",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_getrlimit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_getrlimit.php",
+        "args": []
+    },
+    {
+        "name": "posix_get_last_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_get_last_error.php",
+        "args": []
+    },
+    {
+        "name": "posix_errno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_errno.php",
+        "args": []
+    },
+    {
+        "name": "posix_strerror",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_strerror.php",
+        "args": [
+            {
+                "name": "errno",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "posix_initgroups",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.posix_initgroups.php",
+        "args": [
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "base_group_id",
+                "type": "mixed"
+            }
+        ]
+    }
+]

@@ -1,0 +1,792 @@
+[
+    {
+        "name": "odbc_autocommit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_autocommit.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "onoff",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_binmode",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_binmode.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_close.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_close_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_close_all.php",
+        "args": []
+    },
+    {
+        "name": "odbc_columns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_columns.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "table_name",
+                "type": "mixed"
+            },
+            {
+                "name": "column_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_commit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_commit.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_connect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_connect.php",
+        "args": [
+            {
+                "name": "dsn",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "cursor_option",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_cursor",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_cursor.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_data_source",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_data_source.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "fetch_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_execute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_execute.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "parameters_array",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_error.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_errormsg",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_errormsg.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_exec",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_exec.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_fetch_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_fetch_array.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "rownumber",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_fetch_object",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_fetch_object.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "rownumber",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_fetch_row",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_fetch_row.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "row_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_fetch_into",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_fetch_into.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "result_array",
+                "type": "mixed"
+            },
+            {
+                "name": "rownumber",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_len",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_len.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_scale",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_scale.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_name.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_type",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_type.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_number",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_num",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_num.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_free_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_free_result.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_gettypeinfo",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_gettypeinfo.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "data_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_longreadlen",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_longreadlen.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "length",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_next_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_next_result.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_num_fields",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_num_fields.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_num_rows",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_num_rows.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_pconnect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_pconnect.php",
+        "args": [
+            {
+                "name": "dsn",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "cursor_option",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_prepare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_prepare.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_result.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_result_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_result_all.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "format",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_rollback",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_rollback.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_setoption",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_setoption.php",
+        "args": [
+            {
+                "name": "conn_id",
+                "type": "mixed"
+            },
+            {
+                "name": "which",
+                "type": "mixed"
+            },
+            {
+                "name": "option",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_specialcolumns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_specialcolumns.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "type",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "table",
+                "type": "mixed"
+            },
+            {
+                "name": "scope",
+                "type": "mixed"
+            },
+            {
+                "name": "nullable",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_statistics",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_statistics.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "unique",
+                "type": "mixed"
+            },
+            {
+                "name": "accuracy",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_tables",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_tables.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            },
+            {
+                "name": "table_types",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_primarykeys",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_primarykeys.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "table",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_columnprivileges",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_columnprivileges.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "catalog",
+                "type": "mixed"
+            },
+            {
+                "name": "schema",
+                "type": "mixed"
+            },
+            {
+                "name": "table",
+                "type": "mixed"
+            },
+            {
+                "name": "column",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_tableprivileges",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_tableprivileges.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_foreignkeys",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_foreignkeys.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "pk_qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "pk_owner",
+                "type": "mixed"
+            },
+            {
+                "name": "pk_table",
+                "type": "mixed"
+            },
+            {
+                "name": "fk_qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "fk_owner",
+                "type": "mixed"
+            },
+            {
+                "name": "fk_table",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_procedures",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_procedures.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_procedurecolumns",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_procedurecolumns.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "qualifier",
+                "type": "mixed"
+            },
+            {
+                "name": "owner",
+                "type": "mixed"
+            },
+            {
+                "name": "proc",
+                "type": "mixed"
+            },
+            {
+                "name": "column",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_do",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_do.php",
+        "args": [
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "odbc_field_precision",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.odbc_field_precision.php",
+        "args": [
+            {
+                "name": "result_id",
+                "type": "mixed"
+            },
+            {
+                "name": "field_number",
+                "type": "mixed"
+            }
+        ]
+    }
+]

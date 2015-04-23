@@ -1,0 +1,180 @@
+[
+    {
+        "name": "bcadd",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcadd.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcsub",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcsub.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcmul",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcmul.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcdiv",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcdiv.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcmod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcmod.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcpow",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcpow.php",
+        "args": [
+            {
+                "name": "x",
+                "type": "mixed"
+            },
+            {
+                "name": "y",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcsqrt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcsqrt.php",
+        "args": [
+            {
+                "name": "operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcscale",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcscale.php",
+        "args": [
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bccomp",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bccomp.php",
+        "args": [
+            {
+                "name": "left_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "right_operand",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "bcpowmod",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.bcpowmod.php",
+        "args": [
+            {
+                "name": "x",
+                "type": "mixed"
+            },
+            {
+                "name": "y",
+                "type": "mixed"
+            },
+            {
+                "name": "mod",
+                "type": "mixed"
+            },
+            {
+                "name": "scale",
+                "type": "mixed"
+            }
+        ]
+    }
+]

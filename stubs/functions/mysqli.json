@@ -1,0 +1,1359 @@
+[
+    {
+        "name": "mysqli_affected_rows",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_affected_rows.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_autocommit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_autocommit.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "mode",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_begin_transaction",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_begin_transaction.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_change_user",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_change_user.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "database",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_character_set_name",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_character_set_name.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_close.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_commit",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_commit.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_connect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_connect.php",
+        "args": [
+            {
+                "name": "host",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "database",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "socket",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_connect_errno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_connect_errno.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_connect_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_connect_error.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_data_seek",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_data_seek.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_dump_debug_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_dump_debug_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_debug",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_debug.php",
+        "args": [
+            {
+                "name": "debug_options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_errno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_errno.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_error.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_error_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_error_list.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_execute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_execute.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_execute",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_execute.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_field",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_field.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_fields",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_fields.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_field_direct",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_field_direct.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "field_nr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_lengths",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_lengths.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_all",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_all.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_array",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_array.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "result_type",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_assoc",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_assoc.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_object",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_object.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "class_name",
+                "type": "mixed"
+            },
+            {
+                "name": "params",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_fetch_row",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_fetch_row.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_field_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_field_count.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_field_seek",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_field_seek.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            },
+            {
+                "name": "field_nr",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_field_tell",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_field_tell.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_free_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_free_result.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_connection_stats",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_connection_stats.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_client_stats",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_client_stats.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_get_charset",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_charset.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_client_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_client_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_client_version",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_client_version.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_links_stats",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_links_stats.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_get_host_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_host_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_proto_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_proto_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_server_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_server_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_server_version",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_server_version.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_get_warnings",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_get_warnings.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_init",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_init.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_info",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_info.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_insert_id",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_insert_id.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_kill",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_kill.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "connection_id",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_more_results",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_more_results.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_multi_query",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_multi_query.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_next_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_next_result.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_num_fields",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_num_fields.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_num_rows",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_num_rows.php",
+        "args": [
+            {
+                "name": "result",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_options",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_options.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "option",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_ping",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_ping.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_poll",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_poll.php",
+        "args": [
+            {
+                "name": "read",
+                "type": "mixed"
+            },
+            {
+                "name": "write",
+                "type": "mixed"
+            },
+            {
+                "name": "error",
+                "type": "mixed"
+            },
+            {
+                "name": "sec",
+                "type": "mixed"
+            },
+            {
+                "name": "usec",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_prepare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_prepare.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_report",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_report.php",
+        "args": [
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_query",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_query.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_real_connect",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_real_connect.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "host",
+                "type": "mixed"
+            },
+            {
+                "name": "user",
+                "type": "mixed"
+            },
+            {
+                "name": "password",
+                "type": "mixed"
+            },
+            {
+                "name": "database",
+                "type": "mixed"
+            },
+            {
+                "name": "port",
+                "type": "mixed"
+            },
+            {
+                "name": "socket",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_real_escape_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_real_escape_string.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "string_to_escape",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_real_query",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_real_query.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_reap_async_query",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_reap_async_query.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_release_savepoint",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_release_savepoint.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_rollback",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_rollback.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_savepoint",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_savepoint.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "name",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_select_db",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_select_db.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "database",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_set_charset",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_set_charset.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "charset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_affected_rows",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_affected_rows.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_attr_get",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_attr_get.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "attribute",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_attr_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_attr_set.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "attribute",
+                "type": "mixed"
+            },
+            {
+                "name": "value",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_bind_param",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_bind_param.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "types",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_bind_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_bind_result.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "vars",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_close",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_close.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_data_seek",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_data_seek.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "offset",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_errno",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_errno.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_error",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_error.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_error_list",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_error_list.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_fetch",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_fetch.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_field_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_field_count.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_free_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_free_result.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_get_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_get_result.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_get_warnings",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_get_warnings.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_init",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_init.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_insert_id",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_insert_id.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_more_results",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_more_results.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_next_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_next_result.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_num_rows",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_num_rows.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_param_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_param_count.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_prepare",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_prepare.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_reset",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_reset.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_result_metadata",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_result_metadata.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_send_long_data",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_send_long_data.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            },
+            {
+                "name": "param_nr",
+                "type": "mixed"
+            },
+            {
+                "name": "data",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_store_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_store_result.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stmt_sqlstate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stmt_sqlstate.php",
+        "args": [
+            {
+                "name": "stmt",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_sqlstate",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_sqlstate.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_ssl_set",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_ssl_set.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "key",
+                "type": "mixed"
+            },
+            {
+                "name": "cert",
+                "type": "mixed"
+            },
+            {
+                "name": "certificate_authority",
+                "type": "mixed"
+            },
+            {
+                "name": "certificate_authority_path",
+                "type": "mixed"
+            },
+            {
+                "name": "cipher",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_stat",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_stat.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_store_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_store_result.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "flags",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_thread_id",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_thread_id.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_thread_safe",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_thread_safe.php",
+        "args": []
+    },
+    {
+        "name": "mysqli_use_result",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_use_result.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_warning_count",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_warning_count.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_refresh",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_refresh.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "options",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_escape_string",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_escape_string.php",
+        "args": [
+            {
+                "name": "link",
+                "type": "mixed"
+            },
+            {
+                "name": "query",
+                "type": "mixed"
+            }
+        ]
+    },
+    {
+        "name": "mysqli_set_opt",
+        "type": "mixed",
+        "url": "http:\/\/php.net\/manual\/ru\/function.mysqli_set_opt.php",
+        "args": []
+    }
+]
