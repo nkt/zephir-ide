@@ -1,0 +1,121 @@
+[
+  {
+    "name": "classkit_import",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "classkit_method_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "classkit_method_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dClass",
+        "type": "string"
+      },
+      {
+        "name": "dMethod",
+        "type": "string"
+      },
+      {
+        "name": "sClass",
+        "type": "string"
+      },
+      {
+        "name": "sMethod",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "classkit_method_redefine",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "classkit_method_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "classkit_method_rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "newname",
+        "type": "string"
+      }
+    ]
+  }
+]

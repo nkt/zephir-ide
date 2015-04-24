@@ -1,117 +1,115 @@
 [
-    {
-        "name": "readline",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline.php",
-        "args": [
-            {
-                "name": "prompt",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_info.php",
-        "args": [
-            {
-                "name": "varname",
-                "type": "mixed"
-            },
-            {
-                "name": "newvalue",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_add_history",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_add_history.php",
-        "args": [
-            {
-                "name": "prompt",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_clear_history",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_clear_history.php",
-        "args": []
-    },
-    {
-        "name": "readline_read_history",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_read_history.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_write_history",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_write_history.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_completion_function",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_completion_function.php",
-        "args": [
-            {
-                "name": "funcname",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_callback_handler_install",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_callback_handler_install.php",
-        "args": [
-            {
-                "name": "prompt",
-                "type": "mixed"
-            },
-            {
-                "name": "callback",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "readline_callback_read_char",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_callback_read_char.php",
-        "args": []
-    },
-    {
-        "name": "readline_callback_handler_remove",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_callback_handler_remove.php",
-        "args": []
-    },
-    {
-        "name": "readline_redisplay",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_redisplay.php",
-        "args": []
-    },
-    {
-        "name": "readline_on_new_line",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.readline_on_new_line.php",
-        "args": []
-    }
+  {
+    "name": "readline",
+    "type": "string",
+    "args": [
+      {
+        "name": "prompt",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "readline_add_history",
+    "type": "bool",
+    "args": [
+      {
+        "name": "line",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "readline_callback_handler_install",
+    "type": "bool",
+    "args": [
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "readline_callback_handler_remove",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "readline_callback_read_char",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "readline_clear_history",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "readline_completion_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "function",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "readline_info",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "varname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "newvalue",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "readline_list_history",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "readline_on_new_line",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "readline_read_history",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "readline_redisplay",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "readline_write_history",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
 ]

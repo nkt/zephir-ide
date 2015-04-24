@@ -1,0 +1,462 @@
+[
+  {
+    "name": "radius_acct_open",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "radius_add_server",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "secret",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int"
+      },
+      {
+        "name": "max_tries",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "radius_auth_open",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "radius_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "radius_config",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_create_request",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "radius_cvt_addr",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_cvt_int",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_cvt_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_demangle",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "mangled",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_demangle_mppe_key",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "mangled",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_get_attr",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "radius_get_tagged_attr_data",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_get_tagged_attr_tag",
+    "type": "integer",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_get_vendor_attr",
+    "type": "array",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_put_addr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "addr",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_attr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_int",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_string",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_vendor_addr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "vendor",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "addr",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_put_vendor_attr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "vendor",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_vendor_int",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "vendor",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_put_vendor_string",
+    "type": "bool",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "vendor",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "radius_request_authenticator",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "radius_salt_encrypt_attr",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "radius_send_request",
+    "type": "int",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "radius_server_secret",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "radius_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "radius_handle",
+        "type": "resource"
+      }
+    ]
+  }
+]

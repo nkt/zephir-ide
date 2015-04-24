@@ -1,0 +1,307 @@
+[
+  {
+    "name": "runkit_class_adopt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "parentname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_class_emancipate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_constant_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "constname",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "runkit_constant_redefine",
+    "type": "bool",
+    "args": [
+      {
+        "name": "constname",
+        "type": "string"
+      },
+      {
+        "name": "newvalue",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "runkit_constant_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "constname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_function_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      },
+      {
+        "name": "arglist",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_function_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      },
+      {
+        "name": "targetname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_function_redefine",
+    "type": "bool",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      },
+      {
+        "name": "arglist",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_function_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_function_rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      },
+      {
+        "name": "newname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_import",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "runkit_lint",
+    "type": "bool",
+    "args": [
+      {
+        "name": "code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_lint_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_method_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "runkit_method_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dClass",
+        "type": "string"
+      },
+      {
+        "name": "dMethod",
+        "type": "string"
+      },
+      {
+        "name": "sClass",
+        "type": "string"
+      },
+      {
+        "name": "sMethod",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "runkit_method_redefine",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "runkit_method_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_method_rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "methodname",
+        "type": "string"
+      },
+      {
+        "name": "newname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "runkit_return_value_used",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "runkit_sandbox_output_handler",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "sandbox",
+        "type": "object"
+      },
+      {
+        "name": "callback",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "runkit_superglobals",
+    "type": "array",
+    "args": []
+  }
+]

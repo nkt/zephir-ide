@@ -1,0 +1,33 @@
+[
+  {
+    "name": "xhprof_disable",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "xhprof_enable",
+    "type": "void",
+    "args": [
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xhprof_sample_disable",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "xhprof_sample_enable",
+    "type": "void",
+    "args": []
+  }
+]

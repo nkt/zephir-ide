@@ -1,0 +1,1156 @@
+[
+  {
+    "name": "pg_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_cancel_query",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_client_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection_string",
+        "type": "string"
+      },
+      {
+        "name": "connect_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_connection_busy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_connection_reset",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_connection_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_convert",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "assoc_array",
+        "type": "array"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_copy_from",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "rows",
+        "type": "array"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "null_as",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_copy_to",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "null_as",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_dbname",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_delete",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "assoc_array",
+        "type": "array"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_end_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_escape_bytea",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_escape_identifier",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_escape_literal",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_execute",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "stmtname",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "pg_fetch_all",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_fetch_all_columns",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_field_num",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_field_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_field_table",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      },
+      {
+        "name": "oid_only",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_field_type_oid",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_get_notify",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_get_pid",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_get_result",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_host",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_insert",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "assoc_array",
+        "type": "array"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_last_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_last_notice",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_last_oid",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "oid",
+        "type": "int"
+      },
+      {
+        "name": "pathname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_import",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      },
+      {
+        "name": "len",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_read_all",
+    "type": "int",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "whence",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_tell",
+    "type": "int",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_unlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_lo_write",
+    "type": "int",
+    "args": [
+      {
+        "name": "large_object",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_meta_data",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_options",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_parameter_status",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "param_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection_string",
+        "type": "string"
+      },
+      {
+        "name": "connect_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_ping",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_port",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_prepare",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "stmtname",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_put_line",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_query_params",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "pg_result_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_result_error_field",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "fieldcode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_result_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_result_status",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_select",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "assoc_array",
+        "type": "array"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_send_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "stmtname",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "pg_send_prepare",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "stmtname",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_send_query",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_send_query_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "pg_set_client_encoding",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_set_error_verbosity",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "verbosity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pg_trace",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_transaction_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "pg_tty",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_unescape_bytea",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pg_untrace",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_update",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "array"
+      },
+      {
+        "name": "condition",
+        "type": "array"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pg_version",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
+]

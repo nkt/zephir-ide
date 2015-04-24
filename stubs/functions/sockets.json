@@ -1,563 +1,519 @@
 [
-    {
-        "name": "socket_select",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_select.php",
-        "args": [
-            {
-                "name": "read_fds",
-                "type": "mixed"
-            },
-            {
-                "name": "write_fds",
-                "type": "mixed"
-            },
-            {
-                "name": "except_fds",
-                "type": "mixed"
-            },
-            {
-                "name": "tv_sec",
-                "type": "mixed"
-            },
-            {
-                "name": "tv_usec",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_create",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            },
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "protocol",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_create_listen",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create_listen.php",
-        "args": [
-            {
-                "name": "port",
-                "type": "mixed"
-            },
-            {
-                "name": "backlog",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_create_pair",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_create_pair.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            },
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "protocol",
-                "type": "mixed"
-            },
-            {
-                "name": "fd",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_accept",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_accept.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_set_nonblock",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_nonblock.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_set_block",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_block.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_listen",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_listen.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "backlog",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_close.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_write",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_write.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "buf",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_read",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_read.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_getsockname",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getsockname.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "addr",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_getpeername",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getpeername.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "addr",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_connect",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_connect.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "addr",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_strerror",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_strerror.php",
-        "args": [
-            {
-                "name": "errno",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_bind",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_bind.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "addr",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_recv",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recv.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "buf",
-                "type": "mixed"
-            },
-            {
-                "name": "len",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_send",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_send.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "buf",
-                "type": "mixed"
-            },
-            {
-                "name": "len",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_recvfrom",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recvfrom.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "buf",
-                "type": "mixed"
-            },
-            {
-                "name": "len",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            },
-            {
-                "name": "name",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_sendto",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_sendto.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "buf",
-                "type": "mixed"
-            },
-            {
-                "name": "len",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            },
-            {
-                "name": "addr",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_get_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_get_option.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "level",
-                "type": "mixed"
-            },
-            {
-                "name": "optname",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_set_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_set_option.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "level",
-                "type": "mixed"
-            },
-            {
-                "name": "optname",
-                "type": "mixed"
-            },
-            {
-                "name": "optval",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_shutdown",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_shutdown.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "how",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_last_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_last_error.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_clear_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_clear_error.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_import_stream",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_import_stream.php",
-        "args": [
-            {
-                "name": "stream",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_sendmsg",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_sendmsg.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "msghdr",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_recvmsg",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_recvmsg.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "msghdr",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_cmsg_space",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_cmsg_space.php",
-        "args": [
-            {
-                "name": "level",
-                "type": "mixed"
-            },
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_getopt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_getopt.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "level",
-                "type": "mixed"
-            },
-            {
-                "name": "optname",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "socket_setopt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.socket_setopt.php",
-        "args": [
-            {
-                "name": "socket",
-                "type": "mixed"
-            },
-            {
-                "name": "level",
-                "type": "mixed"
-            },
-            {
-                "name": "optname",
-                "type": "mixed"
-            },
-            {
-                "name": "optval",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "socket_accept",
+    "type": "resource",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "socket_bind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_clear_error",
+    "type": "void",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "socket_cmsg_space",
+    "type": "int",
+    "args": [
+      {
+        "name": "level",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_connect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "domain",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "protocol",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_create_listen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "backlog",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_create_pair",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "protocol",
+        "type": "int"
+      },
+      {
+        "name": "fd",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "socket_get_option",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "level",
+        "type": "int"
+      },
+      {
+        "name": "optname",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_getpeername",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_getsockname",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "addr",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_import_stream",
+    "type": "resource",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "socket_last_error",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_listen",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "backlog",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_recv",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "buf",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "len",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_recvfrom",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "buf",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "len",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_recvmsg",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_select",
+    "type": "int",
+    "args": [
+      {
+        "name": "read",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "write",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "except",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "tv_sec",
+        "type": "int"
+      },
+      {
+        "name": "tv_usec",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_send",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "buf",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_sendmsg",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "message",
+        "type": "array"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_sendto",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "buf",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "addr",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_set_block",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "socket_set_nonblock",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "socket_set_option",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "level",
+        "type": "int"
+      },
+      {
+        "name": "optname",
+        "type": "int"
+      },
+      {
+        "name": "optval",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "socket_shutdown",
+    "type": "bool",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "how",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "socket_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "errno",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "socket_write",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "buffer",
+        "type": "string"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
 ]

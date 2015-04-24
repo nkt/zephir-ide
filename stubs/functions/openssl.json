@@ -1,994 +1,923 @@
 [
-    {
-        "name": "openssl_get_cert_locations",
+  {
+    "name": "openssl_cipher_iv_length",
+    "type": "int",
+    "args": [
+      {
+        "name": "method",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "csr",
+        "type": "resource"
+      },
+      {
+        "name": "out",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "notext",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_export_to_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "csr",
+        "type": "resource"
+      },
+      {
+        "name": "outfilename",
+        "type": "string"
+      },
+      {
+        "name": "notext",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_get_public_key",
+    "type": "resource",
+    "args": [
+      {
+        "name": "csr",
+        "type": "mixed"
+      },
+      {
+        "name": "use_shortnames",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_get_subject",
+    "type": "array",
+    "args": [
+      {
+        "name": "csr",
+        "type": "mixed"
+      },
+      {
+        "name": "use_shortnames",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_new",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "dn",
+        "type": "array"
+      },
+      {
+        "name": "privkey",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "configargs",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "extraattribs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_csr_sign",
+    "type": "resource",
+    "args": [
+      {
+        "name": "csr",
+        "type": "mixed"
+      },
+      {
+        "name": "cacert",
+        "type": "mixed"
+      },
+      {
+        "name": "priv_key",
+        "type": "mixed"
+      },
+      {
+        "name": "days",
+        "type": "int"
+      },
+      {
+        "name": "configargs",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "serial",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_decrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "method",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "iv",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_dh_compute_key",
+    "type": "string",
+    "args": [
+      {
+        "name": "pub_key",
+        "type": "string"
+      },
+      {
+        "name": "dh_key",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openssl_digest",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "method",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_encrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "method",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "iv",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_error_string",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "openssl_free_key",
+    "type": "void",
+    "args": [
+      {
+        "name": "key_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openssl_get_cipher_methods",
+    "type": "array",
+    "args": [
+      {
+        "name": "aliases",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_get_md_methods",
+    "type": "array",
+    "args": [
+      {
+        "name": "aliases",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_open",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sealed_data",
+        "type": "string"
+      },
+      {
+        "name": "open_data",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "env_key",
+        "type": "string"
+      },
+      {
+        "name": "priv_key_id",
+        "type": "mixed"
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pbkdf2",
+    "type": "string",
+    "args": [
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "salt",
+        "type": "string"
+      },
+      {
+        "name": "key_length",
+        "type": "int"
+      },
+      {
+        "name": "iterations",
+        "type": "int"
+      },
+      {
+        "name": "digest_algorithm",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs12_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "x509",
+        "type": "mixed"
+      },
+      {
+        "name": "out",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "priv_key",
+        "type": "mixed"
+      },
+      {
+        "name": "pass",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs12_export_to_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "x509",
+        "type": "mixed"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "priv_key",
+        "type": "mixed"
+      },
+      {
+        "name": "pass",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs12_read",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pkcs12",
+        "type": "string"
+      },
+      {
+        "name": "certs",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "pass",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs7_decrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "infilename",
+        "type": "string"
+      },
+      {
+        "name": "outfilename",
+        "type": "string"
+      },
+      {
+        "name": "recipcert",
+        "type": "mixed"
+      },
+      {
+        "name": "recipkey",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_get_cert_locations.php",
-        "args": []
-    },
-    {
-        "name": "openssl_spki_new",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_spki_new.php",
-        "args": [
-            {
-                "name": "privkey",
-                "type": "mixed"
-            },
-            {
-                "name": "challenge",
-                "type": "mixed"
-            },
-            {
-                "name": "algo",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_spki_verify",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_spki_verify.php",
-        "args": [
-            {
-                "name": "spki",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_spki_export",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_spki_export.php",
-        "args": [
-            {
-                "name": "spki",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_spki_export_challenge",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_spki_export_challenge.php",
-        "args": [
-            {
-                "name": "spki",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_free",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_free.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_new",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_new.php",
-        "args": [
-            {
-                "name": "configargs",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_export",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_export.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "out",
-                "type": "mixed"
-            },
-            {
-                "name": "passphrase",
-                "type": "mixed"
-            },
-            {
-                "name": "config_args",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_export_to_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_export_to_file.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "outfilename",
-                "type": "mixed"
-            },
-            {
-                "name": "passphrase",
-                "type": "mixed"
-            },
-            {
-                "name": "config_args",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_get_private",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_get_private.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "passphrase",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_get_public",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_get_public.php",
-        "args": [
-            {
-                "name": "cert",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkey_get_details",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkey_get_details.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_free_key",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_free_key.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_get_privatekey",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_get_privatekey.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "passphrase",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_get_publickey",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_get_publickey.php",
-        "args": [
-            {
-                "name": "cert",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_read",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_read.php",
-        "args": [
-            {
-                "name": "cert",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_free",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_free.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_parse",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_parse.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "shortname",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_checkpurpose",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_checkpurpose.php",
-        "args": [
-            {
-                "name": "x509cert",
-                "type": "mixed"
-            },
-            {
-                "name": "purpose",
-                "type": "mixed"
-            },
-            {
-                "name": "cainfo",
-                "type": "mixed"
-            },
-            {
-                "name": "untrustedfile",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_check_private_key",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_check_private_key.php",
-        "args": [
-            {
-                "name": "cert",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_export",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_export.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "out",
-                "type": "mixed"
-            },
-            {
-                "name": "notext",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_fingerprint",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_fingerprint.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_x509_export_to_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_x509_export_to_file.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "outfilename",
-                "type": "mixed"
-            },
-            {
-                "name": "notext",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs12_export",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs12_export.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "out",
-                "type": "mixed"
-            },
-            {
-                "name": "priv_key",
-                "type": "mixed"
-            },
-            {
-                "name": "pass",
-                "type": "mixed"
-            },
-            {
-                "name": "args",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs12_export_to_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs12_export_to_file.php",
-        "args": [
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "priv_key",
-                "type": "mixed"
-            },
-            {
-                "name": "pass",
-                "type": "mixed"
-            },
-            {
-                "name": "args",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs12_read",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs12_read.php",
-        "args": [
-            {
-                "name": "PKCS12",
-                "type": "mixed"
-            },
-            {
-                "name": "certs",
-                "type": "mixed"
-            },
-            {
-                "name": "pass",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_new",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_new.php",
-        "args": [
-            {
-                "name": "dn",
-                "type": "mixed"
-            },
-            {
-                "name": "privkey",
-                "type": "mixed"
-            },
-            {
-                "name": "configargs",
-                "type": "mixed"
-            },
-            {
-                "name": "extraattribs",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_export",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_export.php",
-        "args": [
-            {
-                "name": "csr",
-                "type": "mixed"
-            },
-            {
-                "name": "out",
-                "type": "mixed"
-            },
-            {
-                "name": "notext",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_export_to_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_export_to_file.php",
-        "args": [
-            {
-                "name": "csr",
-                "type": "mixed"
-            },
-            {
-                "name": "outfilename",
-                "type": "mixed"
-            },
-            {
-                "name": "notext",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_sign",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_sign.php",
-        "args": [
-            {
-                "name": "csr",
-                "type": "mixed"
-            },
-            {
-                "name": "x509",
-                "type": "mixed"
-            },
-            {
-                "name": "priv_key",
-                "type": "mixed"
-            },
-            {
-                "name": "days",
-                "type": "mixed"
-            },
-            {
-                "name": "config_args",
-                "type": "mixed"
-            },
-            {
-                "name": "serial",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_get_subject",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_get_subject.php",
-        "args": [
-            {
-                "name": "csr",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_csr_get_public_key",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_csr_get_public_key.php",
-        "args": [
-            {
-                "name": "csr",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_digest",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_digest.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_encrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_encrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            },
-            {
-                "name": "iv",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_decrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_decrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            },
-            {
-                "name": "iv",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_cipher_iv_length",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_cipher_iv_length.php",
-        "args": [
-            {
-                "name": "method",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_sign",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_sign.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "signature",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_verify",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_verify.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "signature",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_seal",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_seal.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "sealdata",
-                "type": "mixed"
-            },
-            {
-                "name": "ekeys",
-                "type": "mixed"
-            },
-            {
-                "name": "pubkeys",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_open",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_open.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "opendata",
-                "type": "mixed"
-            },
-            {
-                "name": "ekey",
-                "type": "mixed"
-            },
-            {
-                "name": "privkey",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pbkdf2",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pbkdf2.php",
-        "args": [
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "salt",
-                "type": "mixed"
-            },
-            {
-                "name": "key_length",
-                "type": "mixed"
-            },
-            {
-                "name": "iterations",
-                "type": "mixed"
-            },
-            {
-                "name": "digest_algorithm",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs7_verify",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs7_verify.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            },
-            {
-                "name": "signerscerts",
-                "type": "mixed"
-            },
-            {
-                "name": "cainfo",
-                "type": "mixed"
-            },
-            {
-                "name": "extracerts",
-                "type": "mixed"
-            },
-            {
-                "name": "content",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs7_decrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs7_decrypt.php",
-        "args": [
-            {
-                "name": "infilename",
-                "type": "mixed"
-            },
-            {
-                "name": "outfilename",
-                "type": "mixed"
-            },
-            {
-                "name": "recipcert",
-                "type": "mixed"
-            },
-            {
-                "name": "recipkey",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs7_sign",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs7_sign.php",
-        "args": [
-            {
-                "name": "infile",
-                "type": "mixed"
-            },
-            {
-                "name": "outfile",
-                "type": "mixed"
-            },
-            {
-                "name": "signcert",
-                "type": "mixed"
-            },
-            {
-                "name": "signkey",
-                "type": "mixed"
-            },
-            {
-                "name": "headers",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            },
-            {
-                "name": "extracertsfilename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_pkcs7_encrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_pkcs7_encrypt.php",
-        "args": [
-            {
-                "name": "infile",
-                "type": "mixed"
-            },
-            {
-                "name": "outfile",
-                "type": "mixed"
-            },
-            {
-                "name": "recipcerts",
-                "type": "mixed"
-            },
-            {
-                "name": "headers",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            },
-            {
-                "name": "cipher",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_private_encrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_private_encrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "crypted",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "padding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_private_decrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_private_decrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "crypted",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "padding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_public_encrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_public_encrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "crypted",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "padding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_public_decrypt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_public_decrypt.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "crypted",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "padding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_get_md_methods",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_get_md_methods.php",
-        "args": [
-            {
-                "name": "aliases",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_get_cipher_methods",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_get_cipher_methods.php",
-        "args": [
-            {
-                "name": "aliases",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_dh_compute_key",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_dh_compute_key.php",
-        "args": [
-            {
-                "name": "pub_key",
-                "type": "mixed"
-            },
-            {
-                "name": "dh_key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_random_pseudo_bytes",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_random_pseudo_bytes.php",
-        "args": [
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "result_is_strong",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "openssl_error_string",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.openssl_error_string.php",
-        "args": []
-    }
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs7_encrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "infile",
+        "type": "string"
+      },
+      {
+        "name": "outfile",
+        "type": "string"
+      },
+      {
+        "name": "recipcerts",
+        "type": "mixed"
+      },
+      {
+        "name": "headers",
+        "type": "array"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "cipherid",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs7_sign",
+    "type": "bool",
+    "args": [
+      {
+        "name": "infilename",
+        "type": "string"
+      },
+      {
+        "name": "outfilename",
+        "type": "string"
+      },
+      {
+        "name": "signcert",
+        "type": "mixed"
+      },
+      {
+        "name": "privkey",
+        "type": "mixed"
+      },
+      {
+        "name": "headers",
+        "type": "array"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "extracerts",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkcs7_verify",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "outfilename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "cainfo",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "extracerts",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "out",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "configargs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_export_to_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "outfilename",
+        "type": "string"
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "configargs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "key",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_get_details",
+    "type": "array",
+    "args": [
+      {
+        "name": "key",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_get_private",
+    "type": "resource",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_get_public",
+    "type": "resource",
+    "args": [
+      {
+        "name": "certificate",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "openssl_pkey_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "configargs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_private_decrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "decrypted",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "padding",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_private_encrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "crypted",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "padding",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_public_decrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "decrypted",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "padding",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_public_encrypt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "crypted",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "padding",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_random_pseudo_bytes",
+    "type": "string",
+    "args": [
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "crypto_strong",
+        "type": "bool",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_seal",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "sealed_data",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "env_keys",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "pub_key_ids",
+        "type": "array"
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_sign",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "signature",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "priv_key_id",
+        "type": "mixed"
+      },
+      {
+        "name": "signature_alg",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_verify",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "signature",
+        "type": "string"
+      },
+      {
+        "name": "pub_key_id",
+        "type": "mixed"
+      },
+      {
+        "name": "signature_alg",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_check_private_key",
+    "type": "bool",
+    "args": [
+      {
+        "name": "cert",
+        "type": "mixed"
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_checkpurpose",
+    "type": "int",
+    "args": [
+      {
+        "name": "x509cert",
+        "type": "mixed"
+      },
+      {
+        "name": "purpose",
+        "type": "int"
+      },
+      {
+        "name": "cainfo",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "untrustedfile",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "x509",
+        "type": "mixed"
+      },
+      {
+        "name": "output",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "notext",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_export_to_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "x509",
+        "type": "mixed"
+      },
+      {
+        "name": "outfilename",
+        "type": "string"
+      },
+      {
+        "name": "notext",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "x509cert",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_parse",
+    "type": "array",
+    "args": [
+      {
+        "name": "x509cert",
+        "type": "mixed"
+      },
+      {
+        "name": "shortnames",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openssl_x509_read",
+    "type": "resource",
+    "args": [
+      {
+        "name": "x509certdata",
+        "type": "mixed"
+      }
+    ]
+  }
 ]

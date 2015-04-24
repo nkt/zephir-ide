@@ -1,0 +1,203 @@
+[
+  {
+    "name": "notes_body",
+    "type": "array",
+    "args": [
+      {
+        "name": "server",
+        "type": "string"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "notes_copy_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "from_database_name",
+        "type": "string"
+      },
+      {
+        "name": "to_database_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_create_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_create_note",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "form_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_drop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_find_note",
+    "type": "int",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "notes_header_info",
+    "type": "object",
+    "args": [
+      {
+        "name": "server",
+        "type": "string"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "notes_list_msgs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "db",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_mark_read",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      },
+      {
+        "name": "note_id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_mark_unread",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      },
+      {
+        "name": "note_id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_nav_create",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_search",
+    "type": "array",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "keywords",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_unread",
+    "type": "array",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "notes_version",
+    "type": "float",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      }
+    ]
+  }
+]

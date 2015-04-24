@@ -1,0 +1,326 @@
+[
+  {
+    "name": "udm_add_search_limit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "var",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_alloc_agent",
+    "type": "resource",
+    "args": [
+      {
+        "name": "dbaddr",
+        "type": "string"
+      },
+      {
+        "name": "dbmode",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "udm_alloc_agent_array",
+    "type": "resource",
+    "args": [
+      {
+        "name": "databases",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "udm_api_version",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "udm_cat_list",
+    "type": "array",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_cat_path",
+    "type": "array",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_check_charset",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "charset",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_check_stored",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "doc_id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_clear_search_limits",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_close_stored",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "link",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "udm_crc32",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_find",
+    "type": "resource",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_free_agent",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_free_ispell_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "udm_free_res",
+    "type": "bool",
+    "args": [
+      {
+        "name": "res",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_get_doc_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "udm_get_res_field",
+    "type": "string",
+    "args": [
+      {
+        "name": "res",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "udm_get_res_param",
+    "type": "string",
+    "args": [
+      {
+        "name": "res",
+        "type": "resource"
+      },
+      {
+        "name": "param",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "udm_hash32",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_load_ispell_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "var",
+        "type": "int"
+      },
+      {
+        "name": "val1",
+        "type": "string"
+      },
+      {
+        "name": "val2",
+        "type": "string"
+      },
+      {
+        "name": "flag",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "udm_open_stored",
+    "type": "int",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "storedaddr",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "udm_set_agent_param",
+    "type": "bool",
+    "args": [
+      {
+        "name": "agent",
+        "type": "resource"
+      },
+      {
+        "name": "var",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "string"
+      }
+    ]
+  }
+]

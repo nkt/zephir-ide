@@ -1,0 +1,135 @@
+[
+  {
+    "name": "fam_cancel_monitor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "fam_monitor",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fam_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fam_monitor_collection",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "dirname",
+        "type": "string"
+      },
+      {
+        "name": "depth",
+        "type": "int"
+      },
+      {
+        "name": "mask",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fam_monitor_directory",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "dirname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fam_monitor_file",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fam_next_event",
+    "type": "array",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fam_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "appname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fam_pending",
+    "type": "int",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fam_resume_monitor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "fam_monitor",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fam_suspend_monitor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fam",
+        "type": "resource"
+      },
+      {
+        "name": "fam_monitor",
+        "type": "resource"
+      }
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "simplexml_import_dom",
+    "type": "SimpleXMLElement",
+    "args": [
+      {
+        "name": "node",
+        "type": "DOMNode"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "simplexml_load_file",
+    "type": "SimpleXMLElement",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "ns",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "is_prefix",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "simplexml_load_string",
+    "type": "SimpleXMLElement",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "ns",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "is_prefix",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1235 @@
+[
+  {
+    "name": "cairo_create",
+    "type": "CairoContext",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_face_get_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "fontface",
+        "type": "CairoFontFace"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_face_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "fontface",
+        "type": "CairoFontFace"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_create",
+    "type": "CairoFontOptions",
+    "args": []
+  },
+  {
+    "name": "cairo_font_options_equal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "other",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_get_antialias",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_get_hint_metrics",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_get_hint_style",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_get_subpixel_order",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_hash",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_merge",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "other",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_set_antialias",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "antialias",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_set_hint_metrics",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "hint_metrics",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_set_hint_style",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "hint_style",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_set_subpixel_order",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      },
+      {
+        "name": "subpixel_order",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_font_options_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "options",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_format_stride_for_width",
+    "type": "int",
+    "args": [
+      {
+        "name": "format",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_create",
+    "type": "CairoImageSurface",
+    "args": [
+      {
+        "name": "format",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_create_for_data",
+    "type": "CairoImageSurface",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "stride",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_create_from_png",
+    "type": "CairoImageSurface",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_get_data",
+    "type": "string",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoImageSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_get_format",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoImageSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_get_height",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoImageSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_get_stride",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoImageSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_image_surface_get_width",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoImageSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_invert",
+    "type": "void",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_multiply",
+    "type": "CairoMatrix",
+    "args": [
+      {
+        "name": "matrix1",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "matrix2",
+        "type": "CairoMatrix"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_rotate",
+    "type": "void",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "radians",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_transform_distance",
+    "type": "array",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "dx",
+        "type": "float"
+      },
+      {
+        "name": "dy",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_transform_point",
+    "type": "array",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "dx",
+        "type": "float"
+      },
+      {
+        "name": "dy",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_matrix_translate",
+    "type": "void",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "tx",
+        "type": "float"
+      },
+      {
+        "name": "ty",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_add_color_stop_rgb",
+    "type": "void",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoGradientPattern"
+      },
+      {
+        "name": "offset",
+        "type": "float"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_add_color_stop_rgba",
+    "type": "void",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoGradientPattern"
+      },
+      {
+        "name": "offset",
+        "type": "float"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_create_for_surface",
+    "type": "CairoPattern",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_create_linear",
+    "type": "CairoPattern",
+    "args": [
+      {
+        "name": "x0",
+        "type": "float"
+      },
+      {
+        "name": "y0",
+        "type": "float"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_create_radial",
+    "type": "CairoPattern",
+    "args": [
+      {
+        "name": "x0",
+        "type": "float"
+      },
+      {
+        "name": "y0",
+        "type": "float"
+      },
+      {
+        "name": "r0",
+        "type": "float"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "r1",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_create_rgb",
+    "type": "CairoPattern",
+    "args": [
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_create_rgba",
+    "type": "CairoPattern",
+    "args": [
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_color_stop_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoGradientPattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_color_stop_rgba",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoGradientPattern"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_extend",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_filter",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoSurfacePattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_linear_points",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoLinearGradient"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_matrix",
+    "type": "CairoMatrix",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoPattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_radial_circles",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoRadialGradient"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_rgba",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoSolidPattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_surface",
+    "type": "CairoSurface",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoSurfacePattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_get_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoPattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_set_extend",
+    "type": "void",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "extend",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_set_filter",
+    "type": "void",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoSurfacePattern"
+      },
+      {
+        "name": "filter",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_set_matrix",
+    "type": "void",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoPattern"
+      },
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pattern_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "CairoPattern"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pdf_surface_create",
+    "type": "CairoPdfSurface",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_pdf_surface_set_size",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPdfSurface"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_get_levels",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "cairo_ps_level_to_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_create",
+    "type": "CairoPsSurface",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_dsc_begin_page_setup",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_dsc_begin_setup",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_dsc_comment",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      },
+      {
+        "name": "comment",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_get_eps",
+    "type": "bool",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_restrict_to_level",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      },
+      {
+        "name": "level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_set_eps",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      },
+      {
+        "name": "level",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "cairo_ps_surface_set_size",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoPsSurface"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_create",
+    "type": "CairoScaledFont",
+    "args": [
+      {
+        "name": "fontface",
+        "type": "CairoFontFace"
+      },
+      {
+        "name": "matrix",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "ctm",
+        "type": "CairoMatrix"
+      },
+      {
+        "name": "fontoptions",
+        "type": "CairoFontOptions"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_extents",
+    "type": "array",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_ctm",
+    "type": "CairoMatrix",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_font_face",
+    "type": "CairoFontFace",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_font_matrix",
+    "type": "CairoFontOptions",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_font_options",
+    "type": "CairoFontOptions",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_scale_matrix",
+    "type": "CairoMatrix",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_get_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_glyph_extents",
+    "type": "array",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      },
+      {
+        "name": "glyphs",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      }
+    ]
+  },
+  {
+    "name": "cairo_scaled_font_text_extents",
+    "type": "array",
+    "args": [
+      {
+        "name": "scaledfont",
+        "type": "CairoScaledFont"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_copy_page",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_create_similar",
+    "type": "CairoSurface",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      },
+      {
+        "name": "content",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_finish",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_flush",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_get_content",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_get_device_offset",
+    "type": "array",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_get_font_options",
+    "type": "CairoFontOptions",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_get_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_mark_dirty",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_mark_dirty_rectangle",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_set_device_offset",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_set_fallback_resolution",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_show_page",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      }
+    ]
+  },
+  {
+    "name": "cairo_surface_write_to_png",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSurface"
+      },
+      {
+        "name": "stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cairo_svg_surface_create",
+    "type": "CairoSvgSurface",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cairo_svg_surface_restrict_to_version",
+    "type": "void",
+    "args": [
+      {
+        "name": "surface",
+        "type": "CairoSvgSurface"
+      },
+      {
+        "name": "version",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cairo_svg_version_to_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "version",
+        "type": "int"
+      }
+    ]
+  }
+]

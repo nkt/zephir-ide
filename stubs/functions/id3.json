@@ -1,0 +1,106 @@
+[
+  {
+    "name": "id3_get_frame_long_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "frameId",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "id3_get_frame_short_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "frameId",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "id3_get_genre_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "genre",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "id3_get_genre_list",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "id3_get_genre_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "genre_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "id3_get_tag",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "version",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "id3_get_version",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "id3_remove_tag",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "version",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "id3_set_tag",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "tag",
+        "type": "array"
+      },
+      {
+        "name": "version",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

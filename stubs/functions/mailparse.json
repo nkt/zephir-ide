@@ -1,0 +1,180 @@
+[
+  {
+    "name": "mailparse_determine_best_xfer_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "fp",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "mailparse_msg_extract_part",
+    "type": "void",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      },
+      {
+        "name": "msgbody",
+        "type": "string"
+      },
+      {
+        "name": "callbackfunc",
+        "type": "callable",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_extract_part_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "mixed"
+      },
+      {
+        "name": "callbackfunc",
+        "type": "callable",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_extract_whole_part_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "callbackfunc",
+        "type": "callable",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_free",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_get_part",
+    "type": "resource",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      },
+      {
+        "name": "mimesection",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_get_part_data",
+    "type": "array",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_get_structure",
+    "type": "array",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_parse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mimemail",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_msg_parse_file",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_rfc822_parse_addresses",
+    "type": "array",
+    "args": [
+      {
+        "name": "addresses",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_stream_encode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sourcefp",
+        "type": "resource"
+      },
+      {
+        "name": "destfp",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mailparse_uudecode_all",
+    "type": "array",
+    "args": [
+      {
+        "name": "fp",
+        "type": "resource"
+      }
+    ]
+  }
+]

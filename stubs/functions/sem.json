@@ -1,0 +1,308 @@
+[
+  {
+    "name": "ftok",
+    "type": "int",
+    "args": [
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "proj",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msg_get_queue",
+    "type": "resource",
+    "args": [
+      {
+        "name": "key",
+        "type": "int"
+      },
+      {
+        "name": "perms",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msg_queue_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msg_receive",
+    "type": "bool",
+    "args": [
+      {
+        "name": "queue",
+        "type": "resource"
+      },
+      {
+        "name": "desiredmsgtype",
+        "type": "int"
+      },
+      {
+        "name": "msgtype",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "maxsize",
+        "type": "int"
+      },
+      {
+        "name": "message",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "unserialize",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "errorcode",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msg_remove_queue",
+    "type": "bool",
+    "args": [
+      {
+        "name": "queue",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msg_send",
+    "type": "bool",
+    "args": [
+      {
+        "name": "queue",
+        "type": "resource"
+      },
+      {
+        "name": "msgtype",
+        "type": "int"
+      },
+      {
+        "name": "message",
+        "type": "mixed"
+      },
+      {
+        "name": "serialize",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "blocking",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "errorcode",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msg_set_queue",
+    "type": "bool",
+    "args": [
+      {
+        "name": "queue",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "msg_stat_queue",
+    "type": "array",
+    "args": [
+      {
+        "name": "queue",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sem_acquire",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sem_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sem_get",
+    "type": "resource",
+    "args": [
+      {
+        "name": "key",
+        "type": "int"
+      },
+      {
+        "name": "max_acquire",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "perm",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "auto_release",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sem_release",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sem_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sem_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sem_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "shm_attach",
+    "type": "resource",
+    "args": [
+      {
+        "name": "key",
+        "type": "int"
+      },
+      {
+        "name": "memsize",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "perm",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "shm_detach",
+    "type": "bool",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "shm_get_var",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "variable_key",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "shm_has_var",
+    "type": "bool",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "variable_key",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "shm_put_var",
+    "type": "bool",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "variable_key",
+        "type": "int"
+      },
+      {
+        "name": "variable",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "shm_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "shm_remove_var",
+    "type": "bool",
+    "args": [
+      {
+        "name": "shm_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "variable_key",
+        "type": "int"
+      }
+    ]
+  }
+]

@@ -1,93 +1,75 @@
 [
-    {
-        "name": "exif_read_data",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.exif_read_data.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "sections_needed",
-                "type": "mixed"
-            },
-            {
-                "name": "sub_arrays",
-                "type": "mixed"
-            },
-            {
-                "name": "read_thumbnail",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "read_exif_data",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.read_exif_data.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "sections_needed",
-                "type": "mixed"
-            },
-            {
-                "name": "sub_arrays",
-                "type": "mixed"
-            },
-            {
-                "name": "read_thumbnail",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "exif_tagname",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.exif_tagname.php",
-        "args": [
-            {
-                "name": "index",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "exif_thumbnail",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.exif_thumbnail.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "width",
-                "type": "mixed"
-            },
-            {
-                "name": "height",
-                "type": "mixed"
-            },
-            {
-                "name": "imagetype",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "exif_imagetype",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.exif_imagetype.php",
-        "args": [
-            {
-                "name": "imagefile",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "exif_imagetype",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "exif_read_data",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "sections",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "arrays",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "thumbnail",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "exif_tagname",
+    "type": "string",
+    "args": [
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "exif_thumbnail",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "height",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "imagetype",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  }
 ]

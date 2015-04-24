@@ -1,56 +1,57 @@
 [
-    {
-        "name": "json_encode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.json_encode.php",
-        "args": [
-            {
-                "name": "value",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            },
-            {
-                "name": "depth",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "json_decode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.json_decode.php",
-        "args": [
-            {
-                "name": "json",
-                "type": "mixed"
-            },
-            {
-                "name": "assoc",
-                "type": "mixed"
-            },
-            {
-                "name": "depth",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "json_last_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.json_last_error.php",
-        "args": []
-    },
-    {
-        "name": "json_last_error_msg",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.json_last_error_msg.php",
-        "args": []
-    }
+  {
+    "name": "json_decode",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "json",
+        "type": "string"
+      },
+      {
+        "name": "assoc",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "depth",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "json_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "depth",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "json_last_error",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "json_last_error_msg",
+    "type": "string",
+    "args": []
+  }
 ]

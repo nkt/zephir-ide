@@ -1,0 +1,161 @@
+[
+  {
+    "name": "aggregate",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "aggregate_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "aggregate_methods",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "aggregate_methods_by_list",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "methods_list",
+        "type": "array"
+      },
+      {
+        "name": "exclude",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "aggregate_methods_by_regexp",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "regexp",
+        "type": "string"
+      },
+      {
+        "name": "exclude",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "aggregate_properties",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "aggregate_properties_by_list",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "properties_list",
+        "type": "array"
+      },
+      {
+        "name": "exclude",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "aggregate_properties_by_regexp",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "regexp",
+        "type": "string"
+      },
+      {
+        "name": "exclude",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "deaggregate",
+    "type": "void",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

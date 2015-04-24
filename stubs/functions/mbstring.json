@@ -1,1156 +1,966 @@
 [
-    {
-        "name": "mb_convert_case",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_convert_case.php",
-        "args": [
-            {
-                "name": "sourcestring",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strtoupper",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strtoupper.php",
-        "args": [
-            {
-                "name": "sourcestring",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strtolower",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strtolower.php",
-        "args": [
-            {
-                "name": "sourcestring",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_language",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_language.php",
-        "args": [
-            {
-                "name": "language",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_internal_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_internal_encoding.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_http_input",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_http_input.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_http_output",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_http_output.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_detect_order",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_detect_order.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_substitute_character",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_substitute_character.php",
-        "args": [
-            {
-                "name": "substchar",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_parse_str",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_parse_str.php",
-        "args": [
-            {
-                "name": "encoded_string",
-                "type": "mixed"
-            },
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_output_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_output_handler.php",
-        "args": [
-            {
-                "name": "contents",
-                "type": "mixed"
-            },
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_preferred_mime_name",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_preferred_mime_name.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strlen",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strlen.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strpos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strrpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strrpos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_stripos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_stripos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strripos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strripos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strstr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strstr.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "part",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strrchr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strrchr.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "part",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_stristr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_stristr.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "part",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strrichr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strrichr.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "part",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_substr_count",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_substr_count.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_substr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_substr.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "start",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strcut",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strcut.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "start",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strwidth",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strwidth.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_strimwidth",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_strimwidth.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "start",
-                "type": "mixed"
-            },
-            {
-                "name": "width",
-                "type": "mixed"
-            },
-            {
-                "name": "trimmarker",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_convert_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_convert_encoding.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "to",
-                "type": "mixed"
-            },
-            {
-                "name": "from",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_detect_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_detect_encoding.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding_list",
-                "type": "mixed"
-            },
-            {
-                "name": "strict",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_list_encodings",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_list_encodings.php",
-        "args": []
-    },
-    {
-        "name": "mb_encoding_aliases",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_encoding_aliases.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_convert_kana",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_convert_kana.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_encode_mimeheader",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_encode_mimeheader.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            },
-            {
-                "name": "transfer",
-                "type": "mixed"
-            },
-            {
-                "name": "linefeed",
-                "type": "mixed"
-            },
-            {
-                "name": "indent",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_decode_mimeheader",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_decode_mimeheader.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_convert_variables",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_convert_variables.php",
-        "args": [
-            {
-                "name": "to",
-                "type": "mixed"
-            },
-            {
-                "name": "from",
-                "type": "mixed"
-            },
-            {
-                "name": "vars",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_encode_numericentity",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_encode_numericentity.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "convmap",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            },
-            {
-                "name": "is_hex",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_decode_numericentity",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_decode_numericentity.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "convmap",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_send_mail",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_send_mail.php",
-        "args": [
-            {
-                "name": "to",
-                "type": "mixed"
-            },
-            {
-                "name": "subject",
-                "type": "mixed"
-            },
-            {
-                "name": "message",
-                "type": "mixed"
-            },
-            {
-                "name": "additional_headers",
-                "type": "mixed"
-            },
-            {
-                "name": "additional_parameters",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_get_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_get_info.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_check_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_check_encoding.php",
-        "args": [
-            {
-                "name": "var",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_regex_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_regex_encoding.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_regex_set_options",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_regex_set_options.php",
-        "args": [
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "registers",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_eregi",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_eregi.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "registers",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_replace",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_replace.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "replacement",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_eregi_replace",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_eregi_replace.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "replacement",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_replace_callback",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_replace_callback.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "callback",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_split",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_split.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "limit",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_match",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_match.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_search",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_search_pos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_pos.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_search_regs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_regs.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_search_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_init.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mb_ereg_search_getregs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_getregs.php",
-        "args": []
-    },
-    {
-        "name": "mb_ereg_search_getpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_getpos.php",
-        "args": []
-    },
-    {
-        "name": "mb_ereg_search_setpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mb_ereg_search_setpos.php",
-        "args": [
-            {
-                "name": "position",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbregex_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbregex_encoding.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "registers",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mberegi",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mberegi.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "registers",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_replace",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_replace.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "replacement",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mberegi_replace",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mberegi_replace.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "replacement",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbsplit",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbsplit.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "limit",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_match",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_match.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_search",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_search_pos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_pos.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_search_regs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_regs.php",
-        "args": [
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_search_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_init.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "pattern",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mbereg_search_getregs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_getregs.php",
-        "args": []
-    },
-    {
-        "name": "mbereg_search_getpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_getpos.php",
-        "args": []
-    },
-    {
-        "name": "mbereg_search_setpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mbereg_search_setpos.php",
-        "args": [
-            {
-                "name": "position",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "mb_check_encoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_convert_case",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_convert_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "to_encoding",
+        "type": "string"
+      },
+      {
+        "name": "from_encoding",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_convert_kana",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_convert_variables",
+    "type": "string",
+    "args": [
+      {
+        "name": "to_encoding",
+        "type": "string"
+      },
+      {
+        "name": "from_encoding",
+        "type": "mixed"
+      },
+      {
+        "name": "vars",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_decode_mimeheader",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mb_decode_numericentity",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "convmap",
+        "type": "array"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_detect_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "encoding_list",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "strict",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_detect_order",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "encoding_list",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_encode_mimeheader",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "transfer_encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "linefeed",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "indent",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_encode_numericentity",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "convmap",
+        "type": "array"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "is_hex",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_encoding_aliases",
+    "type": "array",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "regs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_match",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_replace",
+    "type": "string",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "replacement",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_replace_callback",
+    "type": "string",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_search",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_search_getpos",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "mb_ereg_search_getregs",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mb_ereg_search_init",
+    "type": "bool",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_search_pos",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_search_regs",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_ereg_search_setpos",
+    "type": "bool",
+    "args": [
+      {
+        "name": "position",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mb_eregi",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "regs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_eregi_replace",
+    "type": "string",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "replace",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_get_info",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_http_input",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_http_output",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_internal_encoding",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_language",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "language",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_list_encodings",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mb_output_handler",
+    "type": "string",
+    "args": [
+      {
+        "name": "contents",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mb_parse_str",
+    "type": "bool",
+    "args": [
+      {
+        "name": "encoded_string",
+        "type": "string"
+      },
+      {
+        "name": "result",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_preferred_mime_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mb_regex_encoding",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_regex_set_options",
+    "type": "string",
+    "args": [
+      {
+        "name": "options",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_send_mail",
+    "type": "bool",
+    "args": [
+      {
+        "name": "to",
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "additional_headers",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "additional_parameter",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_split",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strcut",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strimwidth",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "trimmarker",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_stripos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_stristr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "before_needle",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strlen",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strpos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strrchr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "part",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strrichr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "part",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strripos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strrpos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strstr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "before_needle",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strtolower",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strtoupper",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_strwidth",
+    "type": "int",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_substitute_character",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "substrchar",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_substr",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mb_substr_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
 ]

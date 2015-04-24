@@ -1,0 +1,37 @@
+[
+  {
+    "name": "mysqlnd_memcache_get_config",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_memcache_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mysql_connection",
+        "type": "mixed"
+      },
+      {
+        "name": "memcache_connection",
+        "type": "Memcached",
+        "optional": true
+      },
+      {
+        "name": "pattern",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callback",
+        "optional": true
+      }
+    ]
+  }
+]

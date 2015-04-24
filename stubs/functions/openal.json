@@ -1,0 +1,267 @@
+[
+  {
+    "name": "openal_buffer_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "openal_buffer_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "resource"
+      },
+      {
+        "name": "format",
+        "type": "int"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "freq",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "openal_buffer_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_buffer_get",
+    "type": "int",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "resource"
+      },
+      {
+        "name": "property",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "openal_buffer_loadwav",
+    "type": "bool",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "resource"
+      },
+      {
+        "name": "wavfile",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "openal_context_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_context_current",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_context_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_context_process",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_context_suspend",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_device_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_device_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "device_desc",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "openal_listener_get",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "property",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "openal_listener_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "property",
+        "type": "int"
+      },
+      {
+        "name": "setting",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "openal_source_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_get",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      },
+      {
+        "name": "property",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_pause",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_play",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_rewind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      },
+      {
+        "name": "property",
+        "type": "int"
+      },
+      {
+        "name": "setting",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "openal_source_stop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "openal_stream",
+    "type": "resource",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      },
+      {
+        "name": "format",
+        "type": "int"
+      },
+      {
+        "name": "rate",
+        "type": "int"
+      }
+    ]
+  }
+]

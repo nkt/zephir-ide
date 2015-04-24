@@ -1,0 +1,281 @@
+[
+  {
+    "name": "ovrimos_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_connect",
+    "type": "int",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "dborport",
+        "type": "string"
+      },
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_cursor",
+    "type": "string",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_exec",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection_id",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "parameters_array",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_fetch_into",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "result_array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "how",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "rownumber",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_fetch_row",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "how",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_field_len",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_field_num",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "field_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_field_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_longreadlen",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_prepare",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection_id",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_result",
+    "type": "string",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_result_all",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "int"
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ovrimos_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection_id",
+        "type": "int"
+      }
+    ]
+  }
+]

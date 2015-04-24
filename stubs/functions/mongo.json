@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bson_decode",
+    "type": "array",
+    "args": [
+      {
+        "name": "bson",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bson_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "anything",
+        "type": "mixed"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "overload",
+    "type": "void",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  }
+]

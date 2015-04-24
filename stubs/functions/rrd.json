@@ -1,0 +1,161 @@
+[
+  {
+    "name": "rrd_create",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrd_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "rrd_fetch",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrd_first",
+    "type": "int",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "raaindex",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "rrd_graph",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrd_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rrd_last",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rrd_lastupdate",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rrd_restore",
+    "type": "bool",
+    "args": [
+      {
+        "name": "xml_file",
+        "type": "string"
+      },
+      {
+        "name": "rrd_file",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "rrd_tune",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrd_update",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrd_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "rrd_xport",
+    "type": "array",
+    "args": [
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "rrdc_disconnect",
+    "type": "void",
+    "args": []
+  }
+]

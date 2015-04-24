@@ -1,0 +1,140 @@
+[
+  {
+    "name": "sqlite_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "dbhandle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlite_error_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "error_code",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sqlite_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "item",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "sqlite_factory",
+    "type": "SQLiteDatabase",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error_message",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlite_has_more",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlite_libencoding",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "sqlite_libversion",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "sqlite_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error_message",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlite_popen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error_message",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlite_udf_decode_binary",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "sqlite_udf_encode_binary",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "SQLiteResult::key",
+    "type": "int",
+    "args": []
+  }
+]

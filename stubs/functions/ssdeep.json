@@ -1,0 +1,36 @@
+[
+  {
+    "name": "ssdeep_fuzzy_compare",
+    "type": "int",
+    "args": [
+      {
+        "name": "signature1",
+        "type": "string"
+      },
+      {
+        "name": "signature2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssdeep_fuzzy_hash",
+    "type": "string",
+    "args": [
+      {
+        "name": "to_hash",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssdeep_fuzzy_hash_filename",
+    "type": "string",
+    "args": [
+      {
+        "name": "file_name",
+        "type": "string"
+      }
+    ]
+  }
+]

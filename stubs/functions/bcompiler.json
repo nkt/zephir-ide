@@ -1,0 +1,174 @@
+[
+  {
+    "name": "bcompiler_load",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_load_exe",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_parse_class",
+    "type": "bool",
+    "args": [
+      {
+        "name": "class",
+        "type": "string"
+      },
+      {
+        "name": "callback",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_read",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_class",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "className",
+        "type": "string"
+      },
+      {
+        "name": "extends",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_constant",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "constantName",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_exe_footer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "startpos",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_footer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "functionName",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_functions_from_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "fileName",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_header",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "write_ver",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcompiler_write_included_filename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filehandle",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  }
+]

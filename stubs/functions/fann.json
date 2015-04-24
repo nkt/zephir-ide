@@ -1,0 +1,1923 @@
+[
+  {
+    "name": "fann_cascadetrain_on_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "resource"
+      },
+      {
+        "name": "max_neurons",
+        "type": "int"
+      },
+      {
+        "name": "neurons_between_reports",
+        "type": "int"
+      },
+      {
+        "name": "desired_error",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_cascadetrain_on_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "max_neurons",
+        "type": "int"
+      },
+      {
+        "name": "neurons_between_reports",
+        "type": "int"
+      },
+      {
+        "name": "desired_error",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_clear_scaling_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_copy",
+    "type": "resource",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_from_file",
+    "type": "resource",
+    "args": [
+      {
+        "name": "configuration_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_shortcut",
+    "type": "reference",
+    "args": [
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons1",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons2",
+        "type": "int"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fann_create_shortcut_array",
+    "type": "resource",
+    "args": [
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "layers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_sparse",
+    "type": "ReturnType",
+    "args": [
+      {
+        "name": "connection_rate",
+        "type": "float"
+      },
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons1",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons2",
+        "type": "int"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fann_create_sparse_array",
+    "type": "ReturnType",
+    "args": [
+      {
+        "name": "connection_rate",
+        "type": "float"
+      },
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "layers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_standard",
+    "type": "resource",
+    "args": [
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons1",
+        "type": "int"
+      },
+      {
+        "name": "num_neurons2",
+        "type": "int"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fann_create_standard_array",
+    "type": "resource",
+    "args": [
+      {
+        "name": "num_layers",
+        "type": "int"
+      },
+      {
+        "name": "layers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_train",
+    "type": "resource",
+    "args": [
+      {
+        "name": "num_data",
+        "type": "int"
+      },
+      {
+        "name": "num_input",
+        "type": "int"
+      },
+      {
+        "name": "num_output",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_create_train_from_callback",
+    "type": "resource",
+    "args": [
+      {
+        "name": "num_data",
+        "type": "int"
+      },
+      {
+        "name": "num_input",
+        "type": "int"
+      },
+      {
+        "name": "num_output",
+        "type": "int"
+      },
+      {
+        "name": "user_function",
+        "type": "collable"
+      }
+    ]
+  },
+  {
+    "name": "fann_descale_input",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "input_vector",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_descale_output",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "output_vector",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_descale_train",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_destroy_train",
+    "type": "bool",
+    "args": [
+      {
+        "name": "train_data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_duplicate_train_data",
+    "type": "resource",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_activation_function",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      },
+      {
+        "name": "neuron",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_activation_steepness",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      },
+      {
+        "name": "neuron",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_bias_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_bit_fail",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_bit_fail_limit",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_activation_functions",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_activation_functions_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_activation_steepnesses",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_activation_steepnesses_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_candidate_change_fraction",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_candidate_limit",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_candidate_stagnation_epochs",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_max_cand_epochs",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_max_out_epochs",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_min_cand_epochs",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_min_out_epochs",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_num_candidate_groups",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_num_candidates",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_output_change_fraction",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_output_stagnation_epochs",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_cascade_weight_multiplier",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_connection_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_connection_rate",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_errstr",
+    "type": "string",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_layer_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_learning_momentum",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_learning_rate",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_MSE",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_network_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_num_input",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_num_layers",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_num_output",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_quickprop_decay",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_quickprop_mu",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_rprop_decrease_factor",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_rprop_delta_max",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_rprop_delta_min",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_rprop_delta_zero",
+    "type": "ReturnType",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_rprop_increase_factor",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_sarprop_step_error_shift",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_sarprop_step_error_threshold_factor",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_sarprop_temperature",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_sarprop_weight_decay_shift",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_total_connections",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_total_neurons",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_train_error_function",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_train_stop_function",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_get_training_algorithm",
+    "type": "int",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_init_weights",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_length_train_data",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_merge_train_data",
+    "type": "resource",
+    "args": [
+      {
+        "name": "data1",
+        "type": "resource"
+      },
+      {
+        "name": "data2",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_num_input_train_data",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_num_output_train_data",
+    "type": "int",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_print_error",
+    "type": "void",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_randomize_weights",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "min_weight",
+        "type": "float"
+      },
+      {
+        "name": "max_weight",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_read_train_from_file",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_reset_errno",
+    "type": "void",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_reset_errstr",
+    "type": "void",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_reset_MSE",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_run",
+    "type": "array",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "input",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_save",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "configuration_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_save_train",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      },
+      {
+        "name": "file_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_input",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "input_vector",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_input_train_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_min",
+        "type": "float"
+      },
+      {
+        "name": "new_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_output",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "output_vector",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_output_train_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_min",
+        "type": "float"
+      },
+      {
+        "name": "new_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_train",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_scale_train_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_min",
+        "type": "float"
+      },
+      {
+        "name": "new_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_function",
+        "type": "int"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      },
+      {
+        "name": "neuron",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_function_hidden",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_function",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_function_layer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_function",
+        "type": "int"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_function_output",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_function",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_steepness",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_steepness",
+        "type": "float"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      },
+      {
+        "name": "neuron",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_steepness_hidden",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_steepness",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_steepness_layer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_steepness",
+        "type": "float"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_activation_steepness_output",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "activation_steepness",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_bit_fail_limit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "bit_fail_limit",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_callback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "callback",
+        "type": "collable"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_activation_functions",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_activation_functions",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_activation_steepnesses",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_activation_steepnesses_count",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_candidate_change_fraction",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_candidate_change_fraction",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_candidate_limit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_candidate_limit",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_candidate_stagnation_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_candidate_stagnation_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_max_cand_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_max_cand_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_max_out_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_max_out_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_min_cand_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_min_cand_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_min_out_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_min_out_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_num_candidate_groups",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_num_candidate_groups",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_output_change_fraction",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_output_change_fraction",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_output_stagnation_epochs",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_output_stagnation_epochs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_cascade_weight_multiplier",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "cascade_weight_multiplier",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_error_log",
+    "type": "void",
+    "args": [
+      {
+        "name": "errdat",
+        "type": "resource"
+      },
+      {
+        "name": "log_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_input_scaling_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_input_min",
+        "type": "float"
+      },
+      {
+        "name": "new_input_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_learning_momentum",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "learning_momentum",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_learning_rate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "learning_rate",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_output_scaling_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_output_min",
+        "type": "float"
+      },
+      {
+        "name": "new_output_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_quickprop_decay",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "quickprop_decay",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_quickprop_mu",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "quickprop_mu",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_rprop_decrease_factor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "rprop_decrease_factor",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_rprop_delta_max",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "rprop_delta_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_rprop_delta_min",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "rprop_delta_min",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_rprop_delta_zero",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "rprop_delta_zero",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_rprop_increase_factor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "rprop_increase_factor",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_sarprop_step_error_shift",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "sarprop_step_error_shift",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_sarprop_step_error_threshold_factor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "sarprop_step_error_threshold_factor",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_sarprop_temperature",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "sarprop_temperature",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_sarprop_weight_decay_shift",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "sarprop_weight_decay_shift",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_scaling_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "train_data",
+        "type": "resource"
+      },
+      {
+        "name": "new_input_min",
+        "type": "float"
+      },
+      {
+        "name": "new_input_max",
+        "type": "float"
+      },
+      {
+        "name": "new_output_min",
+        "type": "float"
+      },
+      {
+        "name": "new_output_max",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_train_error_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "error_function",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_train_stop_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "stop_function",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_training_algorithm",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "training_algorithm",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_weight",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "from_neuron",
+        "type": "int"
+      },
+      {
+        "name": "to_neuron",
+        "type": "int"
+      },
+      {
+        "name": "weight",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_set_weight_array",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "connections",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_shuffle_train_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "train_data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_subset_train_data",
+    "type": "resource",
+    "args": [
+      {
+        "name": "data",
+        "type": "resource"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fann_test",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "input",
+        "type": "array"
+      },
+      {
+        "name": "desired_output",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_test_data",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_train",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "input",
+        "type": "array"
+      },
+      {
+        "name": "desired_output",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "fann_train_epoch",
+    "type": "float",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fann_train_on_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "resource"
+      },
+      {
+        "name": "max_epochs",
+        "type": "int"
+      },
+      {
+        "name": "epochs_between_reports",
+        "type": "int"
+      },
+      {
+        "name": "desired_error",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fann_train_on_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ann",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "max_epochs",
+        "type": "int"
+      },
+      {
+        "name": "epochs_between_reports",
+        "type": "int"
+      },
+      {
+        "name": "desired_error",
+        "type": "float"
+      }
+    ]
+  }
+]

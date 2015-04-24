@@ -1,0 +1,371 @@
+[
+  {
+    "name": "msql_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_create_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_data_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_db_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_drop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "msql_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_fetch_field",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_flags",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_len",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_table",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msql_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_list_dbs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_list_fields",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "tablename",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_list_tables",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "query_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "msql_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_result",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msql_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
+]

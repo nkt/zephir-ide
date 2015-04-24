@@ -1,0 +1,178 @@
+[
+  {
+    "name": "bcadd",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bccomp",
+    "type": "int",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcdiv",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcmod",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "modulus",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bcmul",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcpow",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcpowmod",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "modulus",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcscale",
+    "type": "bool",
+    "args": [
+      {
+        "name": "scale",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "bcsqrt",
+    "type": "string",
+    "args": [
+      {
+        "name": "operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bcsub",
+    "type": "string",
+    "args": [
+      {
+        "name": "left_operand",
+        "type": "string"
+      },
+      {
+        "name": "right_operand",
+        "type": "string"
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

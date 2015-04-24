@@ -1,0 +1,44 @@
+[
+  {
+    "name": "is_tainted",
+    "type": "bool",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "taint",
+    "type": "bool",
+    "args": [
+      {
+        "name": "string",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "untaint",
+    "type": "bool",
+    "args": [
+      {
+        "name": "string",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

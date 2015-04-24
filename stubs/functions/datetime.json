@@ -1,0 +1,412 @@
+[
+  {
+    "name": "checkdate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "month",
+        "type": "int"
+      },
+      {
+        "name": "day",
+        "type": "int"
+      },
+      {
+        "name": "year",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "date",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "date_default_timezone_get",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "date_default_timezone_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "timezone_identifier",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "date_parse",
+    "type": "array",
+    "args": [
+      {
+        "name": "date",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "date_parse_from_format",
+    "type": "array",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "date_sun_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "time",
+        "type": "int"
+      },
+      {
+        "name": "latitude",
+        "type": "float"
+      },
+      {
+        "name": "longitude",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "date_sunrise",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "int"
+      },
+      {
+        "name": "format",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "latitude",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "longitude",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "zenith",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "gmt_offset",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "date_sunset",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "int"
+      },
+      {
+        "name": "format",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "latitude",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "longitude",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "zenith",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "gmt_offset",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getdate",
+    "type": "array",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gettimeofday",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "return_float",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gmdate",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gmmktime",
+    "type": "int",
+    "args": [
+      {
+        "name": "hour",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "minute",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "second",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "month",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "day",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "year",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "is_dst",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gmstrftime",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "idate",
+    "type": "int",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "localtime",
+    "type": "array",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "is_associative",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "microtime",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "get_as_float",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mktime",
+    "type": "int",
+    "args": [
+      {
+        "name": "hour",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "minute",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "second",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "month",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "day",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "year",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "is_dst",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strftime",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strptime",
+    "type": "array",
+    "args": [
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strtotime",
+    "type": "int",
+    "args": [
+      {
+        "name": "time",
+        "type": "string"
+      },
+      {
+        "name": "now",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "time",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "timezone_name_from_abbr",
+    "type": "string",
+    "args": [
+      {
+        "name": "abbr",
+        "type": "string"
+      },
+      {
+        "name": "gmtOffset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "isdst",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "timezone_version_get",
+    "type": "string",
+    "args": []
+  }
+]

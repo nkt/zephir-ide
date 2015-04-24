@@ -1,0 +1,535 @@
+[
+  {
+    "name": "m_checkstatus",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_completeauthorizations",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "array",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "m_connect",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_connectionerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_deletetrans",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_destroyconn",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_destroyengine",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "m_getcell",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      },
+      {
+        "name": "column",
+        "type": "string"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_getcellbynum",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      },
+      {
+        "name": "column",
+        "type": "int"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_getcommadelimited",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_getheader",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      },
+      {
+        "name": "column_num",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_initconn",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "m_initengine",
+    "type": "int",
+    "args": [
+      {
+        "name": "location",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_iscommadelimited",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_maxconntimeout",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "secs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_monitor",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_numcolumns",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_numrows",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_parsecommadelimited",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_responsekeys",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_responseparam",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_returnstatus",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_setblocking",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "tf",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_setdropfile",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_setip",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_setssl",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_setssl_cafile",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "cafile",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_setssl_files",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "sslkeyfile",
+        "type": "string"
+      },
+      {
+        "name": "sslcertfile",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_settimeout",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "seconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_sslcert_gen_hash",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_transactionssent",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_transinqueue",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_transkeyval",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "m_transnew",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "m_transsend",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_uwait",
+    "type": "int",
+    "args": [
+      {
+        "name": "microsecs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_validateidentifier",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "tf",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_verifyconnection",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "tf",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "m_verifysslcert",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "tf",
+        "type": "int"
+      }
+    ]
+  }
+]

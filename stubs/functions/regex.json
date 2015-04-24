@@ -1,0 +1,126 @@
+[
+  {
+    "name": "ereg",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "regs",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ereg_replace",
+    "type": "string",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "replacement",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "eregi",
+    "type": "int",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "regs",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eregi_replace",
+    "type": "string",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "replacement",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "split",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "spliti",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sql_regcase",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  }
+]

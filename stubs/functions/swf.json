@@ -1,0 +1,928 @@
+[
+  {
+    "name": "swf_actiongeturl",
+    "type": "void",
+    "args": [
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "target",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_actiongotoframe",
+    "type": "void",
+    "args": [
+      {
+        "name": "framenumber",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_actiongotolabel",
+    "type": "void",
+    "args": [
+      {
+        "name": "label",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_actionnextframe",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_actionplay",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_actionprevframe",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_actionsettarget",
+    "type": "void",
+    "args": [
+      {
+        "name": "target",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_actionstop",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_actiontogglequality",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_actionwaitforframe",
+    "type": "void",
+    "args": [
+      {
+        "name": "framenumber",
+        "type": "int"
+      },
+      {
+        "name": "skipcount",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_addbuttonrecord",
+    "type": "void",
+    "args": [
+      {
+        "name": "states",
+        "type": "int"
+      },
+      {
+        "name": "shapeid",
+        "type": "int"
+      },
+      {
+        "name": "depth",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_addcolor",
+    "type": "void",
+    "args": [
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_closefile",
+    "type": "void",
+    "args": [
+      {
+        "name": "return_file",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "swf_definebitmap",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "image_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_definefont",
+    "type": "void",
+    "args": [
+      {
+        "name": "fontid",
+        "type": "int"
+      },
+      {
+        "name": "fontname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_defineline",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_definepoly",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "coords",
+        "type": "array"
+      },
+      {
+        "name": "npoints",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_definerect",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_definetext",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "docenter",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_endbutton",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_enddoaction",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_endshape",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_endsymbol",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_fontsize",
+    "type": "void",
+    "args": [
+      {
+        "name": "size",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_fontslant",
+    "type": "void",
+    "args": [
+      {
+        "name": "slant",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_fonttracking",
+    "type": "void",
+    "args": [
+      {
+        "name": "tracking",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_getbitmapinfo",
+    "type": "array",
+    "args": [
+      {
+        "name": "bitmapid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_getfontinfo",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "swf_getframe",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "swf_labelframe",
+    "type": "void",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_lookat",
+    "type": "void",
+    "args": [
+      {
+        "name": "view_x",
+        "type": "float"
+      },
+      {
+        "name": "view_y",
+        "type": "float"
+      },
+      {
+        "name": "view_z",
+        "type": "float"
+      },
+      {
+        "name": "reference_x",
+        "type": "float"
+      },
+      {
+        "name": "reference_y",
+        "type": "float"
+      },
+      {
+        "name": "reference_z",
+        "type": "float"
+      },
+      {
+        "name": "twist",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_modifyobject",
+    "type": "void",
+    "args": [
+      {
+        "name": "depth",
+        "type": "int"
+      },
+      {
+        "name": "how",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_mulcolor",
+    "type": "void",
+    "args": [
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_nextid",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "swf_oncondition",
+    "type": "void",
+    "args": [
+      {
+        "name": "transition",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_openfile",
+    "type": "void",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "framerate",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_ortho",
+    "type": "void",
+    "args": [
+      {
+        "name": "xmin",
+        "type": "float"
+      },
+      {
+        "name": "xmax",
+        "type": "float"
+      },
+      {
+        "name": "ymin",
+        "type": "float"
+      },
+      {
+        "name": "ymax",
+        "type": "float"
+      },
+      {
+        "name": "zmin",
+        "type": "float"
+      },
+      {
+        "name": "zmax",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_ortho2",
+    "type": "void",
+    "args": [
+      {
+        "name": "xmin",
+        "type": "float"
+      },
+      {
+        "name": "xmax",
+        "type": "float"
+      },
+      {
+        "name": "ymin",
+        "type": "float"
+      },
+      {
+        "name": "ymax",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_perspective",
+    "type": "void",
+    "args": [
+      {
+        "name": "fovy",
+        "type": "float"
+      },
+      {
+        "name": "aspect",
+        "type": "float"
+      },
+      {
+        "name": "near",
+        "type": "float"
+      },
+      {
+        "name": "far",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_placeobject",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "depth",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_polarview",
+    "type": "void",
+    "args": [
+      {
+        "name": "dist",
+        "type": "float"
+      },
+      {
+        "name": "azimuth",
+        "type": "float"
+      },
+      {
+        "name": "incidence",
+        "type": "float"
+      },
+      {
+        "name": "twist",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_popmatrix",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_posround",
+    "type": "void",
+    "args": [
+      {
+        "name": "round",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_pushmatrix",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_removeobject",
+    "type": "void",
+    "args": [
+      {
+        "name": "depth",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_rotate",
+    "type": "void",
+    "args": [
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "axis",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_scale",
+    "type": "void",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "z",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_setfont",
+    "type": "void",
+    "args": [
+      {
+        "name": "fontid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_setframe",
+    "type": "void",
+    "args": [
+      {
+        "name": "framenumber",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapearc",
+    "type": "void",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "ang1",
+        "type": "float"
+      },
+      {
+        "name": "ang2",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapecurveto",
+    "type": "void",
+    "args": [
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapecurveto3",
+    "type": "void",
+    "args": [
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      },
+      {
+        "name": "x3",
+        "type": "float"
+      },
+      {
+        "name": "y3",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapefillbitmapclip",
+    "type": "void",
+    "args": [
+      {
+        "name": "bitmapid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapefillbitmaptile",
+    "type": "void",
+    "args": [
+      {
+        "name": "bitmapid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapefilloff",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_shapefillsolid",
+    "type": "void",
+    "args": [
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapelinesolid",
+    "type": "void",
+    "args": [
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapelineto",
+    "type": "void",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_shapemoveto",
+    "type": "void",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_showframe",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_startbutton",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_startdoaction",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "swf_startshape",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_startsymbol",
+    "type": "void",
+    "args": [
+      {
+        "name": "objid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "swf_textwidth",
+    "type": "float",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "swf_translate",
+    "type": "void",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "z",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "swf_viewport",
+    "type": "void",
+    "args": [
+      {
+        "name": "xmin",
+        "type": "float"
+      },
+      {
+        "name": "xmax",
+        "type": "float"
+      },
+      {
+        "name": "ymin",
+        "type": "float"
+      },
+      {
+        "name": "ymax",
+        "type": "float"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "ezmlm_hash",
+    "type": "int",
+    "args": [
+      {
+        "name": "addr",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mail",
+    "type": "bool",
+    "args": [
+      {
+        "name": "to",
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "additional_headers",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "additional_parameters",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

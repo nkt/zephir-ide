@@ -1,0 +1,12 @@
+[
+  {
+    "name": "memcache_debug",
+    "type": "bool",
+    "args": [
+      {
+        "name": "on_off",
+        "type": "bool"
+      }
+    ]
+  }
+]

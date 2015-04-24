@@ -1,0 +1,32 @@
+[
+  {
+    "name": "expect_expectl",
+    "type": "int",
+    "args": [
+      {
+        "name": "expect",
+        "type": "resource"
+      },
+      {
+        "name": "cases",
+        "type": "array"
+      },
+      {
+        "name": "match",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "expect_popen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      }
+    ]
+  }
+]

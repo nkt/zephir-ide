@@ -1,0 +1,863 @@
+[
+  {
+    "name": "fbsql_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_autocommit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "OnOff",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_blob_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_change_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_clob_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "clob_handle",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_create_blob",
+    "type": "string",
+    "args": [
+      {
+        "name": "blob_data",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_create_clob",
+    "type": "string",
+    "args": [
+      {
+        "name": "clob_data",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_create_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "database_options",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_data_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_database",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_database_password",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "database_password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_db_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_db_status",
+    "type": "int",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_drop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_field",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_lengths",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_flags",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_len",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_index",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_table",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_get_autostart_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_hostname",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "host_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_insert_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_list_dbs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_list_fields",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_list_tables",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_next_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_password",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "batch_size",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_read_blob",
+    "type": "string",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_read_clob",
+    "type": "string",
+    "args": [
+      {
+        "name": "clob_handle",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_result",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "field",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_rows_fetched",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_set_characterset",
+    "type": "void",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "characterset",
+        "type": "int"
+      },
+      {
+        "name": "in_out_both",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_set_lob_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "lob_mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_set_password",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "old_password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_set_transaction",
+    "type": "void",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "locking",
+        "type": "int"
+      },
+      {
+        "name": "isolation",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_start_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "database_options",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_stop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_table_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fbsql_username",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fbsql_warnings",
+    "type": "bool",
+    "args": [
+      {
+        "name": "OnOff",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

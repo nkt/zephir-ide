@@ -1,0 +1,34 @@
+[
+  {
+    "name": "recode_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "request",
+        "type": "string"
+      },
+      {
+        "name": "input",
+        "type": "resource"
+      },
+      {
+        "name": "output",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "recode_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "request",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  }
+]

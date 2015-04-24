@@ -1,0 +1,732 @@
+[
+  {
+    "name": "stream_await",
+    "type": "Awaitable<int>",
+    "args": [
+      {
+        "name": "fp",
+        "type": "resource"
+      },
+      {
+        "name": "events",
+        "type": "int"
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_bucket_append",
+    "type": "void",
+    "args": [
+      {
+        "name": "brigade",
+        "type": "resource"
+      },
+      {
+        "name": "bucket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_bucket_make_writeable",
+    "type": "object",
+    "args": [
+      {
+        "name": "brigade",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_bucket_new",
+    "type": "object",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "buffer",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stream_bucket_prepend",
+    "type": "void",
+    "args": [
+      {
+        "name": "brigade",
+        "type": "resource"
+      },
+      {
+        "name": "bucket",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_context_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_context_get_default",
+    "type": "resource",
+    "args": [
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_context_get_options",
+    "type": "array",
+    "args": [
+      {
+        "name": "stream_or_context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_context_get_params",
+    "type": "array",
+    "args": [
+      {
+        "name": "stream_or_context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_context_set_default",
+    "type": "resource",
+    "args": [
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stream_context_set_params",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream_or_context",
+        "type": "resource"
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stream_copy_to_stream",
+    "type": "int",
+    "args": [
+      {
+        "name": "source",
+        "type": "resource"
+      },
+      {
+        "name": "dest",
+        "type": "resource"
+      },
+      {
+        "name": "maxlength",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_encoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_filter_append",
+    "type": "resource",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "filtername",
+        "type": "string"
+      },
+      {
+        "name": "read_write",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_filter_prepend",
+    "type": "resource",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "filtername",
+        "type": "string"
+      },
+      {
+        "name": "read_write",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_filter_register",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filtername",
+        "type": "string"
+      },
+      {
+        "name": "classname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stream_filter_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream_filter",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_get_contents",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "maxlength",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_get_filters",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "stream_get_line",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "ending",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_get_meta_data",
+    "type": "array",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_get_transports",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "stream_get_wrappers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "stream_is_local",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream_or_url",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "stream_notification_callback",
+    "type": "void",
+    "args": [
+      {
+        "name": "notification_code",
+        "type": "int"
+      },
+      {
+        "name": "severity",
+        "type": "int"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "message_code",
+        "type": "int"
+      },
+      {
+        "name": "bytes_transferred",
+        "type": "int"
+      },
+      {
+        "name": "bytes_max",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_resolve_include_path",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stream_select",
+    "type": "int",
+    "args": [
+      {
+        "name": "read",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "write",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "except",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "tv_sec",
+        "type": "int"
+      },
+      {
+        "name": "tv_usec",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_set_blocking",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_set_chunk_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "fp",
+        "type": "resource"
+      },
+      {
+        "name": "chunk_size",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_set_read_buffer",
+    "type": "int",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "buffer",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_set_timeout",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "seconds",
+        "type": "int"
+      },
+      {
+        "name": "microseconds",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_set_write_buffer",
+    "type": "int",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "buffer",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_accept",
+    "type": "resource",
+    "args": [
+      {
+        "name": "server_socket",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "peername",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_client",
+    "type": "resource",
+    "args": [
+      {
+        "name": "remote_socket",
+        "type": "string"
+      },
+      {
+        "name": "errno",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "errstr",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_enable_crypto",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "enable",
+        "type": "bool"
+      },
+      {
+        "name": "crypto_type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "session_stream",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_get_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "want_peer",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_pair",
+    "type": "array",
+    "args": [
+      {
+        "name": "domain",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "protocol",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_recvfrom",
+    "type": "string",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_sendto",
+    "type": "int",
+    "args": [
+      {
+        "name": "socket",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_server",
+    "type": "resource",
+    "args": [
+      {
+        "name": "local_socket",
+        "type": "string"
+      },
+      {
+        "name": "errno",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "errstr",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_socket_shutdown",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "how",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stream_supports_lock",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "stream_wrapper_register",
+    "type": "bool",
+    "args": [
+      {
+        "name": "protocol",
+        "type": "string"
+      },
+      {
+        "name": "classname",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stream_wrapper_restore",
+    "type": "bool",
+    "args": [
+      {
+        "name": "protocol",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stream_wrapper_unregister",
+    "type": "bool",
+    "args": [
+      {
+        "name": "protocol",
+        "type": "string"
+      }
+    ]
+  }
+]

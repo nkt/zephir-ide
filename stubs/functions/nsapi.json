@@ -1,0 +1,22 @@
+[
+  {
+    "name": "nsapi_request_headers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "nsapi_response_headers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "nsapi_virtual",
+    "type": "bool",
+    "args": [
+      {
+        "name": "uri",
+        "type": "string"
+      }
+    ]
+  }
+]

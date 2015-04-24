@@ -1,0 +1,2261 @@
+[
+  {
+    "name": "gd_info",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "getimagesize",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "imageinfo",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getimagesizefromstring",
+    "type": "array",
+    "args": [
+      {
+        "name": "imagedata",
+        "type": "string"
+      },
+      {
+        "name": "imageinfo",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "image2wbmp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "threshold",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "image_type_to_extension",
+    "type": "string",
+    "args": [
+      {
+        "name": "imagetype",
+        "type": "int"
+      },
+      {
+        "name": "include_dot",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "image_type_to_mime_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "imagetype",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imageaffine",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "affine",
+        "type": "array"
+      },
+      {
+        "name": "clip",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imageaffinematrixconcat",
+    "type": "array",
+    "args": [
+      {
+        "name": "m1",
+        "type": "array"
+      },
+      {
+        "name": "m2",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "imageaffinematrixget",
+    "type": "array",
+    "args": [
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagealphablending",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "blendmode",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "imageantialias",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "enabled",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "imagearc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "cx",
+        "type": "int"
+      },
+      {
+        "name": "cy",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "end",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagechar",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "c",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecharup",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "c",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorallocate",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorallocatealpha",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      },
+      {
+        "name": "alpha",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorat",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorclosest",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorclosestalpha",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      },
+      {
+        "name": "alpha",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorclosesthwb",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolordeallocate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorexact",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorexactalpha",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      },
+      {
+        "name": "alpha",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolormatch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image1",
+        "type": "resource"
+      },
+      {
+        "name": "image2",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorresolve",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorresolvealpha",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      },
+      {
+        "name": "alpha",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorset",
+    "type": "void",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      },
+      {
+        "name": "red",
+        "type": "int"
+      },
+      {
+        "name": "green",
+        "type": "int"
+      },
+      {
+        "name": "blue",
+        "type": "int"
+      },
+      {
+        "name": "alpha",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagecolorsforindex",
+    "type": "array",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecolorstotal",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagecolortransparent",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "color",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imageconvolution",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "matrix",
+        "type": "array"
+      },
+      {
+        "name": "div",
+        "type": "float"
+      },
+      {
+        "name": "offset",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "imagecopy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dst_im",
+        "type": "resource"
+      },
+      {
+        "name": "src_im",
+        "type": "resource"
+      },
+      {
+        "name": "dst_x",
+        "type": "int"
+      },
+      {
+        "name": "dst_y",
+        "type": "int"
+      },
+      {
+        "name": "src_x",
+        "type": "int"
+      },
+      {
+        "name": "src_y",
+        "type": "int"
+      },
+      {
+        "name": "src_w",
+        "type": "int"
+      },
+      {
+        "name": "src_h",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecopymerge",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dst_im",
+        "type": "resource"
+      },
+      {
+        "name": "src_im",
+        "type": "resource"
+      },
+      {
+        "name": "dst_x",
+        "type": "int"
+      },
+      {
+        "name": "dst_y",
+        "type": "int"
+      },
+      {
+        "name": "src_x",
+        "type": "int"
+      },
+      {
+        "name": "src_y",
+        "type": "int"
+      },
+      {
+        "name": "src_w",
+        "type": "int"
+      },
+      {
+        "name": "src_h",
+        "type": "int"
+      },
+      {
+        "name": "pct",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecopymergegray",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dst_im",
+        "type": "resource"
+      },
+      {
+        "name": "src_im",
+        "type": "resource"
+      },
+      {
+        "name": "dst_x",
+        "type": "int"
+      },
+      {
+        "name": "dst_y",
+        "type": "int"
+      },
+      {
+        "name": "src_x",
+        "type": "int"
+      },
+      {
+        "name": "src_y",
+        "type": "int"
+      },
+      {
+        "name": "src_w",
+        "type": "int"
+      },
+      {
+        "name": "src_h",
+        "type": "int"
+      },
+      {
+        "name": "pct",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecopyresampled",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dst_image",
+        "type": "resource"
+      },
+      {
+        "name": "src_image",
+        "type": "resource"
+      },
+      {
+        "name": "dst_x",
+        "type": "int"
+      },
+      {
+        "name": "dst_y",
+        "type": "int"
+      },
+      {
+        "name": "src_x",
+        "type": "int"
+      },
+      {
+        "name": "src_y",
+        "type": "int"
+      },
+      {
+        "name": "dst_w",
+        "type": "int"
+      },
+      {
+        "name": "dst_h",
+        "type": "int"
+      },
+      {
+        "name": "src_w",
+        "type": "int"
+      },
+      {
+        "name": "src_h",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecopyresized",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dst_image",
+        "type": "resource"
+      },
+      {
+        "name": "src_image",
+        "type": "resource"
+      },
+      {
+        "name": "dst_x",
+        "type": "int"
+      },
+      {
+        "name": "dst_y",
+        "type": "int"
+      },
+      {
+        "name": "src_x",
+        "type": "int"
+      },
+      {
+        "name": "src_y",
+        "type": "int"
+      },
+      {
+        "name": "dst_w",
+        "type": "int"
+      },
+      {
+        "name": "dst_h",
+        "type": "int"
+      },
+      {
+        "name": "src_w",
+        "type": "int"
+      },
+      {
+        "name": "src_h",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecreate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromgd",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromgd2",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromgd2part",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "srcX",
+        "type": "int"
+      },
+      {
+        "name": "srcY",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromgif",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromjpeg",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefrompng",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromstring",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromwbmp",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromwebp",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromxbm",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatefromxpm",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagecreatetruecolor",
+    "type": "resource",
+    "args": [
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagecrop",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "rect",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "imagecropauto",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "threshold",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "color",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagedashedline",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "int"
+      },
+      {
+        "name": "y1",
+        "type": "int"
+      },
+      {
+        "name": "x2",
+        "type": "int"
+      },
+      {
+        "name": "y2",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagedestroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imageellipse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "cx",
+        "type": "int"
+      },
+      {
+        "name": "cy",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilledarc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "cx",
+        "type": "int"
+      },
+      {
+        "name": "cy",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "end",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      },
+      {
+        "name": "style",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilledellipse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "cx",
+        "type": "int"
+      },
+      {
+        "name": "cy",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilledpolygon",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "points",
+        "type": "array"
+      },
+      {
+        "name": "num_points",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilledrectangle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "int"
+      },
+      {
+        "name": "y1",
+        "type": "int"
+      },
+      {
+        "name": "x2",
+        "type": "int"
+      },
+      {
+        "name": "y2",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilltoborder",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "border",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefilter",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filtertype",
+        "type": "int"
+      },
+      {
+        "name": "arg1",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "arg2",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "arg3",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "arg4",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imageflip",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefontheight",
+    "type": "int",
+    "args": [
+      {
+        "name": "font",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagefontwidth",
+    "type": "int",
+    "args": [
+      {
+        "name": "font",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imageftbbox",
+    "type": "array",
+    "args": [
+      {
+        "name": "size",
+        "type": "float"
+      },
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "fontfile",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "extrainfo",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagefttext",
+    "type": "array",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "size",
+        "type": "float"
+      },
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      },
+      {
+        "name": "fontfile",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "extrainfo",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagegammacorrect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "inputgamma",
+        "type": "float"
+      },
+      {
+        "name": "outputgamma",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "imagegd",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagegd2",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "chunk_size",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagegif",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagegrabscreen",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "imagegrabwindow",
+    "type": "resource",
+    "args": [
+      {
+        "name": "window_handle",
+        "type": "int"
+      },
+      {
+        "name": "client_area",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imageinterlace",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "interlace",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imageistruecolor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagejpeg",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "quality",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagelayereffect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "effect",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imageline",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "int"
+      },
+      {
+        "name": "y1",
+        "type": "int"
+      },
+      {
+        "name": "x2",
+        "type": "int"
+      },
+      {
+        "name": "y2",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imageloadfont",
+    "type": "int",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagepalettecopy",
+    "type": "void",
+    "args": [
+      {
+        "name": "destination",
+        "type": "resource"
+      },
+      {
+        "name": "source",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagepalettetotruecolor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "src",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagepng",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "quality",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "filters",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagepolygon",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "points",
+        "type": "array"
+      },
+      {
+        "name": "num_points",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagepsencodefont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "font_index",
+        "type": "resource"
+      },
+      {
+        "name": "encodingfile",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagepsextendfont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "font_index",
+        "type": "resource"
+      },
+      {
+        "name": "extend",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "imagepsfreefont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "font_index",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagepsloadfont",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagepsslantfont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "font_index",
+        "type": "resource"
+      },
+      {
+        "name": "slant",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "imagepstext",
+    "type": "array",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "font_index",
+        "type": "resource"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "foreground",
+        "type": "int"
+      },
+      {
+        "name": "background",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "space",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "tightness",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "angle",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "antialias_steps",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagerectangle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "int"
+      },
+      {
+        "name": "y1",
+        "type": "int"
+      },
+      {
+        "name": "x2",
+        "type": "int"
+      },
+      {
+        "name": "y2",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagerotate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "bgd_color",
+        "type": "int"
+      },
+      {
+        "name": "ignore_transparent",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagesavealpha",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "saveflag",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "imagescale",
+    "type": "resource",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "new_width",
+        "type": "int"
+      },
+      {
+        "name": "new_height",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagesetbrush",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "brush",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagesetinterpolation",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "method",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagesetpixel",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagesetstyle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "style",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "imagesetthickness",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "thickness",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagesettile",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "tile",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagestring",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagestringup",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagesx",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagesy",
+    "type": "int",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imagetruecolortopalette",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "dither",
+        "type": "bool"
+      },
+      {
+        "name": "ncolors",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imagettfbbox",
+    "type": "array",
+    "args": [
+      {
+        "name": "size",
+        "type": "float"
+      },
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "fontfile",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagettftext",
+    "type": "array",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "size",
+        "type": "float"
+      },
+      {
+        "name": "angle",
+        "type": "float"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "int"
+      },
+      {
+        "name": "fontfile",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagetypes",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "imagewbmp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "foreground",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imagewebp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imagexbm",
+    "type": "bool",
+    "args": [
+      {
+        "name": "image",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "foreground",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iptcembed",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "iptcdata",
+        "type": "string"
+      },
+      {
+        "name": "jpeg_file_name",
+        "type": "string"
+      },
+      {
+        "name": "spool",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iptcparse",
+    "type": "array",
+    "args": [
+      {
+        "name": "iptcblock",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "jpeg2wbmp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "jpegname",
+        "type": "string"
+      },
+      {
+        "name": "wbmpname",
+        "type": "string"
+      },
+      {
+        "name": "dest_height",
+        "type": "int"
+      },
+      {
+        "name": "dest_width",
+        "type": "int"
+      },
+      {
+        "name": "threshold",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "png2wbmp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pngname",
+        "type": "string"
+      },
+      {
+        "name": "wbmpname",
+        "type": "string"
+      },
+      {
+        "name": "dest_height",
+        "type": "int"
+      },
+      {
+        "name": "dest_width",
+        "type": "int"
+      },
+      {
+        "name": "threshold",
+        "type": "int"
+      }
+    ]
+  }
+]

@@ -1,203 +1,195 @@
 [
-    {
-        "name": "xmlrpc_encode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_encode.php",
-        "args": [
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_decode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_decode.php",
-        "args": [
-            {
-                "name": "value",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_decode_request",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_decode_request.php",
-        "args": [
-            {
-                "name": "xml",
-                "type": "mixed"
-            },
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_encode_request",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_encode_request.php",
-        "args": [
-            {
-                "name": "method",
-                "type": "mixed"
-            },
-            {
-                "name": "params",
-                "type": "mixed"
-            },
-            {
-                "name": "output_options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_get_type",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_get_type.php",
-        "args": [
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_set_type",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_set_type.php",
-        "args": [
-            {
-                "name": "value",
-                "type": "mixed"
-            },
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_is_fault",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_is_fault.php",
-        "args": [
-            {
-                "name": "arg",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_server_create",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_create.php",
-        "args": []
-    },
-    {
-        "name": "xmlrpc_server_destroy",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_destroy.php",
-        "args": [
-            {
-                "name": "server",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_server_register_method",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_register_method.php",
-        "args": [
-            {
-                "name": "server",
-                "type": "mixed"
-            },
-            {
-                "name": "method_name",
-                "type": "mixed"
-            },
-            {
-                "name": "function",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_server_call_method",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_call_method.php",
-        "args": [
-            {
-                "name": "server",
-                "type": "mixed"
-            },
-            {
-                "name": "xml",
-                "type": "mixed"
-            },
-            {
-                "name": "user_data",
-                "type": "mixed"
-            },
-            {
-                "name": "output_options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_parse_method_descriptions",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_parse_method_descriptions.php",
-        "args": [
-            {
-                "name": "xml",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_server_add_introspection_data",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_add_introspection_data.php",
-        "args": [
-            {
-                "name": "server",
-                "type": "mixed"
-            },
-            {
-                "name": "desc",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xmlrpc_server_register_introspection_callback",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xmlrpc_server_register_introspection_callback.php",
-        "args": [
-            {
-                "name": "server",
-                "type": "mixed"
-            },
-            {
-                "name": "function",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "xmlrpc_decode",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "xml",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_decode_request",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "xml",
+        "type": "string"
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_encode_request",
+    "type": "string",
+    "args": [
+      {
+        "name": "method",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "mixed"
+      },
+      {
+        "name": "output_options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_get_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_is_fault",
+    "type": "bool",
+    "args": [
+      {
+        "name": "arg",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_parse_method_descriptions",
+    "type": "array",
+    "args": [
+      {
+        "name": "xml",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_server_add_introspection_data",
+    "type": "int",
+    "args": [
+      {
+        "name": "server",
+        "type": "resource"
+      },
+      {
+        "name": "desc",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_server_call_method",
+    "type": "string",
+    "args": [
+      {
+        "name": "server",
+        "type": "resource"
+      },
+      {
+        "name": "xml",
+        "type": "string"
+      },
+      {
+        "name": "user_data",
+        "type": "mixed"
+      },
+      {
+        "name": "output_options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_server_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "xmlrpc_server_destroy",
+    "type": "int",
+    "args": [
+      {
+        "name": "server",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_server_register_introspection_callback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "server",
+        "type": "resource"
+      },
+      {
+        "name": "function",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_server_register_method",
+    "type": "bool",
+    "args": [
+      {
+        "name": "server",
+        "type": "resource"
+      },
+      {
+        "name": "method_name",
+        "type": "string"
+      },
+      {
+        "name": "function",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xmlrpc_set_type",
+    "type": "bool",
+    "args": [
+      {
+        "name": "value",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "type",
+        "type": "string"
+      }
+    ]
+  }
 ]

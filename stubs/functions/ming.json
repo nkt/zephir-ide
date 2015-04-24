@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ming_keypress",
+    "type": "int",
+    "args": [
+      {
+        "name": "char",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ming_setcubicthreshold",
+    "type": "void",
+    "args": [
+      {
+        "name": "threshold",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ming_setscale",
+    "type": "void",
+    "args": [
+      {
+        "name": "scale",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ming_setswfcompression",
+    "type": "void",
+    "args": [
+      {
+        "name": "level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ming_useconstants",
+    "type": "void",
+    "args": [
+      {
+        "name": "use",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ming_useswfversion",
+    "type": "void",
+    "args": [
+      {
+        "name": "version",
+        "type": "int"
+      }
+    ]
+  }
+]

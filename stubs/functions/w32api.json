@@ -1,0 +1,96 @@
+[
+  {
+    "name": "w32api_deftype",
+    "type": "bool",
+    "args": [
+      {
+        "name": "typename",
+        "type": "string"
+      },
+      {
+        "name": "member1_type",
+        "type": "string"
+      },
+      {
+        "name": "member1_name",
+        "type": "string"
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "w32api_init_dtype",
+    "type": "resource",
+    "args": [
+      {
+        "name": "typename",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "w32api_invoke_function",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "funcname",
+        "type": "string"
+      },
+      {
+        "name": "argument",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "w32api_register_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "library",
+        "type": "string"
+      },
+      {
+        "name": "function_name",
+        "type": "string"
+      },
+      {
+        "name": "return_type",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "w32api_set_call_method",
+    "type": "void",
+    "args": [
+      {
+        "name": "method",
+        "type": "int"
+      }
+    ]
+  }
+]

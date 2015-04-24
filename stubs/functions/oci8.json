@@ -1,0 +1,694 @@
+[
+  {
+    "name": "oci_bind_array_by_name",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "var_array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "max_table_length",
+        "type": "int"
+      },
+      {
+        "name": "max_item_length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_bind_by_name",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "bv_name",
+        "type": "string"
+      },
+      {
+        "name": "variable",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "maxlength",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_cancel",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_client_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "oci_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "connection_string",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "character_set",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "session_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_define_by_name",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "column_name",
+        "type": "string"
+      },
+      {
+        "name": "variable",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_error",
+    "type": "array",
+    "args": [
+      {
+        "name": "resource",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch_all",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "output",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "skip",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "maxrows",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_is_null",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_precision",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_scale",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_type",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_field_type_raw",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_free_descriptor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "descriptor",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_free_statement",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_get_implicit_resultset",
+    "type": "resource",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_internal_debug",
+    "type": "void",
+    "args": [
+      {
+        "name": "onoff",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "oci_lob_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_to",
+        "type": "OCI-Lob"
+      },
+      {
+        "name": "lob_from",
+        "type": "OCI-Lob"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_lob_is_equal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob1",
+        "type": "OCI-Lob"
+      },
+      {
+        "name": "lob2",
+        "type": "OCI-Lob"
+      }
+    ]
+  },
+  {
+    "name": "oci_new_collection",
+    "type": "OCI-Collection",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "tdo",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_new_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "connection_string",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "character_set",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "session_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_new_cursor",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_new_descriptor",
+    "type": "OCI-Lob",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_parse",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "sql_text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "connection_string",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "character_set",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "session_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "oci_result",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "oci_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_server_version",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_action",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "action_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_client_identifier",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "client_identifier",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_client_info",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "client_info",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_edition",
+    "type": "bool",
+    "args": [
+      {
+        "name": "edition",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_module_name",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "module_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "oci_set_prefetch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      },
+      {
+        "name": "rows",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "oci_statement_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "statement",
+        "type": "resource"
+      }
+    ]
+  }
+]

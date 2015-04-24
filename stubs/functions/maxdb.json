@@ -1,0 +1,448 @@
+[
+  {
+    "name": "maxdb_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "passwd",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "dbname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "socket",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "maxdb_connect_errno",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "maxdb_connect_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "maxdb_debug",
+    "type": "void",
+    "args": [
+      {
+        "name": "debug",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_disable_rpl_parse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_dump_debug_info",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_embedded_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "dbname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "maxdb_enable_reads_from_master",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_enable_rpl_parse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_fetch_lengths",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_field_tell",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_get_client_info",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "maxdb_get_client_version",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "maxdb_get_host_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_get_proto_info",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_get_server_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_get_server_version",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "maxdb_insert_id",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_master_query",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_more_results",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_next_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_report",
+    "type": "bool",
+    "args": [
+      {
+        "name": "flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_rpl_parse_enabled",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_rpl_probe",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "dbname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_server_end",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "maxdb_server_init",
+    "type": "bool",
+    "args": [
+      {
+        "name": "server",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "groups",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "maxdb_sqlstate",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_param_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_stmt_sqlstate",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_thread_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "maxdb_thread_safe",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "maxdb_warning_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  }
+]

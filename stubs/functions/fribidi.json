@@ -1,0 +1,20 @@
+[
+  {
+    "name": "fribidi_log2vis",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "direction",
+        "type": "string"
+      },
+      {
+        "name": "charset",
+        "type": "int"
+      }
+    ]
+  }
+]

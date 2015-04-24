@@ -1,0 +1,21 @@
+[
+  {
+    "name": "blenc_encrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "plaintext",
+        "type": "string"
+      },
+      {
+        "name": "encodedfile",
+        "type": "string"
+      },
+      {
+        "name": "encryption_key",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

@@ -1,3 +1,1283 @@
 [
-  
+  {
+    "name": "array",
+    "type": "array",
+    "args": [
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_change_key_case",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "case",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_chunk",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "preserve_keys",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_column",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "column_key",
+        "type": "mixed"
+      },
+      {
+        "name": "index_key",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_combine",
+    "type": "array",
+    "args": [
+      {
+        "name": "keys",
+        "type": "array"
+      },
+      {
+        "name": "values",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_count_values",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_diff",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_diff_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_diff_key",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_diff_uassoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_diff_ukey",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_fill",
+    "type": "array",
+    "args": [
+      {
+        "name": "start_index",
+        "type": "int"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "array_fill_keys",
+    "type": "array",
+    "args": [
+      {
+        "name": "keys",
+        "type": "array"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "array_filter",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_flip",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_intersect",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_intersect_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_intersect_key",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_intersect_uassoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_intersect_ukey",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_key_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_keys",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "search_value",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "strict",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_map",
+    "type": "array",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_merge",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_merge_recursive",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_multisort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "array1_sort_order",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "array1_sort_flags",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_pad",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "array_pop",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "array_product",
+    "type": "number",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_push",
+    "type": "int",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "value1",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_rand",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "num",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_reduce",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "initial",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_replace",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_replace_recursive",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_reverse",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "preserve_keys",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_search",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "needle",
+        "type": "mixed"
+      },
+      {
+        "name": "haystack",
+        "type": "array"
+      },
+      {
+        "name": "strict",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_shift",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "array_slice",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "preserve_keys",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_splice",
+    "type": "array",
+    "args": [
+      {
+        "name": "input",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "replacement",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_sum",
+    "type": "number",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_udiff",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_udiff_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_udiff_uassoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_uintersect",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_uintersect_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_uintersect_uassoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "array1",
+        "type": "array"
+      },
+      {
+        "name": "array2",
+        "type": "array"
+      },
+      {
+        "name": "...",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "array_unique",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_unshift",
+    "type": "int",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "value1",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_values",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "array_walk",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "userdata",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "array_walk_recursive",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "userdata",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "arsort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "asort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "compact",
+    "type": "array",
+    "args": [
+      {
+        "name": "varname1",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "count",
+    "type": "int",
+    "args": [
+      {
+        "name": "array_or_countable",
+        "type": "mixed"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "current",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "each",
+    "type": "array",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "end",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "extract",
+    "type": "int",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "prefix",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "in_array",
+    "type": "bool",
+    "args": [
+      {
+        "name": "needle",
+        "type": "mixed"
+      },
+      {
+        "name": "haystack",
+        "type": "array"
+      },
+      {
+        "name": "strict",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "key",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "krsort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ksort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "list",
+    "type": "array",
+    "args": [
+      {
+        "name": "var1",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "natcasesort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "natsort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "next",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "prev",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "range",
+    "type": "array",
+    "args": [
+      {
+        "name": "start",
+        "type": "mixed"
+      },
+      {
+        "name": "end",
+        "type": "mixed"
+      },
+      {
+        "name": "step",
+        "type": "number",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "reset",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "rsort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "shuffle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "sort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "sort_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "uasort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "uksort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "key_compare_func",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "usort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "array",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "value_compare_func",
+        "type": "callable"
+      }
+    ]
+  }
 ]

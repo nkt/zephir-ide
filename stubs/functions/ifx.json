@@ -1,0 +1,480 @@
+[
+  {
+    "name": "ifx_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_blobinfile_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_byteasvarchar",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_copy_blob",
+    "type": "int",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_create_blob",
+    "type": "int",
+    "args": [
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "param",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ifx_create_char",
+    "type": "int",
+    "args": [
+      {
+        "name": "param",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ifx_do",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_errormsg",
+    "type": "string",
+    "args": [
+      {
+        "name": "errorcode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      },
+      {
+        "name": "position",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_fieldproperties",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_fieldtypes",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_free_blob",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_free_char",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_get_blob",
+    "type": "string",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_get_char",
+    "type": "string",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_getsqlca",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_htmltbl_result",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      },
+      {
+        "name": "html_table_options",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_nullformat",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ifx_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_prepare",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "cursor_def",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "blobidarray",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "ifx_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "cursor_type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "blobidarray",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ifx_textasvarchar",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifx_update_blob",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ifx_update_char",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_close_slob",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_create_slob",
+    "type": "int",
+    "args": [
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_free_slob",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_open_slob",
+    "type": "int",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_read_slob",
+    "type": "string",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "nbytes",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_seek_slob",
+    "type": "int",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_tell_slob",
+    "type": "int",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ifxus_write_slob",
+    "type": "int",
+    "args": [
+      {
+        "name": "bid",
+        "type": "int"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  }
+]

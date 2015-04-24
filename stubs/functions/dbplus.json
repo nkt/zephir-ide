@@ -1,0 +1,636 @@
+[
+  {
+    "name": "dbplus_add",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_aql",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "server",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "dbpath",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_chdir",
+    "type": "string",
+    "args": [
+      {
+        "name": "newdir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_close",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_curr",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_errcode",
+    "type": "string",
+    "args": [
+      {
+        "name": "errno",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_errno",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "dbplus_find",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "constraints",
+        "type": "array"
+      },
+      {
+        "name": "tuple",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_first",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_flush",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_freealllocks",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "dbplus_freelock",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_freerlocks",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_getlock",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_getunique",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "uniqueid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_info",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "result",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_last",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_lockrel",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_next",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_prev",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rchperm",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "mask",
+        "type": "int"
+      },
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "group",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rcreate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "domlist",
+        "type": "mixed"
+      },
+      {
+        "name": "overwrite",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rcrtexact",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "overwrite",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rcrtlike",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "overwrite",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_resolve",
+    "type": "array",
+    "args": [
+      {
+        "name": "relation_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_restorepos",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rkeys",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "domlist",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_ropen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rquery",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "dbpath",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rrename",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rsecindex",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "domlist",
+        "type": "mixed"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_runlink",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_rzap",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_savepos",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_setindex",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "idx_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_setindexbynumber",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "idx_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_sql",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "server",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "dbpath",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_tcl",
+    "type": "string",
+    "args": [
+      {
+        "name": "sid",
+        "type": "int"
+      },
+      {
+        "name": "script",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_tremove",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "tuple",
+        "type": "array"
+      },
+      {
+        "name": "current",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbplus_undo",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_undoprepare",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_unlockrel",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_unselect",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_update",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      },
+      {
+        "name": "old",
+        "type": "array"
+      },
+      {
+        "name": "new",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_xlockrel",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dbplus_xunlockrel",
+    "type": "int",
+    "args": [
+      {
+        "name": "relation",
+        "type": "resource"
+      }
+    ]
+  }
+]

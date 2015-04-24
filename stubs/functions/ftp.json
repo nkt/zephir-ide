@@ -1,616 +1,587 @@
 [
-    {
-        "name": "ftp_connect",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_connect.php",
-        "args": [
-            {
-                "name": "host",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            },
-            {
-                "name": "timeout",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_ssl_connect",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_ssl_connect.php",
-        "args": [
-            {
-                "name": "host",
-                "type": "mixed"
-            },
-            {
-                "name": "port",
-                "type": "mixed"
-            },
-            {
-                "name": "timeout",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_login",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_login.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "username",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_pwd",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_pwd.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_cdup",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_cdup.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_chdir",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_chdir.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "directory",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_exec",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_exec.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "command",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_raw",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_raw.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "command",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_mkdir",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_mkdir.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "directory",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_rmdir",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_rmdir.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "directory",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_chmod",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_chmod.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_alloc",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_alloc.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "size",
-                "type": "mixed"
-            },
-            {
-                "name": "response",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nlist",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nlist.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "directory",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_rawlist",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_rawlist.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "directory",
-                "type": "mixed"
-            },
-            {
-                "name": "recursive",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_systype",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_systype.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_pasv",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_pasv.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "pasv",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_get",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_get.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "local_file",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "resume_pos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_fget",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_fget.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "fp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "resumepos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_put",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_put.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "local_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "startpos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_fput",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_fput.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "fp",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "startpos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_size",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_size.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_mdtm",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_mdtm.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_rename",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_rename.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "src",
-                "type": "mixed"
-            },
-            {
-                "name": "dest",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_delete",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_delete.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "file",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_site",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_site.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "cmd",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_close.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_set_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_set_option.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_get_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_get_option.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nb_fget",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nb_fget.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "fp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "resumepos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nb_get",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nb_get.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "local_file",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "resume_pos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nb_continue",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nb_continue.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nb_put",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nb_put.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "local_file",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "startpos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_nb_fput",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_nb_fput.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            },
-            {
-                "name": "remote_file",
-                "type": "mixed"
-            },
-            {
-                "name": "fp",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "startpos",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ftp_quit",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ftp_quit.php",
-        "args": [
-            {
-                "name": "ftp",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "ftp_alloc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "filesize",
+        "type": "int"
+      },
+      {
+        "name": "result",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_cdup",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftp_chdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_chmod",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftp_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_exec",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "command",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_fget",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "resumepos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_fput",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "startpos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_get",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "resumepos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_get_option",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ftp_login",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_mdtm",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_mkdir",
+    "type": "string",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_nb_continue",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftp_nb_fget",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "resumepos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_nb_fput",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "startpos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_nb_get",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "resumepos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_nb_put",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "startpos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_nlist",
+    "type": "array",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_pasv",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "pasv",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ftp_put",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "startpos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_pwd",
+    "type": "string",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftp_raw",
+    "type": "array",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "command",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_rawlist",
+    "type": "array",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "oldname",
+        "type": "string"
+      },
+      {
+        "name": "newname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_rmdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_set_option",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "ftp_site",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "command",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ftp_ssl_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ftp_systype",
+    "type": "string",
+    "args": [
+      {
+        "name": "ftp_stream",
+        "type": "resource"
+      }
+    ]
+  }
 ]

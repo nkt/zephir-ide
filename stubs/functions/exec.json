@@ -1,0 +1,165 @@
+[
+  {
+    "name": "escapeshellarg",
+    "type": "string",
+    "args": [
+      {
+        "name": "arg",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "escapeshellcmd",
+    "type": "string",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "exec",
+    "type": "string",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      },
+      {
+        "name": "output",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "return_var",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "passthru",
+    "type": "void",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      },
+      {
+        "name": "return_var",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "proc_close",
+    "type": "int",
+    "args": [
+      {
+        "name": "process",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "proc_get_status",
+    "type": "array",
+    "args": [
+      {
+        "name": "process",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "proc_nice",
+    "type": "bool",
+    "args": [
+      {
+        "name": "increment",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "proc_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "cmd",
+        "type": "string"
+      },
+      {
+        "name": "descriptorspec",
+        "type": "array"
+      },
+      {
+        "name": "pipes",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "cwd",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "env",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "other_options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "proc_terminate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "process",
+        "type": "resource"
+      },
+      {
+        "name": "signal",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "shell_exec",
+    "type": "string",
+    "args": [
+      {
+        "name": "cmd",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "system",
+    "type": "string",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      },
+      {
+        "name": "return_var",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  }
+]

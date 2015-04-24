@@ -1,0 +1,125 @@
+[
+  {
+    "name": "debug_backtrace",
+    "type": "array",
+    "args": [
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "debug_print_backtrace",
+    "type": "void",
+    "args": [
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "error_get_last",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "error_log",
+    "type": "bool",
+    "args": [
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "message_type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "destination",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "extra_headers",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "error_reporting",
+    "type": "int",
+    "args": [
+      {
+        "name": "level",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "restore_error_handler",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "restore_exception_handler",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "set_error_handler",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "error_handler",
+        "type": "callable"
+      },
+      {
+        "name": "error_types",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "set_exception_handler",
+    "type": "callable",
+    "args": [
+      {
+        "name": "exception_handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "trigger_error",
+    "type": "bool",
+    "args": [
+      {
+        "name": "error_msg",
+        "type": "string"
+      },
+      {
+        "name": "error_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

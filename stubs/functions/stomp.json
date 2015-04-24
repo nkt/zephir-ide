@@ -1,0 +1,12 @@
+[
+  {
+    "name": "stomp_connect_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "stomp_version",
+    "type": "string",
+    "args": []
+  }
+]

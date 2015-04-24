@@ -1,0 +1,28 @@
+[
+  {
+    "name": "crack_closedict",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "crack_getlastmessage",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "crack_opendict",
+    "type": "resource",
+    "args": [
+      {
+        "name": "dictionary",
+        "type": "string"
+      }
+    ]
+  }
+]

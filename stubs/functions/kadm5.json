@@ -1,0 +1,152 @@
+[
+  {
+    "name": "kadm5_chpass_principal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_create_principal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "kadm5_delete_principal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_flush",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_get_policies",
+    "type": "array",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_get_principal",
+    "type": "array",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_get_principals",
+    "type": "array",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_init_with_password",
+    "type": "resource",
+    "args": [
+      {
+        "name": "admin_server",
+        "type": "string"
+      },
+      {
+        "name": "realm",
+        "type": "string"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "kadm5_modify_principal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "principal",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  }
+]

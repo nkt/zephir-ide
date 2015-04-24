@@ -1,0 +1,169 @@
+[
+  {
+    "name": "call_user_func",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "parameter",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "call_user_func_array",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "param_arr",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "create_function",
+    "type": "string",
+    "args": [
+      {
+        "name": "args",
+        "type": "string"
+      },
+      {
+        "name": "code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "forward_static_call",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "parameter",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "forward_static_call_array",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "parameters",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "func_get_arg",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "arg_num",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "func_get_args",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "func_num_args",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "function_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "function_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_defined_functions",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "register_shutdown_function",
+    "type": "void",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "parameter",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "register_tick_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "unregister_tick_function",
+    "type": "void",
+    "args": [
+      {
+        "name": "function_name",
+        "type": "string"
+      }
+    ]
+  }
+]

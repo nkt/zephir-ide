@@ -1,0 +1,569 @@
+[
+  {
+    "name": "printer_abort",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_create_brush",
+    "type": "resource",
+    "args": [
+      {
+        "name": "style",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "printer_create_dc",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_create_font",
+    "type": "resource",
+    "args": [
+      {
+        "name": "face",
+        "type": "string"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "font_weight",
+        "type": "int"
+      },
+      {
+        "name": "italic",
+        "type": "bool"
+      },
+      {
+        "name": "underline",
+        "type": "bool"
+      },
+      {
+        "name": "strikeout",
+        "type": "bool"
+      },
+      {
+        "name": "orientation",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_create_pen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "style",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "printer_delete_brush",
+    "type": "void",
+    "args": [
+      {
+        "name": "brush_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_delete_dc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_delete_font",
+    "type": "void",
+    "args": [
+      {
+        "name": "font_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_delete_pen",
+    "type": "void",
+    "args": [
+      {
+        "name": "pen_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_bmp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_chord",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "rec_x",
+        "type": "int"
+      },
+      {
+        "name": "rec_y",
+        "type": "int"
+      },
+      {
+        "name": "rec_x1",
+        "type": "int"
+      },
+      {
+        "name": "rec_y1",
+        "type": "int"
+      },
+      {
+        "name": "rad_x",
+        "type": "int"
+      },
+      {
+        "name": "rad_y",
+        "type": "int"
+      },
+      {
+        "name": "rad_x1",
+        "type": "int"
+      },
+      {
+        "name": "rad_y1",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_elipse",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "ul_x",
+        "type": "int"
+      },
+      {
+        "name": "ul_y",
+        "type": "int"
+      },
+      {
+        "name": "lr_x",
+        "type": "int"
+      },
+      {
+        "name": "lr_y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_line",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "from_x",
+        "type": "int"
+      },
+      {
+        "name": "from_y",
+        "type": "int"
+      },
+      {
+        "name": "to_x",
+        "type": "int"
+      },
+      {
+        "name": "to_y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_pie",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "rec_x",
+        "type": "int"
+      },
+      {
+        "name": "rec_y",
+        "type": "int"
+      },
+      {
+        "name": "rec_x1",
+        "type": "int"
+      },
+      {
+        "name": "rec_y1",
+        "type": "int"
+      },
+      {
+        "name": "rad1_x",
+        "type": "int"
+      },
+      {
+        "name": "rad1_y",
+        "type": "int"
+      },
+      {
+        "name": "rad2_x",
+        "type": "int"
+      },
+      {
+        "name": "rad2_y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_rectangle",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "ul_x",
+        "type": "int"
+      },
+      {
+        "name": "ul_y",
+        "type": "int"
+      },
+      {
+        "name": "lr_x",
+        "type": "int"
+      },
+      {
+        "name": "lr_y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_roundrect",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "ul_x",
+        "type": "int"
+      },
+      {
+        "name": "ul_y",
+        "type": "int"
+      },
+      {
+        "name": "lr_x",
+        "type": "int"
+      },
+      {
+        "name": "lr_y",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_draw_text",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_end_doc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_end_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_get_option",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "printer_list",
+    "type": "array",
+    "args": [
+      {
+        "name": "enumtype",
+        "type": "int"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "level",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "printer_logical_fontheight",
+    "type": "int",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "printer_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "printername",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "printer_select_brush",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "brush_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_select_font",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "font_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_select_pen",
+    "type": "void",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "pen_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_set_option",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "printer_start_doc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "document",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "printer_start_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "printer_write",
+    "type": "bool",
+    "args": [
+      {
+        "name": "printer_handle",
+        "type": "resource"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  }
+]

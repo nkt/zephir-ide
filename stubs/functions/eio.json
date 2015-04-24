@@ -1,0 +1,1301 @@
+[
+  {
+    "name": "eio_busy",
+    "type": "resource",
+    "args": [
+      {
+        "name": "delay",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_cancel",
+    "type": "void",
+    "args": [
+      {
+        "name": "req",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "eio_chmod",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_chown",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "uid",
+        "type": "int"
+      },
+      {
+        "name": "gid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_close",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_custom",
+    "type": "resource",
+    "args": [
+      {
+        "name": "execute",
+        "type": "callable"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_dup2",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "fd2",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_event_loop",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "eio_fallocate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fchmod",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fchown",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "uid",
+        "type": "int"
+      },
+      {
+        "name": "gid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fdatasync",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fstat",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fstatvfs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_fsync",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_ftruncate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_futime",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "atime",
+        "type": "float"
+      },
+      {
+        "name": "mtime",
+        "type": "float"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_get_event_stream",
+    "type": "mixed",
+    "args": []
+  },
+  {
+    "name": "eio_get_last_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "req",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "eio_grp",
+    "type": "resource",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_grp_add",
+    "type": "void",
+    "args": [
+      {
+        "name": "grp",
+        "type": "resource"
+      },
+      {
+        "name": "req",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "eio_grp_cancel",
+    "type": "void",
+    "args": [
+      {
+        "name": "grp",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "eio_grp_limit",
+    "type": "void",
+    "args": [
+      {
+        "name": "grp",
+        "type": "resource"
+      },
+      {
+        "name": "limit",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "eio_init",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "eio_link",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "new_path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_lstat",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_mkdir",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_mknod",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "dev",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_nop",
+    "type": "resource",
+    "args": [
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_npending",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "eio_nready",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "eio_nreqs",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "eio_nthreads",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "eio_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_poll",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "eio_read",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_readahead",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_readdir",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_readlink",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_realpath",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_rename",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "new_path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_rmdir",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_seek",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "whence",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_sendfile",
+    "type": "resource",
+    "args": [
+      {
+        "name": "out_fd",
+        "type": "mixed"
+      },
+      {
+        "name": "in_fd",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_set_max_idle",
+    "type": "void",
+    "args": [
+      {
+        "name": "nthreads",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "eio_set_max_parallel",
+    "type": "void",
+    "args": [
+      {
+        "name": "nthreads",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "eio_set_max_poll_reqs",
+    "type": "void",
+    "args": [
+      {
+        "name": "nreqs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "eio_set_max_poll_time",
+    "type": "void",
+    "args": [
+      {
+        "name": "nseconds",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "eio_set_min_parallel",
+    "type": "void",
+    "args": [
+      {
+        "name": "nthreads",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "eio_stat",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_statvfs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_symlink",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "new_path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_sync",
+    "type": "resource",
+    "args": [
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_sync_file_range",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "nbytes",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_syncfs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_truncate",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_unlink",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_utime",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "atime",
+        "type": "float"
+      },
+      {
+        "name": "mtime",
+        "type": "float"
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "eio_write",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "pri",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  }
+]

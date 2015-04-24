@@ -1,346 +1,330 @@
 [
-    {
-        "name": "xml_parser_create",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parser_create.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parser_create_ns",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parser_create_ns.php",
-        "args": [
-            {
-                "name": "encoding",
-                "type": "mixed"
-            },
-            {
-                "name": "sep",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_object",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_object.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "obj",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_element_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_element_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "shdl",
-                "type": "mixed"
-            },
-            {
-                "name": "ehdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_character_data_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_character_data_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_processing_instruction_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_processing_instruction_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_default_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_default_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_unparsed_entity_decl_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_unparsed_entity_decl_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_notation_decl_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_notation_decl_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_external_entity_ref_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_external_entity_ref_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_start_namespace_decl_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_start_namespace_decl_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_set_end_namespace_decl_handler",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_set_end_namespace_decl_handler.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "hdl",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parse",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parse.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "isfinal",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parse_into_struct",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parse_into_struct.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "values",
-                "type": "mixed"
-            },
-            {
-                "name": "index",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_get_error_code",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_get_error_code.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_error_string",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_error_string.php",
-        "args": [
-            {
-                "name": "code",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_get_current_line_number",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_get_current_line_number.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_get_current_column_number",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_get_current_column_number.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_get_current_byte_index",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_get_current_byte_index.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parser_free",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parser_free.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parser_set_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parser_set_option.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "xml_parser_get_option",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.xml_parser_get_option.php",
-        "args": [
-            {
-                "name": "parser",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "utf8_encode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.utf8_encode.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "utf8_decode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.utf8_decode.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "utf8_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "utf8_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xml_error_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "code",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "xml_get_current_byte_index",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xml_get_current_column_number",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xml_get_current_line_number",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xml_get_error_code",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xml_parse",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "is_final",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xml_parse_into_struct",
+    "type": "int",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "values",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "index",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xml_parser_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xml_parser_create_ns",
+    "type": "resource",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "separator",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xml_parser_free",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xml_parser_get_option",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "xml_parser_set_option",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_character_data_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_default_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_element_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "start_element_handler",
+        "type": "callable"
+      },
+      {
+        "name": "end_element_handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_end_namespace_decl_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_external_entity_ref_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_notation_decl_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_object",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "object",
+        "type": "object",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "xml_set_processing_instruction_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_start_namespace_decl_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "xml_set_unparsed_entity_decl_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "parser",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "callable"
+      }
+    ]
+  }
 ]

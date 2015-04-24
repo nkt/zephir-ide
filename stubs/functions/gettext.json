@@ -1,168 +1,148 @@
 [
-    {
-        "name": "textdomain",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.textdomain.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "gettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.gettext.php",
-        "args": [
-            {
-                "name": "msgid",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "_",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function._.php",
-        "args": [
-            {
-                "name": "msgid",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dgettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dgettext.php",
-        "args": [
-            {
-                "name": "domain_name",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dcgettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dcgettext.php",
-        "args": [
-            {
-                "name": "domain_name",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid",
-                "type": "mixed"
-            },
-            {
-                "name": "category",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "bindtextdomain",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.bindtextdomain.php",
-        "args": [
-            {
-                "name": "domain_name",
-                "type": "mixed"
-            },
-            {
-                "name": "dir",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ngettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ngettext.php",
-        "args": [
-            {
-                "name": "msgid1",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid2",
-                "type": "mixed"
-            },
-            {
-                "name": "count",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dngettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dngettext.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid1",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid2",
-                "type": "mixed"
-            },
-            {
-                "name": "count",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dcngettext",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dcngettext.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid1",
-                "type": "mixed"
-            },
-            {
-                "name": "msgid2",
-                "type": "mixed"
-            },
-            {
-                "name": "count",
-                "type": "mixed"
-            },
-            {
-                "name": "category",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "bind_textdomain_codeset",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.bind_textdomain_codeset.php",
-        "args": [
-            {
-                "name": "domain",
-                "type": "mixed"
-            },
-            {
-                "name": "codeset",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "bind_textdomain_codeset",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "codeset",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bindtextdomain",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dcgettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "category",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dcngettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "msgid1",
+        "type": "string"
+      },
+      {
+        "name": "msgid2",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "category",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dgettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dngettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "msgid1",
+        "type": "string"
+      },
+      {
+        "name": "msgid2",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "message",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ngettext",
+    "type": "string",
+    "args": [
+      {
+        "name": "msgid1",
+        "type": "string"
+      },
+      {
+        "name": "msgid2",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "textdomain",
+    "type": "string",
+    "args": [
+      {
+        "name": "text_domain",
+        "type": "string"
+      }
+    ]
+  }
 ]

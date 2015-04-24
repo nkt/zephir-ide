@@ -1,0 +1,133 @@
+[
+  {
+    "name": "dbx_close",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "dbx_compare",
+    "type": "int",
+    "args": [
+      {
+        "name": "row_a",
+        "type": "array"
+      },
+      {
+        "name": "row_b",
+        "type": "array"
+      },
+      {
+        "name": "column_key",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbx_connect",
+    "type": "object",
+    "args": [
+      {
+        "name": "module",
+        "type": "mixed"
+      },
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "persistent",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbx_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "dbx_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "object"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dbx_fetch_row",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "result_identifier",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "dbx_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "object"
+      },
+      {
+        "name": "sql_statement",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dbx_sort",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "object"
+      },
+      {
+        "name": "user_compare_function",
+        "type": "string"
+      }
+    ]
+  }
+]

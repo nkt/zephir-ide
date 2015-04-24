@@ -1,0 +1,554 @@
+[
+  {
+    "name": "fdf_add_doc_javascript",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "script_name",
+        "type": "string"
+      },
+      {
+        "name": "script_code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_add_template",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "newpage",
+        "type": "int"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "template",
+        "type": "string"
+      },
+      {
+        "name": "rename",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fdf_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "fdf_enum_values",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "userdata",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_errno",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "fdf_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "error_code",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_ap",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "field",
+        "type": "string"
+      },
+      {
+        "name": "face",
+        "type": "int"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_attachment",
+    "type": "array",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "savepath",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_flags",
+    "type": "int",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "whichflags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_opt",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "element",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_status",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_value",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "which",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_get_version",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_header",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "fdf_next_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_open_string",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fdf_data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_remove_item",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "item",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_save",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_save_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_ap",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "field_name",
+        "type": "string"
+      },
+      {
+        "name": "face",
+        "type": "int"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "page_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_encoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "target_frame",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_flags",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "whichFlags",
+        "type": "int"
+      },
+      {
+        "name": "newFlags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_javascript_action",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "trigger",
+        "type": "int"
+      },
+      {
+        "name": "script",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_on_import_javascript",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "script",
+        "type": "string"
+      },
+      {
+        "name": "before_data_import",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_opt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "element",
+        "type": "int"
+      },
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_status",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "status",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_submit_form_action",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "trigger",
+        "type": "int"
+      },
+      {
+        "name": "script",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_target_frame",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "frame_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_value",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "fieldname",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "isName",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fdf_set_version",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fdf_document",
+        "type": "resource"
+      },
+      {
+        "name": "version",
+        "type": "string"
+      }
+    ]
+  }
+]

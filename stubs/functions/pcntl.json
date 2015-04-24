@@ -1,239 +1,270 @@
 [
-    {
-        "name": "pcntl_fork",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_fork.php",
-        "args": []
-    },
-    {
-        "name": "pcntl_waitpid",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_waitpid.php",
-        "args": [
-            {
-                "name": "pid",
-                "type": "mixed"
-            },
-            {
-                "name": "status",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wait",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wait.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_signal",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_signal.php",
-        "args": [
-            {
-                "name": "signo",
-                "type": "mixed"
-            },
-            {
-                "name": "handler",
-                "type": "mixed"
-            },
-            {
-                "name": "restart_syscalls",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_signal_dispatch",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_signal_dispatch.php",
-        "args": []
-    },
-    {
-        "name": "pcntl_wifexited",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wifexited.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wifstopped",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wifstopped.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wifsignaled",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wifsignaled.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wexitstatus",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wexitstatus.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wtermsig",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wtermsig.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_wstopsig",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_wstopsig.php",
-        "args": [
-            {
-                "name": "status",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_exec",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_exec.php",
-        "args": [
-            {
-                "name": "path",
-                "type": "mixed"
-            },
-            {
-                "name": "args",
-                "type": "mixed"
-            },
-            {
-                "name": "envs",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_alarm",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_alarm.php",
-        "args": [
-            {
-                "name": "seconds",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_get_last_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_get_last_error.php",
-        "args": []
-    },
-    {
-        "name": "pcntl_errno",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_errno.php",
-        "args": []
-    },
-    {
-        "name": "pcntl_strerror",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_strerror.php",
-        "args": [
-            {
-                "name": "errno",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_getpriority",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_getpriority.php",
-        "args": [
-            {
-                "name": "pid",
-                "type": "mixed"
-            },
-            {
-                "name": "process_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_setpriority",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_setpriority.php",
-        "args": [
-            {
-                "name": "priority",
-                "type": "mixed"
-            },
-            {
-                "name": "pid",
-                "type": "mixed"
-            },
-            {
-                "name": "process_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "pcntl_sigprocmask",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.pcntl_sigprocmask.php",
-        "args": [
-            {
-                "name": "how",
-                "type": "mixed"
-            },
-            {
-                "name": "set",
-                "type": "mixed"
-            },
-            {
-                "name": "oldset",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "pcntl_alarm",
+    "type": "int",
+    "args": [
+      {
+        "name": "seconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_exec",
+    "type": "void",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "envs",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_fork",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "pcntl_get_last_error",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "pcntl_getpriority",
+    "type": "int",
+    "args": [
+      {
+        "name": "pid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "process_identifier",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_setpriority",
+    "type": "bool",
+    "args": [
+      {
+        "name": "priority",
+        "type": "int"
+      },
+      {
+        "name": "pid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "process_identifier",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_signal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "signo",
+        "type": "int"
+      },
+      {
+        "name": "handler",
+        "type": "callable|int"
+      },
+      {
+        "name": "restart_syscalls",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_signal_dispatch",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "pcntl_sigprocmask",
+    "type": "bool",
+    "args": [
+      {
+        "name": "how",
+        "type": "int"
+      },
+      {
+        "name": "set",
+        "type": "array"
+      },
+      {
+        "name": "oldset",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_sigtimedwait",
+    "type": "int",
+    "args": [
+      {
+        "name": "set",
+        "type": "array"
+      },
+      {
+        "name": "siginfo",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "seconds",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "nanoseconds",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_sigwaitinfo",
+    "type": "int",
+    "args": [
+      {
+        "name": "set",
+        "type": "array"
+      },
+      {
+        "name": "siginfo",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "errno",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wait",
+    "type": "int",
+    "args": [
+      {
+        "name": "status",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_waitpid",
+    "type": "int",
+    "args": [
+      {
+        "name": "pid",
+        "type": "int"
+      },
+      {
+        "name": "status",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wexitstatus",
+    "type": "int",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wifexited",
+    "type": "bool",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wifsignaled",
+    "type": "bool",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wifstopped",
+    "type": "bool",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wstopsig",
+    "type": "int",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pcntl_wtermsig",
+    "type": "int",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  }
 ]

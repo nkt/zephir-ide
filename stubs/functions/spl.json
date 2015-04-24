@@ -1,0 +1,178 @@
+[
+  {
+    "name": "class_implements",
+    "type": "array",
+    "args": [
+      {
+        "name": "class",
+        "type": "mixed"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "class_parents",
+    "type": "array",
+    "args": [
+      {
+        "name": "class",
+        "type": "mixed"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "class_uses",
+    "type": "array",
+    "args": [
+      {
+        "name": "class",
+        "type": "mixed"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iterator_apply",
+    "type": "int",
+    "args": [
+      {
+        "name": "iterator",
+        "type": "Traversable"
+      },
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iterator_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "iterator",
+        "type": "Traversable"
+      }
+    ]
+  },
+  {
+    "name": "iterator_to_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "iterator",
+        "type": "Traversable"
+      },
+      {
+        "name": "use_keys",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "spl_autoload",
+    "type": "void",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "file_extensions",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "spl_autoload_call",
+    "type": "void",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "spl_autoload_extensions",
+    "type": "string",
+    "args": [
+      {
+        "name": "file_extensions",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "spl_autoload_functions",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "spl_autoload_register",
+    "type": "bool",
+    "args": [
+      {
+        "name": "autoload_function",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "throw",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "prepend",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "spl_autoload_unregister",
+    "type": "bool",
+    "args": [
+      {
+        "name": "autoload_function",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "spl_classes",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "spl_object_hash",
+    "type": "string",
+    "args": [
+      {
+        "name": "obj",
+        "type": "object"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "idn_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "errorcode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "idn_to_ascii",
+    "type": "string",
+    "args": [
+      {
+        "name": "utf8_domain",
+        "type": "string"
+      },
+      {
+        "name": "errorcode",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "idn_to_utf8",
+    "type": "string",
+    "args": [
+      {
+        "name": "ascii_domain",
+        "type": "string"
+      },
+      {
+        "name": "errorcode",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  }
+]

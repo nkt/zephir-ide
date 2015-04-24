@@ -1,0 +1,22 @@
+[
+  {
+    "name": "setproctitle",
+    "type": "void",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "setthreadtitle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      }
+    ]
+  }
+]

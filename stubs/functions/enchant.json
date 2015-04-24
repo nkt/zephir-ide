@@ -1,0 +1,245 @@
+[
+  {
+    "name": "enchant_broker_describe",
+    "type": "array",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_dict_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      },
+      {
+        "name": "tag",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_free",
+    "type": "bool",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_free_dict",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_get_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "enchant_broker_list_dicts",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_request_dict",
+    "type": "resource",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      },
+      {
+        "name": "tag",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_request_pwl_dict",
+    "type": "resource",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_broker_set_ordering",
+    "type": "bool",
+    "args": [
+      {
+        "name": "broker",
+        "type": "resource"
+      },
+      {
+        "name": "tag",
+        "type": "string"
+      },
+      {
+        "name": "ordering",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_add_to_personal",
+    "type": "void",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_add_to_session",
+    "type": "void",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_check",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_describe",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_get_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_is_in_session",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_quick_check",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      },
+      {
+        "name": "suggestions",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_store_replacement",
+    "type": "void",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "mis",
+        "type": "string"
+      },
+      {
+        "name": "cor",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "enchant_dict_suggest",
+    "type": "array",
+    "args": [
+      {
+        "name": "dict",
+        "type": "resource"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  }
+]

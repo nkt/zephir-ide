@@ -1,0 +1,120 @@
+[
+  {
+    "name": "ob_tidyhandler",
+    "type": "string",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "tidy_access_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "object",
+        "type": "tidy"
+      }
+    ]
+  },
+  {
+    "name": "tidy_config_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "object",
+        "type": "tidy"
+      }
+    ]
+  },
+  {
+    "name": "tidy_error_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "object",
+        "type": "tidy"
+      }
+    ]
+  },
+  {
+    "name": "tidy_get_output",
+    "type": "string",
+    "args": [
+      {
+        "name": "object",
+        "type": "tidy"
+      }
+    ]
+  },
+  {
+    "name": "tidy_load_config",
+    "type": "void",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "tidy_reset_config",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "tidy_save_config",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "tidy_set_encoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "tidy_setopt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "option",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "tidy_warning_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "object",
+        "type": "tidy"
+      }
+    ]
+  }
+]

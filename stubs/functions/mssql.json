@@ -1,0 +1,429 @@
+[
+  {
+    "name": "mssql_bind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "param_name",
+        "type": "string"
+      },
+      {
+        "name": "var",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "is_output",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "is_null",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "maxlen",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "servername",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new_link",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_data_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mssql_execute",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "skip_results",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_batch",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_field",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_field_length",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_field_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mssql_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_free_statement",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_get_last_message",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "mssql_guid_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "binary",
+        "type": "string"
+      },
+      {
+        "name": "short_format",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_init",
+    "type": "resource",
+    "args": [
+      {
+        "name": "sp_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_min_error_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mssql_min_message_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mssql_next_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "servername",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new_link",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "batch_size",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mssql_result",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "mssql_rows_affected",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mssql_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
+]

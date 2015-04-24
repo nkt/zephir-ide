@@ -1,0 +1,16 @@
+[
+  {
+    "name": "chdb_create",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "array"
+      }
+    ]
+  }
+]

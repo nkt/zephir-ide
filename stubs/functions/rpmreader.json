@@ -1,0 +1,51 @@
+[
+  {
+    "name": "rpm_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "rpmr",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "rpm_get_tag",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "rpmr",
+        "type": "resource"
+      },
+      {
+        "name": "tagnum",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "rpm_is_valid",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rpm_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rpm_version",
+    "type": "string",
+    "args": []
+  }
+]

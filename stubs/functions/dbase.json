@@ -1,0 +1,154 @@
+[
+  {
+    "name": "dbase_add_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      },
+      {
+        "name": "record",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dbase_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_create",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "fields",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dbase_delete_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      },
+      {
+        "name": "record_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_get_header_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_get_record",
+    "type": "array",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      },
+      {
+        "name": "record_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_get_record_with_names",
+    "type": "array",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      },
+      {
+        "name": "record_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_numfields",
+    "type": "int",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_numrecords",
+    "type": "int",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_open",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_pack",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dbase_replace_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dbase_identifier",
+        "type": "int"
+      },
+      {
+        "name": "record",
+        "type": "array"
+      },
+      {
+        "name": "record_number",
+        "type": "int"
+      }
+    ]
+  }
+]

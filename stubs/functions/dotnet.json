@@ -1,0 +1,22 @@
+[
+  {
+    "name": "dotnet_load",
+    "type": "int",
+    "args": [
+      {
+        "name": "assembly_name",
+        "type": "string"
+      },
+      {
+        "name": "datatype_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "codepage",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

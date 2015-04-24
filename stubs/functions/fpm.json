@@ -1,0 +1,7 @@
+[
+  {
+    "name": "fastcgi_finish_request",
+    "type": "boolean",
+    "args": []
+  }
+]

@@ -1,0 +1,976 @@
+[
+  {
+    "name": "cubrid_bind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "bind_index",
+        "type": "int"
+      },
+      {
+        "name": "bind_value",
+        "type": "mixed"
+      },
+      {
+        "name": "bind_value_type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_close_prepare",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_close_request",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_col_get",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_col_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_column_names",
+    "type": "array",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_column_types",
+    "type": "array",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "dbname",
+        "type": "string"
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "passwd",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new_link",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_connect_with_url",
+    "type": "resource",
+    "args": [
+      {
+        "name": "conn_url",
+        "type": "string"
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "passwd",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new_link",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_current_oid",
+    "type": "string",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_disconnect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_drop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_error_code",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "cubrid_error_code_facility",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "cubrid_error_msg",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "cubrid_fetch",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_autocommit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_charset",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_class_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_client_info",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "cubrid_get_db_parameter",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_query_timeout",
+    "type": "int",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_get_server_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_insert_id",
+    "type": "string",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_is_instance",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_bind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "bind_index",
+        "type": "int"
+      },
+      {
+        "name": "bind_value",
+        "type": "mixed"
+      },
+      {
+        "name": "bind_value_type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "file_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_import",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "file_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "origin",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_seek64",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "string"
+      },
+      {
+        "name": "origin",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_size64",
+    "type": "string",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_tell",
+    "type": "int",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_tell64",
+    "type": "string",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob2_write",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "buf",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "lob_identifier_array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "path_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob_get",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "sql",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob_send",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lob_size",
+    "type": "string",
+    "args": [
+      {
+        "name": "lob_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lock_read",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_lock_write",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_move_cursor",
+    "type": "int",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "origin",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_next_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_num_cols",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "dbname",
+        "type": "string"
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "passwd",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_pconnect_with_url",
+    "type": "resource",
+    "args": [
+      {
+        "name": "conn_url",
+        "type": "string"
+      },
+      {
+        "name": "userid",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "passwd",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_prepare",
+    "type": "resource",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "prepare_stmt",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_put",
+    "type": "int",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_schema",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "schema_type",
+        "type": "int"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "attr_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cubrid_seq_drop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_seq_insert",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      },
+      {
+        "name": "seq_element",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_seq_put",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      },
+      {
+        "name": "seq_element",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_set_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      },
+      {
+        "name": "set_element",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_set_autocommit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_set_db_parameter",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "param_type",
+        "type": "int"
+      },
+      {
+        "name": "param_value",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_set_drop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "oid",
+        "type": "string"
+      },
+      {
+        "name": "attr_name",
+        "type": "string"
+      },
+      {
+        "name": "set_element",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_set_query_timeout",
+    "type": "bool",
+    "args": [
+      {
+        "name": "req_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "cubrid_version",
+    "type": "string",
+    "args": []
+  }
+]

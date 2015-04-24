@@ -1,0 +1,85 @@
+[
+  {
+    "name": "mysqlnd_ms_get_last_gtid",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_ms_get_last_used_connection",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_ms_get_stats",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_ms_match_wild",
+    "type": "bool",
+    "args": [
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "wildcard",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_ms_query_is_select",
+    "type": "int",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_ms_set_qos",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "mixed"
+      },
+      {
+        "name": "service_level",
+        "type": "int"
+      },
+      {
+        "name": "service_level_option",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "option_value",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_ms_set_user_pick_server",
+    "type": "bool",
+    "args": [
+      {
+        "name": "function",
+        "type": "string"
+      }
+    ]
+  }
+]

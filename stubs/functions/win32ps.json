@@ -1,0 +1,23 @@
+[
+  {
+    "name": "win32_ps_list_procs",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "win32_ps_stat_mem",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "win32_ps_stat_proc",
+    "type": "array",
+    "args": [
+      {
+        "name": "pid",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

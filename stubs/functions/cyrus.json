@@ -1,0 +1,120 @@
+[
+  {
+    "name": "cyrus_authenticate",
+    "type": "void",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "mechlist",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "service",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "user",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "minssf",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "maxssf",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "authname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cyrus_bind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "callbacks",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "cyrus_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "cyrus_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "port",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cyrus_query",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "cyrus_unbind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "trigger_name",
+        "type": "string"
+      }
+    ]
+  }
+]

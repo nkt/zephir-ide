@@ -1,0 +1,328 @@
+[
+  {
+    "name": "xdiff_file_bdiff",
+    "type": "bool",
+    "args": [
+      {
+        "name": "old_file",
+        "type": "string"
+      },
+      {
+        "name": "new_file",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_bdiff_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_bpatch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_diff",
+    "type": "bool",
+    "args": [
+      {
+        "name": "old_file",
+        "type": "string"
+      },
+      {
+        "name": "new_file",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "minimal",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_diff_binary",
+    "type": "bool",
+    "args": [
+      {
+        "name": "old_file",
+        "type": "string"
+      },
+      {
+        "name": "new_file",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_merge3",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "old_file",
+        "type": "string"
+      },
+      {
+        "name": "new_file1",
+        "type": "string"
+      },
+      {
+        "name": "new_file2",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_patch",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_patch_binary",
+    "type": "bool",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_file_rabdiff",
+    "type": "bool",
+    "args": [
+      {
+        "name": "old_file",
+        "type": "string"
+      },
+      {
+        "name": "new_file",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_bdiff",
+    "type": "string",
+    "args": [
+      {
+        "name": "old_data",
+        "type": "string"
+      },
+      {
+        "name": "new_data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_bdiff",
+    "type": "string",
+    "args": [
+      {
+        "name": "old_data",
+        "type": "string"
+      },
+      {
+        "name": "new_data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_bdiff",
+    "type": "string",
+    "args": [
+      {
+        "name": "old_data",
+        "type": "string"
+      },
+      {
+        "name": "new_data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_bdiff_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "patch",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_bpatch",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_diff",
+    "type": "string",
+    "args": [
+      {
+        "name": "old_data",
+        "type": "string"
+      },
+      {
+        "name": "new_data",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "minimal",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_merge3",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "old_data",
+        "type": "string"
+      },
+      {
+        "name": "new_data1",
+        "type": "string"
+      },
+      {
+        "name": "new_data2",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_patch",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xdiff_string_patch_binary",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "patch",
+        "type": "string"
+      }
+    ]
+  }
+]

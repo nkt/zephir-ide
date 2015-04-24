@@ -1,0 +1,410 @@
+[
+  {
+    "name": "mcrypt_create_iv",
+    "type": "string",
+    "args": [
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "source",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_decrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "cipher",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "iv",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_algorithms_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_block_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_iv_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_key_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_modes_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_get_supported_key_sizes",
+    "type": "array",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_is_block_algorithm",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_is_block_algorithm_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_is_block_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_enc_self_test",
+    "type": "int",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_encrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "cipher",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "iv",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_generic",
+    "type": "string",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_generic_deinit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_generic_end",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_generic_init",
+    "type": "int",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "iv",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_get_iv_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "cipher",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_list_algorithms",
+    "type": "array",
+    "args": [
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_list_modes",
+    "type": "array",
+    "args": [
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_get_algo_block_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_get_algo_key_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_get_supported_key_sizes",
+    "type": "array",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_is_block_algorithm",
+    "type": "bool",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_is_block_algorithm_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_is_block_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "algorithm_directory",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "mode_directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mcrypt_module_self_test",
+    "type": "bool",
+    "args": [
+      {
+        "name": "algorithm",
+        "type": "string"
+      },
+      {
+        "name": "lib_dir",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mdecrypt_generic",
+    "type": "string",
+    "args": [
+      {
+        "name": "td",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  }
+]

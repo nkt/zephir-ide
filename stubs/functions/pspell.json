@@ -1,0 +1,307 @@
+[
+  {
+    "name": "pspell_add_to_personal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_add_to_session",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_check",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_clear_session",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_create",
+    "type": "int",
+    "args": [
+      {
+        "name": "language",
+        "type": "string"
+      },
+      {
+        "name": "spelling",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "jargon",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_data_dir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conf",
+        "type": "int"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_dict_dir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conf",
+        "type": "int"
+      },
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_ignore",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_personal",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_repl",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_runtogether",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "flag",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "pspell_config_save_repl",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "flag",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "pspell_new",
+    "type": "int",
+    "args": [
+      {
+        "name": "language",
+        "type": "string"
+      },
+      {
+        "name": "spelling",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "jargon",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pspell_new_config",
+    "type": "int",
+    "args": [
+      {
+        "name": "config",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pspell_new_personal",
+    "type": "int",
+    "args": [
+      {
+        "name": "personal",
+        "type": "string"
+      },
+      {
+        "name": "language",
+        "type": "string"
+      },
+      {
+        "name": "spelling",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "jargon",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pspell_save_wordlist",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pspell_store_replacement",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "misspelled",
+        "type": "string"
+      },
+      {
+        "name": "correct",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pspell_suggest",
+    "type": "array",
+    "args": [
+      {
+        "name": "dictionary_link",
+        "type": "int"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ]
+  }
+]

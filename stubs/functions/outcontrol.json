@@ -1,0 +1,133 @@
+[
+  {
+    "name": "flush",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ob_clean",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ob_end_clean",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ob_end_flush",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ob_flush",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ob_get_clean",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ob_get_contents",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ob_get_flush",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ob_get_length",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ob_get_level",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ob_get_status",
+    "type": "array",
+    "args": [
+      {
+        "name": "full_status",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ob_gzhandler",
+    "type": "string",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ob_implicit_flush",
+    "type": "void",
+    "args": [
+      {
+        "name": "flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ob_list_handlers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "ob_start",
+    "type": "bool",
+    "args": [
+      {
+        "name": "output_callback",
+        "type": "callable",
+        "optional": true
+      },
+      {
+        "name": "chunk_size",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "output_add_rewrite_var",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "output_reset_rewrite_vars",
+    "type": "bool",
+    "args": []
+  }
+]

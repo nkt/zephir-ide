@@ -1,0 +1,610 @@
+[
+  {
+    "name": "gupnp_context_get_host_ip",
+    "type": "string",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_get_port",
+    "type": "int",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_get_subscription_timeout",
+    "type": "int",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_host_path",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "local_path",
+        "type": "string"
+      },
+      {
+        "name": "server_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host_ip",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_set_subscription_timeout",
+    "type": "void",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_timeout_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_context_unhost_path",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "server_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_control_point_browse_start",
+    "type": "bool",
+    "args": [
+      {
+        "name": "cpoint",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_control_point_browse_stop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "cpoint",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_control_point_callback_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "cpoint",
+        "type": "resource"
+      },
+      {
+        "name": "signal",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_control_point_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "target",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_device_action_callback_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      },
+      {
+        "name": "signal",
+        "type": "int"
+      },
+      {
+        "name": "action_name",
+        "type": "string"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_device_info_get",
+    "type": "array",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_device_info_get_service",
+    "type": "resource",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_get_available",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_get_relative_location",
+    "type": "string",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "location",
+        "type": "string"
+      },
+      {
+        "name": "description_dir",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_set_available",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      },
+      {
+        "name": "available",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_start",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_root_device_stop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root_device",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_action_get",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "action",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_action_return",
+    "type": "bool",
+    "args": [
+      {
+        "name": "action",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_action_return_error",
+    "type": "bool",
+    "args": [
+      {
+        "name": "action",
+        "type": "resource"
+      },
+      {
+        "name": "error_code",
+        "type": "int"
+      },
+      {
+        "name": "error_description",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_action_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "action",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_freeze_notify",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_info_get",
+    "type": "array",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_info_get_introspection",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "callback",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_introspection_get_state_variable",
+    "type": "array",
+    "args": [
+      {
+        "name": "introspection",
+        "type": "resource"
+      },
+      {
+        "name": "variable_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_notify",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_action_get",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_action_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_add_notify",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_callback_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "signal",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_get_subscribed",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_remove_notify",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_send_action",
+    "type": "array",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "name": "in_params",
+        "type": "array"
+      },
+      {
+        "name": "out_params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_proxy_set_subscribed",
+    "type": "bool",
+    "args": [
+      {
+        "name": "proxy",
+        "type": "resource"
+      },
+      {
+        "name": "subscribed",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "gupnp_service_thaw_notify",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service",
+        "type": "resource"
+      }
+    ]
+  }
+]

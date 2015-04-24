@@ -1,0 +1,51 @@
+[
+  {
+    "name": "sha256",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sha256_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "suhosin_encrypt_cookie",
+    "type": "string",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "suhosin_get_raw_cookies",
+    "type": "array",
+    "args": []
+  }
+]

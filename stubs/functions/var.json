@@ -1,0 +1,343 @@
+[
+  {
+    "name": "boolval",
+    "type": "boolean",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "debug_zval_dump",
+    "type": "void",
+    "args": [
+      {
+        "name": "variable",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "empty",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "floatval",
+    "type": "float",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "get_defined_vars",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "get_resource_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gettype",
+    "type": "string",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "import_request_variables",
+    "type": "bool",
+    "args": [
+      {
+        "name": "types",
+        "type": "string"
+      },
+      {
+        "name": "prefix",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "intval",
+    "type": "int",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      },
+      {
+        "name": "base",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "is_array",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_bool",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_callable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "callable"
+      },
+      {
+        "name": "syntax_only",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "callable_name",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "is_float",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_int",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_null",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_numeric",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_object",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_resource",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_scalar",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "is_string",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "isset",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "print_r",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "expression",
+        "type": "mixed"
+      },
+      {
+        "name": "return",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "serialize",
+    "type": "string",
+    "args": [
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "settype",
+    "type": "bool",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed",
+        "reference": true
+      },
+      {
+        "name": "type",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strval",
+    "type": "string",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "unserialize",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "unset",
+    "type": "void",
+    "args": [
+      {
+        "name": "var",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "var_dump",
+    "type": "void",
+    "args": [
+      {
+        "name": "expression",
+        "type": "mixed"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "var_export",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "expression",
+        "type": "mixed"
+      },
+      {
+        "name": "return",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

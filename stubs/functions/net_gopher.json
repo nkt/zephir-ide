@@ -1,0 +1,12 @@
+[
+  {
+    "name": "gopher_parsedir",
+    "type": "array",
+    "args": [
+      {
+        "name": "dirent",
+        "type": "string"
+      }
+    ]
+  }
+]

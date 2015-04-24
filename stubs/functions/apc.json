@@ -1,0 +1,274 @@
+[
+  {
+    "name": "apc_bin_dump",
+    "type": "string",
+    "args": [
+      {
+        "name": "files",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "user_vars",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_bin_dumpfile",
+    "type": "int",
+    "args": [
+      {
+        "name": "files",
+        "type": "array"
+      },
+      {
+        "name": "user_vars",
+        "type": "array"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_bin_load",
+    "type": "bool",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_bin_loadfile",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_cache_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "cache_type",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "limited",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_cas",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "old",
+        "type": "int"
+      },
+      {
+        "name": "new",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "apc_clear_cache",
+    "type": "bool",
+    "args": [
+      {
+        "name": "cache_type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_compile_file",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "atomic",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_dec",
+    "type": "int",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "step",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "success",
+        "type": "bool",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_define_constants",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "constants",
+        "type": "array"
+      },
+      {
+        "name": "case_sensitive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_delete",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "apc_delete_file",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "keys",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "apc_exists",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "keys",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "apc_fetch",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "success",
+        "type": "bool",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_inc",
+    "type": "int",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "step",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "success",
+        "type": "bool",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_load_constants",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "case_sensitive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apc_sma_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "limited",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

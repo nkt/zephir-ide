@@ -1,0 +1,347 @@
+[
+  {
+    "name": "yaz_addinfo",
+    "type": "string",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_ccl_conf",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "config",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "yaz_ccl_parse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "result",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "yaz_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_connect",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "zurl",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaz_database",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "databases",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_element",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "elementset",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_es",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "yaz_es_result",
+    "type": "array",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_get_option",
+    "type": "string",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_hits",
+    "type": "int",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "searchresult",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaz_itemorder",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "yaz_present",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "yaz_range",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "yaz_record",
+    "type": "string",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_scan",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "startterm",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaz_scan_result",
+    "type": "array",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "result",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaz_schema",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_search",
+    "type": "bool",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_sort",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "criteria",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_syntax",
+    "type": "void",
+    "args": [
+      {
+        "name": "id",
+        "type": "resource"
+      },
+      {
+        "name": "syntax",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yaz_wait",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "options",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  }
+]

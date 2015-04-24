@@ -1,0 +1,66 @@
+[
+  {
+    "name": "filepro",
+    "type": "bool",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filepro_fieldcount",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "filepro_fieldname",
+    "type": "string",
+    "args": [
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "filepro_fieldtype",
+    "type": "string",
+    "args": [
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "filepro_fieldwidth",
+    "type": "int",
+    "args": [
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "filepro_retrieve",
+    "type": "string",
+    "args": [
+      {
+        "name": "row_number",
+        "type": "int"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "filepro_rowcount",
+    "type": "int",
+    "args": []
+  }
+]

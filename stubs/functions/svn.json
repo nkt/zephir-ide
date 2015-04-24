@@ -1,0 +1,769 @@
+[
+  {
+    "name": "svn_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "force",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_auth_get_parameter",
+    "type": "string",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_auth_set_parameter",
+    "type": "void",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_blame",
+    "type": "array",
+    "args": [
+      {
+        "name": "repository_url",
+        "type": "string"
+      },
+      {
+        "name": "revision_no",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_cat",
+    "type": "string",
+    "args": [
+      {
+        "name": "repos_url",
+        "type": "string"
+      },
+      {
+        "name": "revision_no",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_checkout",
+    "type": "bool",
+    "args": [
+      {
+        "name": "repos",
+        "type": "string"
+      },
+      {
+        "name": "targetpath",
+        "type": "string"
+      },
+      {
+        "name": "revision",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_cleanup",
+    "type": "bool",
+    "args": [
+      {
+        "name": "workingdir",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_client_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "svn_commit",
+    "type": "array",
+    "args": [
+      {
+        "name": "log",
+        "type": "string"
+      },
+      {
+        "name": "targets",
+        "type": "array"
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "force",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_diff",
+    "type": "array",
+    "args": [
+      {
+        "name": "path1",
+        "type": "string"
+      },
+      {
+        "name": "rev1",
+        "type": "int"
+      },
+      {
+        "name": "path2",
+        "type": "string"
+      },
+      {
+        "name": "rev2",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "svn_export",
+    "type": "bool",
+    "args": [
+      {
+        "name": "frompath",
+        "type": "string"
+      },
+      {
+        "name": "topath",
+        "type": "string"
+      },
+      {
+        "name": "working_copy",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "revision_no",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_abort_txn",
+    "type": "bool",
+    "args": [
+      {
+        "name": "txn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_apply_text",
+    "type": "resource",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_begin_txn2",
+    "type": "resource",
+    "args": [
+      {
+        "name": "repos",
+        "type": "resource"
+      },
+      {
+        "name": "rev",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_change_node_prop",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_check_path",
+    "type": "int",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_contents_changed",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root1",
+        "type": "resource"
+      },
+      {
+        "name": "path1",
+        "type": "string"
+      },
+      {
+        "name": "root2",
+        "type": "resource"
+      },
+      {
+        "name": "path2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "from_root",
+        "type": "resource"
+      },
+      {
+        "name": "from_path",
+        "type": "string"
+      },
+      {
+        "name": "to_root",
+        "type": "resource"
+      },
+      {
+        "name": "to_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_dir_entries",
+    "type": "array",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_file_contents",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_file_length",
+    "type": "int",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_is_dir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_is_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_make_dir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_make_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_node_created_rev",
+    "type": "int",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_node_prop",
+    "type": "string",
+    "args": [
+      {
+        "name": "fsroot",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "propname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_props_changed",
+    "type": "bool",
+    "args": [
+      {
+        "name": "root1",
+        "type": "resource"
+      },
+      {
+        "name": "path1",
+        "type": "string"
+      },
+      {
+        "name": "root2",
+        "type": "resource"
+      },
+      {
+        "name": "path2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_revision_prop",
+    "type": "string",
+    "args": [
+      {
+        "name": "fs",
+        "type": "resource"
+      },
+      {
+        "name": "revnum",
+        "type": "int"
+      },
+      {
+        "name": "propname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_revision_root",
+    "type": "resource",
+    "args": [
+      {
+        "name": "fs",
+        "type": "resource"
+      },
+      {
+        "name": "revnum",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_txn_root",
+    "type": "resource",
+    "args": [
+      {
+        "name": "txn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "svn_fs_youngest_rev",
+    "type": "int",
+    "args": [
+      {
+        "name": "fs",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "svn_import",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "nonrecursive",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "svn_log",
+    "type": "array",
+    "args": [
+      {
+        "name": "repos_url",
+        "type": "string"
+      },
+      {
+        "name": "start_revision",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "end_revision",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_ls",
+    "type": "array",
+    "args": [
+      {
+        "name": "repos_url",
+        "type": "string"
+      },
+      {
+        "name": "revision_no",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "recurse",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "peg",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_mkdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "log_message",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "config",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "fsconfig",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_fs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "repos",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_fs_begin_txn_for_commit",
+    "type": "resource",
+    "args": [
+      {
+        "name": "repos",
+        "type": "resource"
+      },
+      {
+        "name": "rev",
+        "type": "int"
+      },
+      {
+        "name": "author",
+        "type": "string"
+      },
+      {
+        "name": "log_msg",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_fs_commit_txn",
+    "type": "int",
+    "args": [
+      {
+        "name": "txn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_hotcopy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "repospath",
+        "type": "string"
+      },
+      {
+        "name": "destpath",
+        "type": "string"
+      },
+      {
+        "name": "cleanlogs",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_repos_recover",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "svn_revert",
+    "type": "bool",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_status",
+    "type": "array",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "svn_update",
+    "type": "int",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "revno",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "recurse",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

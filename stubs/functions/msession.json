@@ -1,0 +1,271 @@
+[
+  {
+    "name": "msession_connect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_count",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "msession_create",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "classname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msession_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_disconnect",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "msession_find",
+    "type": "array",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_get",
+    "type": "string",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_get_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_get_data",
+    "type": "string",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_inc",
+    "type": "string",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_list",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "msession_listvar",
+    "type": "array",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_lock",
+    "type": "int",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_plugin",
+    "type": "string",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "val",
+        "type": "string"
+      },
+      {
+        "name": "param",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msession_randstr",
+    "type": "string",
+    "args": [
+      {
+        "name": "param",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "msession_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_set_array",
+    "type": "void",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "tuples",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "msession_set_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "msession_timeout",
+    "type": "int",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "param",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msession_uniq",
+    "type": "string",
+    "args": [
+      {
+        "name": "param",
+        "type": "int"
+      },
+      {
+        "name": "classname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "data",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "msession_unlock",
+    "type": "int",
+    "args": [
+      {
+        "name": "session",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ]
+  }
+]

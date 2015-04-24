@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Zephir language support for Atom",
-  "repository": "https://github.com/atom/zephir",
+  "repository": "https://github.com/nkt/zephir-ide.git",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^3.0.1",
-    "eslint": "^0.19.0"
+    "eslint": "^0.19.0",
+    "xml2js": "^0.4.8"
   },
   "scripts": {
     "prebuild": "rm -rf lib/",

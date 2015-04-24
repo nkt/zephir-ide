@@ -1,114 +1,115 @@
 [
-    {
-        "name": "filter_input",
+  {
+    "name": "filter_has_var",
+    "type": "bool",
+    "args": [
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "variable_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filter_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "filtername",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filter_input",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "variable_name",
+        "type": "string"
+      },
+      {
+        "name": "filter",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "options",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_input.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "variable_name",
-                "type": "mixed"
-            },
-            {
-                "name": "filter",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "filter_var",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "filter_input_array",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "definition",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_var.php",
-        "args": [
-            {
-                "name": "variable",
-                "type": "mixed"
-            },
-            {
-                "name": "filter",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "filter_input_array",
+        "optional": true
+      },
+      {
+        "name": "add_empty",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "filter_list",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "filter_var",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variable",
+        "type": "mixed"
+      },
+      {
+        "name": "filter",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "options",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_input_array.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "definition",
-                "type": "mixed"
-            },
-            {
-                "name": "add_empty",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "filter_var_array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "filter_var_array",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "data",
+        "type": "array"
+      },
+      {
+        "name": "definition",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_var_array.php",
-        "args": [
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "definition",
-                "type": "mixed"
-            },
-            {
-                "name": "add_empty",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "filter_list",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_list.php",
-        "args": []
-    },
-    {
-        "name": "filter_has_var",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_has_var.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "variable_name",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "filter_id",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.filter_id.php",
-        "args": [
-            {
-                "name": "filtername",
-                "type": "mixed"
-            }
-        ]
-    }
+        "optional": true
+      },
+      {
+        "name": "add_empty",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
 ]

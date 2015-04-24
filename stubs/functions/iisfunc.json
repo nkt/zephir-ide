@@ -1,0 +1,242 @@
+[
+  {
+    "name": "iis_add_server",
+    "type": "int",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "comment",
+        "type": "string"
+      },
+      {
+        "name": "server_ip",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "host_name",
+        "type": "string"
+      },
+      {
+        "name": "rights",
+        "type": "int"
+      },
+      {
+        "name": "start_server",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_dir_security",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_script_map",
+    "type": "string",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      },
+      {
+        "name": "script_extension",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_server_by_comment",
+    "type": "int",
+    "args": [
+      {
+        "name": "comment",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_server_by_path",
+    "type": "int",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_server_rights",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_get_service_state",
+    "type": "int",
+    "args": [
+      {
+        "name": "service_id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_remove_server",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_set_app_settings",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      },
+      {
+        "name": "application_scope",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_set_dir_security",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      },
+      {
+        "name": "directory_flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_set_script_map",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      },
+      {
+        "name": "script_extension",
+        "type": "string"
+      },
+      {
+        "name": "engine_path",
+        "type": "string"
+      },
+      {
+        "name": "allow_scripting",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_set_server_rights",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      },
+      {
+        "name": "virtual_path",
+        "type": "string"
+      },
+      {
+        "name": "directory_flags",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_start_server",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_start_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "service_id",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iis_stop_server",
+    "type": "int",
+    "args": [
+      {
+        "name": "server_instance",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "iis_stop_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "service_id",
+        "type": "string"
+      }
+    ]
+  }
+]

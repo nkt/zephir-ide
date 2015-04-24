@@ -1,0 +1,955 @@
+[
+  {
+    "name": "hw_array2objrec",
+    "type": "string",
+    "args": [
+      {
+        "name": "object_array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "hw_changeobject",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "objid",
+        "type": "int"
+      },
+      {
+        "name": "attributes",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "hw_children",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_childrenobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_connect",
+    "type": "int",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_connection_info",
+    "type": "void",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_cp",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_id_array",
+        "type": "array"
+      },
+      {
+        "name": "destination_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_deleteobject",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_to_delete",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_docbyanchor",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "anchorID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_docbyanchorobj",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "anchorID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_document_attributes",
+    "type": "string",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_document_bodytag",
+    "type": "string",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      },
+      {
+        "name": "prefix",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_document_content",
+    "type": "string",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_document_setcontent",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_document_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_dummy",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "id",
+        "type": "int"
+      },
+      {
+        "name": "msgid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_edittext",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_error",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_errormsg",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_free_document",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getanchors",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getanchorsobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getandlock",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getchildcoll",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getchildcollobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getchilddoccoll",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getchilddoccollobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getobject",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "mixed"
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_getobjectbyquery",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "max_hits",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getobjectbyquerycoll",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "max_hits",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getobjectbyquerycollobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "max_hits",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getobjectbyqueryobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "max_hits",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getparents",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getparentsobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getrellink",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "rootid",
+        "type": "int"
+      },
+      {
+        "name": "sourceid",
+        "type": "int"
+      },
+      {
+        "name": "destid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getremote",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_getremotechildren",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_record",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_getsrcbydestobj",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_gettext",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      },
+      {
+        "name": "rootID/prefix",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_getusername",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_identify",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_incollections",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_id_array",
+        "type": "array"
+      },
+      {
+        "name": "collection_id_array",
+        "type": "array"
+      },
+      {
+        "name": "return_collections",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_inscoll",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      },
+      {
+        "name": "object_array",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "hw_insdoc",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "parentID",
+        "type": "int"
+      },
+      {
+        "name": "object_record",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_insertanchors",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hwdoc",
+        "type": "int"
+      },
+      {
+        "name": "anchorecs",
+        "type": "array"
+      },
+      {
+        "name": "dest",
+        "type": "array"
+      },
+      {
+        "name": "urlprefixes",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_insertdocument",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "parent_id",
+        "type": "int"
+      },
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_insertobject",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_rec",
+        "type": "string"
+      },
+      {
+        "name": "parameter",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_mapid",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "server_id",
+        "type": "int"
+      },
+      {
+        "name": "object_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_modifyobject",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_to_change",
+        "type": "int"
+      },
+      {
+        "name": "remove",
+        "type": "array"
+      },
+      {
+        "name": "add",
+        "type": "array"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_mv",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "object_id_array",
+        "type": "array"
+      },
+      {
+        "name": "source_id",
+        "type": "int"
+      },
+      {
+        "name": "destination_id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_new_document",
+    "type": "int",
+    "args": [
+      {
+        "name": "object_record",
+        "type": "string"
+      },
+      {
+        "name": "document_data",
+        "type": "string"
+      },
+      {
+        "name": "document_size",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_objrec2array",
+    "type": "array",
+    "args": [
+      {
+        "name": "object_record",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_output_document",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hw_document",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_pconnect",
+    "type": "int",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hw_pipedocument",
+    "type": "int",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      },
+      {
+        "name": "url_prefixes",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hw_root",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "hw_setlinkroot",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      },
+      {
+        "name": "rootid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_stat",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_unlock",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      },
+      {
+        "name": "objectID",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "hw_who",
+    "type": "array",
+    "args": [
+      {
+        "name": "connection",
+        "type": "int"
+      }
+    ]
+  }
+]

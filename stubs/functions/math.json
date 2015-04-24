@@ -1,0 +1,463 @@
+[
+  {
+    "name": "abs",
+    "type": "number",
+    "args": [
+      {
+        "name": "number",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "acos",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "acosh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "asin",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "asinh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "atan",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "atan2",
+    "type": "float",
+    "args": [
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "atanh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "base_convert",
+    "type": "string",
+    "args": [
+      {
+        "name": "number",
+        "type": "string"
+      },
+      {
+        "name": "frombase",
+        "type": "int"
+      },
+      {
+        "name": "tobase",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "bindec",
+    "type": "number",
+    "args": [
+      {
+        "name": "binary_string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ceil",
+    "type": "float",
+    "args": [
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cos",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "cosh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "decbin",
+    "type": "string",
+    "args": [
+      {
+        "name": "number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dechex",
+    "type": "string",
+    "args": [
+      {
+        "name": "number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "decoct",
+    "type": "string",
+    "args": [
+      {
+        "name": "number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "deg2rad",
+    "type": "float",
+    "args": [
+      {
+        "name": "number",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "exp",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "expm1",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "floor",
+    "type": "float",
+    "args": [
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "fmod",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "getrandmax",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "hexdec",
+    "type": "number",
+    "args": [
+      {
+        "name": "hex_string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hypot",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "is_finite",
+    "type": "bool",
+    "args": [
+      {
+        "name": "val",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "is_infinite",
+    "type": "bool",
+    "args": [
+      {
+        "name": "val",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "is_nan",
+    "type": "bool",
+    "args": [
+      {
+        "name": "val",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "lcg_value",
+    "type": "float",
+    "args": []
+  },
+  {
+    "name": "log",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      },
+      {
+        "name": "base",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "log10",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "log1p",
+    "type": "float",
+    "args": [
+      {
+        "name": "number",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "mt_getrandmax",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "mt_srand",
+    "type": "void",
+    "args": [
+      {
+        "name": "seed",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "octdec",
+    "type": "number",
+    "args": [
+      {
+        "name": "octal_string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "pi",
+    "type": "float",
+    "args": []
+  },
+  {
+    "name": "pow",
+    "type": "number",
+    "args": [
+      {
+        "name": "base",
+        "type": "number"
+      },
+      {
+        "name": "exp",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "rad2deg",
+    "type": "float",
+    "args": [
+      {
+        "name": "number",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "round",
+    "type": "float",
+    "args": [
+      {
+        "name": "val",
+        "type": "float"
+      },
+      {
+        "name": "precision",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sin",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "sinh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "sqrt",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "srand",
+    "type": "void",
+    "args": [
+      {
+        "name": "seed",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "tan",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "tanh",
+    "type": "float",
+    "args": [
+      {
+        "name": "arg",
+        "type": "float"
+      }
+    ]
+  }
+]

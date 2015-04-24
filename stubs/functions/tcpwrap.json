@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tcpwrap_check",
+    "type": "bool",
+    "args": [
+      {
+        "name": "daemon",
+        "type": "string"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "user",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "nodns",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

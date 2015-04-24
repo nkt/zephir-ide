@@ -1,0 +1,54 @@
+[
+  {
+    "name": "parsekit_compile_file",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "errors",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "parsekit_compile_string",
+    "type": "array",
+    "args": [
+      {
+        "name": "phpcode",
+        "type": "string"
+      },
+      {
+        "name": "errors",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "parsekit_func_arginfo",
+    "type": "array",
+    "args": [
+      {
+        "name": "function",
+        "type": "mixed"
+      }
+    ]
+  }
+]

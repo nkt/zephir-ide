@@ -1,0 +1,41 @@
+[
+  {
+    "name": "mysqlnd_uh_convert_to_mysqlnd",
+    "type": "resource",
+    "args": [
+      {
+        "name": "mysql_connection",
+        "type": "mysqli",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_uh_set_connection_proxy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection_proxy",
+        "type": "MysqlndUhConnection",
+        "reference": true
+      },
+      {
+        "name": "mysqli_connection",
+        "type": "mysqli",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_uh_set_statement_proxy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "statement_proxy",
+        "type": "MysqlndUhStatement",
+        "reference": true
+      }
+    ]
+  }
+]

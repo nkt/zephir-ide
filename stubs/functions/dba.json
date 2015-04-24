@@ -1,218 +1,190 @@
 [
-    {
-        "name": "dba_open",
+  {
+    "name": "dba_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_firstkey",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_handlers",
+    "type": "array",
+    "args": [
+      {
+        "name": "full_info",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dba_insert",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_key_split",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "key",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "dba_list",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "dba_nextkey",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "handler",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "...",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_open.php",
-        "args": [
-            {
-                "name": "path",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "handlername",
-                "type": "mixed"
-            },
-            {
-                "name": "handler_parameters",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_popen",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dba_optimize",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_popen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "handler",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "...",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_popen.php",
-        "args": [
-            {
-                "name": "path",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "handlername",
-                "type": "mixed"
-            },
-            {
-                "name": "handler_parameters",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_close.php",
-        "args": [
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_delete",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_delete.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_exists",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_exists.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_fetch",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_fetch.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "skip",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_insert",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_insert.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_replace",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_replace.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_firstkey",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_firstkey.php",
-        "args": [
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_nextkey",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_nextkey.php",
-        "args": [
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_optimize",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_optimize.php",
-        "args": [
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_sync",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_sync.php",
-        "args": [
-            {
-                "name": "handle",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_handlers",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_handlers.php",
-        "args": [
-            {
-                "name": "full_info",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "dba_list",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_list.php",
-        "args": []
-    },
-    {
-        "name": "dba_key_split",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.dba_key_split.php",
-        "args": [
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    }
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dba_replace",
+    "type": "bool",
+    "args": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dba_sync",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  }
 ]

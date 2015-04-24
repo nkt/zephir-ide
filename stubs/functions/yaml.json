@@ -1,0 +1,134 @@
+[
+  {
+    "name": "yaml_emit",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "encoding",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "linebreak",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaml_emit_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "encoding",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "linebreak",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaml_parse",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "pos",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "ndocs",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaml_parse_file",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "pos",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "ndocs",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "yaml_parse_url",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "pos",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "ndocs",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  }
+]

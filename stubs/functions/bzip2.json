@@ -1,0 +1,135 @@
+[
+  {
+    "name": "bzclose",
+    "type": "int",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bzcompress",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "blocksize",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "workfactor",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bzdecompress",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "small",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bzerrno",
+    "type": "int",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bzerror",
+    "type": "array",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bzerrstr",
+    "type": "string",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bzflush",
+    "type": "int",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bzopen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bzread",
+    "type": "string",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bzwrite",
+    "type": "int",
+    "args": [
+      {
+        "name": "bz",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

@@ -1,864 +1,657 @@
 [
-    {
-        "name": "mysql_connect",
+  {
+    "name": "mysql_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_client_encoding",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "server",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new_link",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "client_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_create_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_data_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_db_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_connect.php",
-        "args": [
-            {
-                "name": "hostname",
-                "type": "mixed"
-            },
-            {
-                "name": "username",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "new",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_pconnect",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_db_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_drop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "unescaped_string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_field",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_lengths",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "class_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_flags",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_len",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_table",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_get_client_info",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "mysql_get_host_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_get_proto_info",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_get_server_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_insert_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_list_dbs",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_list_fields",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_list_processes",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_list_tables",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "mysql_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "server",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "client_flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_ping",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_real_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "unescaped_string",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_result",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
         "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_pconnect.php",
-        "args": [
-            {
-                "name": "hostname",
-                "type": "mixed"
-            },
-            {
-                "name": "username",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "flags",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_close.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_select_db",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_select_db.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_query",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_query.php",
-        "args": [
-            {
-                "name": "query",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_unbuffered_query",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_unbuffered_query.php",
-        "args": [
-            {
-                "name": "query",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_db_query",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_db_query.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "query",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_list_dbs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_list_dbs.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_list_tables",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_list_tables.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_list_fields",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_list_fields.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "table_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_list_processes",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_list_processes.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_error.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_errno",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_errno.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_affected_rows",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_affected_rows.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_insert_id",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_insert_id.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_result",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_result.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row",
-                "type": "mixed"
-            },
-            {
-                "name": "field",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_num_rows",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_num_rows.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_num_fields",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_num_fields.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_row",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_row.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_array",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_array.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "result_type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_assoc",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_assoc.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_object",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_object.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "class_name",
-                "type": "mixed"
-            },
-            {
-                "name": "ctor_params",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_data_seek",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_data_seek.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row_number",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_lengths",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_lengths.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fetch_field",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fetch_field.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_seek",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_seek.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_free_result",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_free_result.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_name",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_name.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_index",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_table",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_table.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_len",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_len.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_type",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_type.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_field_flags",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_field_flags.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_escape_string",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_escape_string.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_real_escape_string",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_real_escape_string.php",
-        "args": [
-            {
-                "name": "string",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_stat",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_stat.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_thread_id",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_thread_id.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_client_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_client_encoding.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_ping",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_ping.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_get_client_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_get_client_info.php",
-        "args": []
-    },
-    {
-        "name": "mysql_get_host_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_get_host_info.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_get_proto_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_get_proto_info.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_get_server_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_get_server_info.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_info",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_info.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_set_charset",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_set_charset.php",
-        "args": [
-            {
-                "name": "charset_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "query",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fieldname",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fieldname.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_index",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fieldtable",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fieldtable.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fieldlen",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fieldlen.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fieldtype",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fieldtype.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_fieldflags",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_fieldflags.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "field_offset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_selectdb",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_selectdb.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_freeresult",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_freeresult.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_numfields",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_numfields.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_numrows",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_numrows.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_listdbs",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_listdbs.php",
-        "args": [
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_listtables",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_listtables.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_listfields",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_listfields.php",
-        "args": [
-            {
-                "name": "database_name",
-                "type": "mixed"
-            },
-            {
-                "name": "table_name",
-                "type": "mixed"
-            },
-            {
-                "name": "link_identifier",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_db_name",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_db_name.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row",
-                "type": "mixed"
-            },
-            {
-                "name": "field",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_dbname",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_dbname.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row",
-                "type": "mixed"
-            },
-            {
-                "name": "field",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_tablename",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_tablename.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row",
-                "type": "mixed"
-            },
-            {
-                "name": "field",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mysql_table_name",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mysql_table_name.php",
-        "args": [
-            {
-                "name": "result",
-                "type": "mixed"
-            },
-            {
-                "name": "row",
-                "type": "mixed"
-            },
-            {
-                "name": "field",
-                "type": "mixed"
-            }
-        ]
-    }
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_set_charset",
+    "type": "bool",
+    "args": [
+      {
+        "name": "charset",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_stat",
+    "type": "string",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_tablename",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "i",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "mysql_thread_id",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "mysql_unbuffered_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
 ]

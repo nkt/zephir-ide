@@ -1,0 +1,152 @@
+[
+  {
+    "name": "domxml_new_doc",
+    "type": "DomDocument",
+    "args": [
+      {
+        "name": "version",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "domxml_open_file",
+    "type": "DomDocument",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "domxml_open_mem",
+    "type": "DomDocument",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "error",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "domxml_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "domxml_xmltree",
+    "type": "DomDocument",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "domxml_xslt_stylesheet",
+    "type": "DomXsltStylesheet",
+    "args": [
+      {
+        "name": "xsl_buf",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "domxml_xslt_stylesheet_doc",
+    "type": "DomXsltStylesheet",
+    "args": [
+      {
+        "name": "xsl_doc",
+        "type": "DomDocument"
+      }
+    ]
+  },
+  {
+    "name": "domxml_xslt_stylesheet_file",
+    "type": "DomXsltStylesheet",
+    "args": [
+      {
+        "name": "xsl_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "domxml_xslt_version",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "xpath_new_context",
+    "type": "XPathContext",
+    "args": [
+      {
+        "name": "dom_document",
+        "type": "domdocument"
+      }
+    ]
+  },
+  {
+    "name": "xpath_register_ns",
+    "type": "bool",
+    "args": [
+      {
+        "name": "xpath_context",
+        "type": "XPathContext"
+      },
+      {
+        "name": "prefix",
+        "type": "string"
+      },
+      {
+        "name": "uri",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xpath_register_ns_auto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "xpath_context",
+        "type": "XPathContext"
+      },
+      {
+        "name": "context_node",
+        "type": "object",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xptr_new_context",
+    "type": "XPathContext",
+    "args": []
+  }
+]

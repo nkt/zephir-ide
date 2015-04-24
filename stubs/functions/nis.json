@@ -1,0 +1,132 @@
+[
+  {
+    "name": "yp_all",
+    "type": "void",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      },
+      {
+        "name": "callback",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_cat",
+    "type": "array",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_err_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "errorcode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "yp_errno",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "yp_first",
+    "type": "array",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_get_default_domain",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "yp_master",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_match",
+    "type": "string",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_next",
+    "type": "array",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "yp_order",
+    "type": "int",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "map",
+        "type": "string"
+      }
+    ]
+  }
+]

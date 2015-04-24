@@ -1,0 +1,1400 @@
+[
+  {
+    "name": "addcslashes",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "addslashes",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bin2hex",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "chr",
+    "type": "string",
+    "args": [
+      {
+        "name": "ascii",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "chunk_split",
+    "type": "string",
+    "args": [
+      {
+        "name": "body",
+        "type": "string"
+      },
+      {
+        "name": "chunklen",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "end",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "convert_cyr_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "from",
+        "type": "string"
+      },
+      {
+        "name": "to",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "convert_uudecode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "convert_uuencode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "count_chars",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "crc32",
+    "type": "int",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "crypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "salt",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "echo",
+    "type": "void",
+    "args": [
+      {
+        "name": "arg1",
+        "type": "string"
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "explode",
+    "type": "array",
+    "args": [
+      {
+        "name": "delimiter",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "limit",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fprintf",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_html_translation_table",
+    "type": "array",
+    "args": [
+      {
+        "name": "table",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hebrev",
+    "type": "string",
+    "args": [
+      {
+        "name": "hebrew_text",
+        "type": "string"
+      },
+      {
+        "name": "max_chars_per_line",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hebrevc",
+    "type": "string",
+    "args": [
+      {
+        "name": "hebrew_text",
+        "type": "string"
+      },
+      {
+        "name": "max_chars_per_line",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hex2bin",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "html_entity_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "htmlentities",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "double_encode",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "htmlspecialchars",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "encoding",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "double_encode",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "htmlspecialchars_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "lcfirst",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "localeconv",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "ltrim",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charlist",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "md5",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "md5_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "metaphone",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "phonemes",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "money_format",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "number",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "nl2br",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "is_xhtml",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "nl_langinfo",
+    "type": "string",
+    "args": [
+      {
+        "name": "item",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ord",
+    "type": "int",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "parse_str",
+    "type": "void",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "arr",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "print",
+    "type": "int",
+    "args": [
+      {
+        "name": "arg",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "printf",
+    "type": "int",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "quoted_printable_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "quoted_printable_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "quotemeta",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rtrim",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charlist",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sha1",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sha1_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "similar_text",
+    "type": "int",
+    "args": [
+      {
+        "name": "first",
+        "type": "string"
+      },
+      {
+        "name": "second",
+        "type": "string"
+      },
+      {
+        "name": "percent",
+        "type": "float",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "soundex",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "sprintf",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sscanf",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_getcsv",
+    "type": "array",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "enclosure",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "escape",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_ireplace",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "search",
+        "type": "mixed"
+      },
+      {
+        "name": "replace",
+        "type": "mixed"
+      },
+      {
+        "name": "subject",
+        "type": "mixed"
+      },
+      {
+        "name": "count",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_pad",
+    "type": "string",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "pad_length",
+        "type": "int"
+      },
+      {
+        "name": "pad_string",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "pad_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_repeat",
+    "type": "string",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "multiplier",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "str_replace",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "search",
+        "type": "mixed"
+      },
+      {
+        "name": "replace",
+        "type": "mixed"
+      },
+      {
+        "name": "subject",
+        "type": "mixed"
+      },
+      {
+        "name": "count",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_rot13",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "str_shuffle",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "str_split",
+    "type": "array",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "split_length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "str_word_count",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charlist",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strcasecmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strcmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strcoll",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strcspn",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strip_tags",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "allowable_tags",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stripcslashes",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stripos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stripslashes",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stristr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "mixed"
+      },
+      {
+        "name": "before_needle",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strlen",
+    "type": "int",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strnatcasecmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strnatcmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strncasecmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "strncmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "str1",
+        "type": "string"
+      },
+      {
+        "name": "str2",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "strpbrk",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "char_list",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strpos",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "mixed"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strrchr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "strrev",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strripos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strrpos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strspn",
+    "type": "int",
+    "args": [
+      {
+        "name": "subject",
+        "type": "string"
+      },
+      {
+        "name": "mask",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strstr",
+    "type": "string",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "mixed"
+      },
+      {
+        "name": "before_needle",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "strtolower",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "strtoupper",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "substr",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "substr_compare",
+    "type": "int",
+    "args": [
+      {
+        "name": "main_str",
+        "type": "string"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "case_insensitivity",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "substr_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "substr_replace",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "string",
+        "type": "mixed"
+      },
+      {
+        "name": "replacement",
+        "type": "mixed"
+      },
+      {
+        "name": "start",
+        "type": "mixed"
+      },
+      {
+        "name": "length",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trim",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charlist",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ucfirst",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ucwords",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vfprintf",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "vprintf",
+    "type": "int",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "vsprintf",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "wordwrap",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "break",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "cut",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

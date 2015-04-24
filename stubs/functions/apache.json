@@ -1,0 +1,106 @@
+[
+  {
+    "name": "apache_child_terminate",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "apache_get_modules",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apache_get_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "apache_getenv",
+    "type": "string",
+    "args": [
+      {
+        "name": "variable",
+        "type": "string"
+      },
+      {
+        "name": "walk_to_top",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apache_lookup_uri",
+    "type": "object",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "apache_note",
+    "type": "string",
+    "args": [
+      {
+        "name": "note_name",
+        "type": "string"
+      },
+      {
+        "name": "note_value",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apache_request_headers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apache_reset_timeout",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "apache_response_headers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apache_setenv",
+    "type": "bool",
+    "args": [
+      {
+        "name": "variable",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "walk_to_top",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getallheaders",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "virtual",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  }
+]

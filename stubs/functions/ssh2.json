@@ -1,0 +1,546 @@
+[
+  {
+    "name": "ssh2_auth_agent",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_auth_hostbased_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "pubkeyfile",
+        "type": "string"
+      },
+      {
+        "name": "privkeyfile",
+        "type": "string"
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "local_username",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_auth_none",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_auth_password",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_auth_pubkey_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "pubkeyfile",
+        "type": "string"
+      },
+      {
+        "name": "privkeyfile",
+        "type": "string"
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "methods",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "callbacks",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_exec",
+    "type": "resource",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "command",
+        "type": "string"
+      },
+      {
+        "name": "pty",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "env",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "height",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "width_height_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_fetch_stream",
+    "type": "resource",
+    "args": [
+      {
+        "name": "channel",
+        "type": "resource"
+      },
+      {
+        "name": "streamid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_fingerprint",
+    "type": "string",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_methods_negotiated",
+    "type": "array",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_publickey_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pkey",
+        "type": "resource"
+      },
+      {
+        "name": "algoname",
+        "type": "string"
+      },
+      {
+        "name": "blob",
+        "type": "string"
+      },
+      {
+        "name": "overwrite",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "attributes",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_publickey_init",
+    "type": "resource",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_publickey_list",
+    "type": "array",
+    "args": [
+      {
+        "name": "pkey",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_publickey_remove",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pkey",
+        "type": "resource"
+      },
+      {
+        "name": "algoname",
+        "type": "string"
+      },
+      {
+        "name": "blob",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_scp_recv",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_scp_send",
+    "type": "bool",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "local_file",
+        "type": "string"
+      },
+      {
+        "name": "remote_file",
+        "type": "string"
+      },
+      {
+        "name": "create_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp",
+    "type": "resource",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_chmod",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_lstat",
+    "type": "array",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_mkdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "dirname",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_readlink",
+    "type": "string",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "link",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_realpath",
+    "type": "string",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "from",
+        "type": "string"
+      },
+      {
+        "name": "to",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_rmdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "dirname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_stat",
+    "type": "array",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_symlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "target",
+        "type": "string"
+      },
+      {
+        "name": "link",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_sftp_unlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sftp",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ssh2_shell",
+    "type": "resource",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "term_type",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "env",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "height",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "width_height_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ssh2_tunnel",
+    "type": "resource",
+    "args": [
+      {
+        "name": "session",
+        "type": "resource"
+      },
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      }
+    ]
+  }
+]

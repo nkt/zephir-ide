@@ -1,0 +1,449 @@
+[
+  {
+    "name": "com_addref",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "com_create_guid",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "com_event_sink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "comobject",
+        "type": "variant"
+      },
+      {
+        "name": "sinkobject",
+        "type": "object"
+      },
+      {
+        "name": "sinkinterface",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "com_get_active_object",
+    "type": "variant",
+    "args": [
+      {
+        "name": "progid",
+        "type": "string"
+      },
+      {
+        "name": "code_page",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "com_isenum",
+    "type": "bool",
+    "args": [
+      {
+        "name": "com_module",
+        "type": "variant"
+      }
+    ]
+  },
+  {
+    "name": "com_load_typelib",
+    "type": "bool",
+    "args": [
+      {
+        "name": "typelib_name",
+        "type": "string"
+      },
+      {
+        "name": "case_insensitive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "com_message_pump",
+    "type": "bool",
+    "args": [
+      {
+        "name": "timeoutms",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "com_print_typeinfo",
+    "type": "bool",
+    "args": [
+      {
+        "name": "comobject",
+        "type": "object"
+      },
+      {
+        "name": "dispinterface",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "wantsink",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "com_release",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "variant_abs",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "val",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_add",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_and",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_cast",
+    "type": "variant",
+    "args": [
+      {
+        "name": "variant",
+        "type": "variant"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "variant_cat",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_cmp",
+    "type": "int",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      },
+      {
+        "name": "lcid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "variant_date_from_timestamp",
+    "type": "variant",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "variant_date_to_timestamp",
+    "type": "int",
+    "args": [
+      {
+        "name": "variant",
+        "type": "variant"
+      }
+    ]
+  },
+  {
+    "name": "variant_div",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_eqv",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_fix",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variant",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_get_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "variant",
+        "type": "variant"
+      }
+    ]
+  },
+  {
+    "name": "variant_idiv",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_imp",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_int",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variant",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_mod",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_mul",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_neg",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variant",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_not",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variant",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_or",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_pow",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_round",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "variant",
+        "type": "mixed"
+      },
+      {
+        "name": "decimals",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "variant_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "variant",
+        "type": "variant"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_set_type",
+    "type": "void",
+    "args": [
+      {
+        "name": "variant",
+        "type": "variant"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "variant_sub",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "variant_xor",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "left",
+        "type": "mixed"
+      },
+      {
+        "name": "right",
+        "type": "mixed"
+      }
+    ]
+  }
+]

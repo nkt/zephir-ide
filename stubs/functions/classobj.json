@@ -1,0 +1,258 @@
+[
+  {
+    "name": "__autoload",
+    "type": "void",
+    "args": [
+      {
+        "name": "class",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "call_user_method",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "method_name",
+        "type": "string"
+      },
+      {
+        "name": "obj",
+        "type": "object",
+        "reference": true
+      },
+      {
+        "name": "parameter",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "call_user_method_array",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "method_name",
+        "type": "string"
+      },
+      {
+        "name": "obj",
+        "type": "object",
+        "reference": true
+      },
+      {
+        "name": "params",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "class_alias",
+    "type": "bool",
+    "args": [
+      {
+        "name": "original",
+        "type": "string"
+      },
+      {
+        "name": "alias",
+        "type": "string"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "class_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_called_class",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "get_class",
+    "type": "string",
+    "args": [
+      {
+        "name": "object",
+        "type": "object",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_class_methods",
+    "type": "array",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "get_class_vars",
+    "type": "array",
+    "args": [
+      {
+        "name": "class_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_declared_classes",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "get_declared_interfaces",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "get_declared_traits",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "get_object_vars",
+    "type": "array",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "get_parent_class",
+    "type": "string",
+    "args": [
+      {
+        "name": "object",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "interface_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "interface_name",
+        "type": "string"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "is_a",
+    "type": "bool",
+    "args": [
+      {
+        "name": "object",
+        "type": "object"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "allow_string",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "is_subclass_of",
+    "type": "bool",
+    "args": [
+      {
+        "name": "object",
+        "type": "mixed"
+      },
+      {
+        "name": "class_name",
+        "type": "string"
+      },
+      {
+        "name": "allow_string",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "method_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "object",
+        "type": "mixed"
+      },
+      {
+        "name": "method_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "property_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "class",
+        "type": "mixed"
+      },
+      {
+        "name": "property",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "trait_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "traitname",
+        "type": "string"
+      },
+      {
+        "name": "autoload",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

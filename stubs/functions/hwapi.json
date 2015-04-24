@@ -1,0 +1,57 @@
+[
+  {
+    "name": "hwapi_attribute_new",
+    "type": "HW_API_Attribute",
+    "args": [
+      {
+        "name": "name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hwapi_content_new",
+    "type": "HW_API_Content",
+    "args": [
+      {
+        "name": "content",
+        "type": "string"
+      },
+      {
+        "name": "mimetype",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hwapi_hgcsp",
+    "type": "HW_API",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hwapi_object_new",
+    "type": "hw_api_object",
+    "args": [
+      {
+        "name": "parameter",
+        "type": "array"
+      }
+    ]
+  }
+]

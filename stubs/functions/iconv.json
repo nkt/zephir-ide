@@ -1,184 +1,200 @@
 [
-    {
-        "name": "iconv",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv.php",
-        "args": [
-            {
-                "name": "in_charset",
-                "type": "mixed"
-            },
-            {
-                "name": "out_charset",
-                "type": "mixed"
-            },
-            {
-                "name": "str",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_get_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_get_encoding.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_set_encoding",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_set_encoding.php",
-        "args": [
-            {
-                "name": "type",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_strlen",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strlen.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_substr",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_substr.php",
-        "args": [
-            {
-                "name": "str",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_strpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strpos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "offset",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_strrpos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_strrpos.php",
-        "args": [
-            {
-                "name": "haystack",
-                "type": "mixed"
-            },
-            {
-                "name": "needle",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_mime_encode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_encode.php",
-        "args": [
-            {
-                "name": "field_name",
-                "type": "mixed"
-            },
-            {
-                "name": "field_value",
-                "type": "mixed"
-            },
-            {
-                "name": "preference",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_mime_decode",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_decode.php",
-        "args": [
-            {
-                "name": "encoded_string",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "iconv_mime_decode_headers",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.iconv_mime_decode_headers.php",
-        "args": [
-            {
-                "name": "headers",
-                "type": "mixed"
-            },
-            {
-                "name": "mode",
-                "type": "mixed"
-            },
-            {
-                "name": "charset",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "iconv",
+    "type": "string",
+    "args": [
+      {
+        "name": "in_charset",
+        "type": "string"
+      },
+      {
+        "name": "out_charset",
+        "type": "string"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iconv_get_encoding",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_mime_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "encoded_header",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_mime_decode_headers",
+    "type": "array",
+    "args": [
+      {
+        "name": "encoded_headers",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_mime_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "field_name",
+        "type": "string"
+      },
+      {
+        "name": "field_value",
+        "type": "string"
+      },
+      {
+        "name": "preferences",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_set_encoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "charset",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "iconv_strlen",
+    "type": "int",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_strpos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_strrpos",
+    "type": "int",
+    "args": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "iconv_substr",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ob_iconv_handler",
+    "type": "string",
+    "args": [
+      {
+        "name": "contents",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "int"
+      }
+    ]
+  }
 ]

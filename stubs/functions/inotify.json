@@ -1,0 +1,59 @@
+[
+  {
+    "name": "inotify_add_watch",
+    "type": "int",
+    "args": [
+      {
+        "name": "inotify_instance",
+        "type": "resource"
+      },
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "mask",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "inotify_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "inotify_queue_len",
+    "type": "int",
+    "args": [
+      {
+        "name": "inotify_instance",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "inotify_read",
+    "type": "array",
+    "args": [
+      {
+        "name": "inotify_instance",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "inotify_rm_watch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "inotify_instance",
+        "type": "resource"
+      },
+      {
+        "name": "watch_descriptor",
+        "type": "int"
+      }
+    ]
+  }
+]

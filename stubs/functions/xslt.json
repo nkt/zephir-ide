@@ -1,0 +1,237 @@
+[
+  {
+    "name": "xslt_backend_info",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "xslt_backend_name",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "xslt_backend_version",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "xslt_create",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "xslt_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xslt_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xslt_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xslt_getopt",
+    "type": "int",
+    "args": [
+      {
+        "name": "processor",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "xslt_process",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "xmlcontainer",
+        "type": "string"
+      },
+      {
+        "name": "xslcontainer",
+        "type": "string"
+      },
+      {
+        "name": "resultcontainer",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "arguments",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "parameters",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_base",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "uri",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_encoding",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_error_handler",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "handler",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_log",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "log",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_object",
+    "type": "bool",
+    "args": [
+      {
+        "name": "processor",
+        "type": "resource"
+      },
+      {
+        "name": "obj",
+        "type": "object",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_sax_handler",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "handlers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_sax_handlers",
+    "type": "void",
+    "args": [
+      {
+        "name": "processor",
+        "type": "resource"
+      },
+      {
+        "name": "handlers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_scheme_handler",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "handlers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xslt_set_scheme_handlers",
+    "type": "void",
+    "args": [
+      {
+        "name": "xh",
+        "type": "resource"
+      },
+      {
+        "name": "handlers",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "xslt_setopt",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "processor",
+        "type": "resource"
+      },
+      {
+        "name": "newmask",
+        "type": "int"
+      }
+    ]
+  }
+]

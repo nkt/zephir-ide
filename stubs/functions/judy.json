@@ -1,0 +1,17 @@
+[
+  {
+    "name": "judy_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "array",
+        "type": "Judy"
+      }
+    ]
+  },
+  {
+    "name": "judy_version",
+    "type": "string",
+    "args": []
+  }
+]

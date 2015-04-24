@@ -1,0 +1,1773 @@
+[
+  {
+    "name": "ncurses_addch",
+    "type": "int",
+    "args": [
+      {
+        "name": "ch",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_addchnstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_addchstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_addnstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_addstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_assume_default_colors",
+    "type": "int",
+    "args": [
+      {
+        "name": "fg",
+        "type": "int"
+      },
+      {
+        "name": "bg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_attroff",
+    "type": "int",
+    "args": [
+      {
+        "name": "attributes",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_attron",
+    "type": "int",
+    "args": [
+      {
+        "name": "attributes",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_attrset",
+    "type": "int",
+    "args": [
+      {
+        "name": "attributes",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_baudrate",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_beep",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_bkgd",
+    "type": "int",
+    "args": [
+      {
+        "name": "attrchar",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_bkgdset",
+    "type": "void",
+    "args": [
+      {
+        "name": "attrchar",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_border",
+    "type": "int",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "right",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "bottom",
+        "type": "int"
+      },
+      {
+        "name": "tl_corner",
+        "type": "int"
+      },
+      {
+        "name": "tr_corner",
+        "type": "int"
+      },
+      {
+        "name": "bl_corner",
+        "type": "int"
+      },
+      {
+        "name": "br_corner",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_bottom_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_can_change_color",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_cbreak",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_clear",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_clrtobot",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_clrtoeol",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_color_content",
+    "type": "int",
+    "args": [
+      {
+        "name": "color",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "g",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "b",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_color_set",
+    "type": "int",
+    "args": [
+      {
+        "name": "pair",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_curs_set",
+    "type": "int",
+    "args": [
+      {
+        "name": "visibility",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_def_prog_mode",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_def_shell_mode",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_define_key",
+    "type": "int",
+    "args": [
+      {
+        "name": "definition",
+        "type": "string"
+      },
+      {
+        "name": "keycode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_del_panel",
+    "type": "bool",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_delay_output",
+    "type": "int",
+    "args": [
+      {
+        "name": "milliseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_delch",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_deleteln",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_delwin",
+    "type": "bool",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_doupdate",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_echo",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_echochar",
+    "type": "int",
+    "args": [
+      {
+        "name": "character",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_end",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_erase",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_erasechar",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ncurses_filter",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ncurses_flash",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_flushinp",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_getch",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_getmaxyx",
+    "type": "void",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "y",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "x",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_getmouse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mevent",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_getyx",
+    "type": "void",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "y",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "x",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_halfdelay",
+    "type": "int",
+    "args": [
+      {
+        "name": "tenth",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_has_colors",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_has_ic",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_has_il",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_has_key",
+    "type": "int",
+    "args": [
+      {
+        "name": "keycode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_hide_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_hline",
+    "type": "int",
+    "args": [
+      {
+        "name": "charattr",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_inch",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ncurses_init",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ncurses_init_color",
+    "type": "int",
+    "args": [
+      {
+        "name": "color",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      },
+      {
+        "name": "g",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_init_pair",
+    "type": "int",
+    "args": [
+      {
+        "name": "pair",
+        "type": "int"
+      },
+      {
+        "name": "fg",
+        "type": "int"
+      },
+      {
+        "name": "bg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_insch",
+    "type": "int",
+    "args": [
+      {
+        "name": "character",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_insdelln",
+    "type": "int",
+    "args": [
+      {
+        "name": "count",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_insertln",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_insstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_instr",
+    "type": "int",
+    "args": [
+      {
+        "name": "buffer",
+        "type": "string",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_isendwin",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_keyok",
+    "type": "int",
+    "args": [
+      {
+        "name": "keycode",
+        "type": "int"
+      },
+      {
+        "name": "enable",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_keypad",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "bf",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_killchar",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ncurses_longname",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ncurses_meta",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "8bit",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mouse_trafo",
+    "type": "bool",
+    "args": [
+      {
+        "name": "y",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "x",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "toscreen",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mouseinterval",
+    "type": "int",
+    "args": [
+      {
+        "name": "milliseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mousemask",
+    "type": "int",
+    "args": [
+      {
+        "name": "newmask",
+        "type": "int"
+      },
+      {
+        "name": "oldmask",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_move",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_move_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      },
+      {
+        "name": "startx",
+        "type": "int"
+      },
+      {
+        "name": "starty",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvaddch",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "c",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvaddchnstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvaddchstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvaddnstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvaddstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvcur",
+    "type": "int",
+    "args": [
+      {
+        "name": "old_y",
+        "type": "int"
+      },
+      {
+        "name": "old_x",
+        "type": "int"
+      },
+      {
+        "name": "new_y",
+        "type": "int"
+      },
+      {
+        "name": "new_x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvdelch",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvgetch",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvhline",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "attrchar",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvinch",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvvline",
+    "type": "int",
+    "args": [
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "attrchar",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_mvwaddstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_napms",
+    "type": "int",
+    "args": [
+      {
+        "name": "milliseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_new_panel",
+    "type": "resource",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_newpad",
+    "type": "resource",
+    "args": [
+      {
+        "name": "rows",
+        "type": "int"
+      },
+      {
+        "name": "cols",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_newwin",
+    "type": "resource",
+    "args": [
+      {
+        "name": "rows",
+        "type": "int"
+      },
+      {
+        "name": "cols",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_nl",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_nocbreak",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_noecho",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_nonl",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_noqiflush",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ncurses_noraw",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_pair_content",
+    "type": "int",
+    "args": [
+      {
+        "name": "pair",
+        "type": "int"
+      },
+      {
+        "name": "f",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "b",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_panel_above",
+    "type": "resource",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_panel_below",
+    "type": "resource",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_panel_window",
+    "type": "resource",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_pnoutrefresh",
+    "type": "int",
+    "args": [
+      {
+        "name": "pad",
+        "type": "resource"
+      },
+      {
+        "name": "pminrow",
+        "type": "int"
+      },
+      {
+        "name": "pmincol",
+        "type": "int"
+      },
+      {
+        "name": "sminrow",
+        "type": "int"
+      },
+      {
+        "name": "smincol",
+        "type": "int"
+      },
+      {
+        "name": "smaxrow",
+        "type": "int"
+      },
+      {
+        "name": "smaxcol",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_prefresh",
+    "type": "int",
+    "args": [
+      {
+        "name": "pad",
+        "type": "resource"
+      },
+      {
+        "name": "pminrow",
+        "type": "int"
+      },
+      {
+        "name": "pmincol",
+        "type": "int"
+      },
+      {
+        "name": "sminrow",
+        "type": "int"
+      },
+      {
+        "name": "smincol",
+        "type": "int"
+      },
+      {
+        "name": "smaxrow",
+        "type": "int"
+      },
+      {
+        "name": "smaxcol",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_putp",
+    "type": "int",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_qiflush",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ncurses_raw",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_refresh",
+    "type": "int",
+    "args": [
+      {
+        "name": "ch",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_replace_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      },
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_reset_prog_mode",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_reset_shell_mode",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_resetty",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_savetty",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_scr_dump",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_scr_init",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_scr_restore",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_scr_set",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_scrl",
+    "type": "int",
+    "args": [
+      {
+        "name": "count",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_show_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_attr",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_slk_attroff",
+    "type": "int",
+    "args": [
+      {
+        "name": "intarg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_attron",
+    "type": "int",
+    "args": [
+      {
+        "name": "intarg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_attrset",
+    "type": "int",
+    "args": [
+      {
+        "name": "intarg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_clear",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_slk_color",
+    "type": "int",
+    "args": [
+      {
+        "name": "intarg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_init",
+    "type": "bool",
+    "args": [
+      {
+        "name": "format",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_noutrefresh",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_slk_refresh",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_slk_restore",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_slk_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "labelnr",
+        "type": "int"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_slk_touch",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_standend",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_standout",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_start_color",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ncurses_termattrs",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_termname",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ncurses_timeout",
+    "type": "void",
+    "args": [
+      {
+        "name": "millisec",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_top_panel",
+    "type": "int",
+    "args": [
+      {
+        "name": "panel",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_typeahead",
+    "type": "int",
+    "args": [
+      {
+        "name": "fd",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_ungetch",
+    "type": "int",
+    "args": [
+      {
+        "name": "keycode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_ungetmouse",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mevent",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_update_panels",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "ncurses_use_default_colors",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "ncurses_use_env",
+    "type": "void",
+    "args": [
+      {
+        "name": "flag",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_use_extended_names",
+    "type": "int",
+    "args": [
+      {
+        "name": "flag",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_vidattr",
+    "type": "int",
+    "args": [
+      {
+        "name": "intarg",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_vline",
+    "type": "int",
+    "args": [
+      {
+        "name": "charattr",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_waddch",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "ch",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_waddstr",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "n",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wattroff",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "attrs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wattron",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "attrs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wattrset",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "attrs",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wborder",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "right",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "bottom",
+        "type": "int"
+      },
+      {
+        "name": "tl_corner",
+        "type": "int"
+      },
+      {
+        "name": "tr_corner",
+        "type": "int"
+      },
+      {
+        "name": "bl_corner",
+        "type": "int"
+      },
+      {
+        "name": "br_corner",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wclear",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wcolor_set",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "color_pair",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_werase",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wgetch",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_whline",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "charattr",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wmouse_trafo",
+    "type": "bool",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "y",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "x",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "toscreen",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wmove",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wnoutrefresh",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wrefresh",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wstandend",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wstandout",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ncurses_wvline",
+    "type": "int",
+    "args": [
+      {
+        "name": "window",
+        "type": "resource"
+      },
+      {
+        "name": "charattr",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  }
+]

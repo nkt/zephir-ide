@@ -1,306 +1,220 @@
 [
-    {
-        "name": "hash",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_file.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_hmac",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_hmac.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_hmac_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_hmac_file.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_init.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_update",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_update.php",
-        "args": [
-            {
-                "name": "context",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_update_stream",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_update_stream.php",
-        "args": [
-            {
-                "name": "context",
-                "type": "mixed"
-            },
-            {
-                "name": "handle",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_update_file",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_update_file.php",
-        "args": [
-            {
-                "name": "context",
-                "type": "mixed"
-            },
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "context",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_final",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_final.php",
-        "args": [
-            {
-                "name": "context",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_copy",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_copy.php",
-        "args": [
-            {
-                "name": "context",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_algos",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_algos.php",
-        "args": []
-    },
-    {
-        "name": "hash_pbkdf2",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_pbkdf2.php",
-        "args": [
-            {
-                "name": "algo",
-                "type": "mixed"
-            },
-            {
-                "name": "password",
-                "type": "mixed"
-            },
-            {
-                "name": "salt",
-                "type": "mixed"
-            },
-            {
-                "name": "iterations",
-                "type": "mixed"
-            },
-            {
-                "name": "length",
-                "type": "mixed"
-            },
-            {
-                "name": "raw_output",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "hash_equals",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.hash_equals.php",
-        "args": [
-            {
-                "name": "known_string",
-                "type": "mixed"
-            },
-            {
-                "name": "user_string",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mhash_keygen_s2k",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mhash_keygen_s2k.php",
-        "args": [
-            {
-                "name": "hash",
-                "type": "mixed"
-            },
-            {
-                "name": "input_password",
-                "type": "mixed"
-            },
-            {
-                "name": "salt",
-                "type": "mixed"
-            },
-            {
-                "name": "bytes",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mhash_get_block_size",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mhash_get_block_size.php",
-        "args": [
-            {
-                "name": "hash",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mhash_get_hash_name",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mhash_get_hash_name.php",
-        "args": [
-            {
-                "name": "hash",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "mhash_count",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mhash_count.php",
-        "args": []
-    },
-    {
-        "name": "mhash",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.mhash.php",
-        "args": [
-            {
-                "name": "hash",
-                "type": "mixed"
-            },
-            {
-                "name": "data",
-                "type": "mixed"
-            },
-            {
-                "name": "key",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "hash",
+    "type": "string",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_algos",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "hash_copy",
+    "type": "resource",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "hash_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_final",
+    "type": "string",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_hmac",
+    "type": "string",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_hmac_file",
+    "type": "string",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_init",
+    "type": "resource",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "key",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_pbkdf2",
+    "type": "string",
+    "args": [
+      {
+        "name": "algo",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "salt",
+        "type": "string"
+      },
+      {
+        "name": "iterations",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "raw_output",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_update",
+    "type": "bool",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "hash_update_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hcontext",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "scontext",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "hash_update_stream",
+    "type": "int",
+    "args": [
+      {
+        "name": "context",
+        "type": "resource"
+      },
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
 ]

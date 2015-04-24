@@ -1,0 +1,253 @@
+[
+  {
+    "name": "__halt_compiler",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "connection_aborted",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "connection_status",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "connection_timeout",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "constant",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "define",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "case_insensitive",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "defined",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "eval",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_browser",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "user_agent",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "return_array",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "highlight_file",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "return",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "highlight_string",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      },
+      {
+        "name": "return",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ignore_user_abort",
+    "type": "int",
+    "args": [
+      {
+        "name": "value",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pack",
+    "type": "string",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "php_check_syntax",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "error_message",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "php_strip_whitespace",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "sleep",
+    "type": "int",
+    "args": [
+      {
+        "name": "seconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sys_getloadavg",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "time_nanosleep",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "seconds",
+        "type": "int"
+      },
+      {
+        "name": "nanoseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "time_sleep_until",
+    "type": "bool",
+    "args": [
+      {
+        "name": "timestamp",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "uniqid",
+    "type": "string",
+    "args": [
+      {
+        "name": "prefix",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "more_entropy",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "unpack",
+    "type": "array",
+    "args": [
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "usleep",
+    "type": "void",
+    "args": [
+      {
+        "name": "micro_seconds",
+        "type": "int"
+      }
+    ]
+  }
+]

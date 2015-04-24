@@ -1,0 +1,82 @@
+[
+  {
+    "name": "calcul_hmac",
+    "type": "string",
+    "args": [
+      {
+        "name": "clent",
+        "type": "string"
+      },
+      {
+        "name": "siretcode",
+        "type": "string"
+      },
+      {
+        "name": "price",
+        "type": "string"
+      },
+      {
+        "name": "reference",
+        "type": "string"
+      },
+      {
+        "name": "validity",
+        "type": "string"
+      },
+      {
+        "name": "taxation",
+        "type": "string"
+      },
+      {
+        "name": "devise",
+        "type": "string"
+      },
+      {
+        "name": "language",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "calculhmac",
+    "type": "string",
+    "args": [
+      {
+        "name": "clent",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "nthmac",
+    "type": "string",
+    "args": [
+      {
+        "name": "clent",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "nthmac",
+    "type": "string",
+    "args": [
+      {
+        "name": "clent",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  }
+]

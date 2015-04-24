@@ -1,0 +1,354 @@
+[
+  {
+    "name": "sqlsrv_begin_transaction",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_cancel",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_client_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_configure",
+    "type": "bool",
+    "args": [
+      {
+        "name": "setting",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "serverName",
+        "type": "string"
+      },
+      {
+        "name": "connectionInfo",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_errors",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "errorsOrWarnings",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_fetch",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "fetchType",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_fetch_object",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "className",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "ctorParams",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "row",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_field_metadata",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_free_stmt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_get_config",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "setting",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_get_field",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "fieldIndex",
+        "type": "int"
+      },
+      {
+        "name": "getAsType",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_has_rows",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_next_result",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_num_fields",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_num_rows",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_prepare",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "sql",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      },
+      {
+        "name": "sql",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_rows_affected",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_send_stream_data",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sqlsrv_server_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "conn",
+        "type": "resource"
+      }
+    ]
+  }
+]

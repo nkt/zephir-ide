@@ -1,0 +1,48 @@
+[
+  {
+    "name": "opcache_compile_file",
+    "type": "boolean",
+    "args": [
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "opcache_get_configuration",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "opcache_get_status",
+    "type": "array",
+    "args": [
+      {
+        "name": "get_scripts",
+        "type": "boolean",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "opcache_invalidate",
+    "type": "boolean",
+    "args": [
+      {
+        "name": "script",
+        "type": "string"
+      },
+      {
+        "name": "force",
+        "type": "boolean",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "opcache_reset",
+    "type": "boolean",
+    "args": []
+  }
+]

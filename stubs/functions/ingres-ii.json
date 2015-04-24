@@ -1,0 +1,466 @@
+[
+  {
+    "name": "ingres_autocommit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_autocommit_state",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_charset",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_cursor",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_errsqlstate",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "source_string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ingres_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "types",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "result_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_fetch_proc_return",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_length",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_nullable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_precision",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_scale",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_next_error",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_prepare",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ingres_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "types",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ingres_result_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "position",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ingres_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ingres_set_environment",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "ingres_unbuffered_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "link",
+        "type": "resource"
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      },
+      {
+        "name": "types",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

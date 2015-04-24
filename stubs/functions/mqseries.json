@@ -1,0 +1,437 @@
+[
+  {
+    "name": "mqseries_back",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_begin",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "beginOptions",
+        "type": "array"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "hobj",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "int"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_cmit",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_conn",
+    "type": "void",
+    "args": [
+      {
+        "name": "qManagerName",
+        "type": "string"
+      },
+      {
+        "name": "hconn",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_connx",
+    "type": "void",
+    "args": [
+      {
+        "name": "qManagerName",
+        "type": "string"
+      },
+      {
+        "name": "connOptions",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "hconn",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_disc",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_get",
+    "type": "void",
+    "args": [
+      {
+        "name": "hConn",
+        "type": "resource"
+      },
+      {
+        "name": "hObj",
+        "type": "resource"
+      },
+      {
+        "name": "md",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "gmo",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "bufferLength",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "msg",
+        "type": "string",
+        "reference": true
+      },
+      {
+        "name": "data_length",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_inq",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "hobj",
+        "type": "resource"
+      },
+      {
+        "name": "selectorCount",
+        "type": "int"
+      },
+      {
+        "name": "selectors",
+        "type": "array"
+      },
+      {
+        "name": "intAttrCount",
+        "type": "int"
+      },
+      {
+        "name": "intAttr",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "charAttrLength",
+        "type": "int"
+      },
+      {
+        "name": "charAttr",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_open",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "objDesc",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "hobj",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_put",
+    "type": "void",
+    "args": [
+      {
+        "name": "hConn",
+        "type": "resource"
+      },
+      {
+        "name": "hObj",
+        "type": "resource"
+      },
+      {
+        "name": "md",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "pmo",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_put1",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "objDesc",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "msgDesc",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "pmo",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "buffer",
+        "type": "string"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "hconn",
+        "type": "resource"
+      },
+      {
+        "name": "hobj",
+        "type": "resource"
+      },
+      {
+        "name": "selectorcount",
+        "type": "int"
+      },
+      {
+        "name": "selectors",
+        "type": "array"
+      },
+      {
+        "name": "intattrcount",
+        "type": "int"
+      },
+      {
+        "name": "intattrs",
+        "type": "array"
+      },
+      {
+        "name": "charattrlength",
+        "type": "int"
+      },
+      {
+        "name": "charattrs",
+        "type": "array"
+      },
+      {
+        "name": "compCode",
+        "type": "resource",
+        "reference": true
+      },
+      {
+        "name": "reason",
+        "type": "resource",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "mqseries_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "reason",
+        "type": "int"
+      }
+    ]
+  }
+]

@@ -1,383 +1,358 @@
 [
-    {
-        "name": "curl_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_init.php",
-        "args": [
-            {
-                "name": "url",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_copy_handle",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_copy_handle.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_version",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_version.php",
-        "args": [
-            {
-                "name": "version",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_setopt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_setopt.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_setopt_array",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_setopt_array.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "options",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_exec",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_exec.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_getinfo",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_getinfo.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_error",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_error.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_errno",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_errno.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_close.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_strerror",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_strerror.php",
-        "args": [
-            {
-                "name": "errornum",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_strerror",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_strerror.php",
-        "args": [
-            {
-                "name": "errornum",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_reset",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_reset.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_escape",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_escape.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "str",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_unescape",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_unescape.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "str",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_pause",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_pause.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            },
-            {
-                "name": "bitmask",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_init.php",
-        "args": []
-    },
-    {
-        "name": "curl_multi_add_handle",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_add_handle.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            },
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_remove_handle",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_remove_handle.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            },
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_select",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_select.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            },
-            {
-                "name": "timeout",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_exec",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_exec.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            },
-            {
-                "name": "still_running",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_getcontent",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_getcontent.php",
-        "args": [
-            {
-                "name": "ch",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_info_read",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_info_read.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            },
-            {
-                "name": "msgs_in_queue",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_close.php",
-        "args": [
-            {
-                "name": "mh",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_multi_setopt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_multi_setopt.php",
-        "args": [
-            {
-                "name": "sh",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_share_init",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_share_init.php",
-        "args": []
-    },
-    {
-        "name": "curl_share_close",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_share_close.php",
-        "args": [
-            {
-                "name": "sh",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_share_setopt",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_share_setopt.php",
-        "args": [
-            {
-                "name": "sh",
-                "type": "mixed"
-            },
-            {
-                "name": "option",
-                "type": "mixed"
-            },
-            {
-                "name": "value",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "curl_file_create",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.curl_file_create.php",
-        "args": [
-            {
-                "name": "filename",
-                "type": "mixed"
-            },
-            {
-                "name": "mimetype",
-                "type": "mixed"
-            },
-            {
-                "name": "postname",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "curl_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_copy_handle",
+    "type": "resource",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_errno",
+    "type": "int",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_escape",
+    "type": "string",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "curl_exec",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_getinfo",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "opt",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "curl_init",
+    "type": "resource",
+    "args": [
+      {
+        "name": "url",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_add_handle",
+    "type": "int",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_await",
+    "type": "Awaitable<int>",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_exec",
+    "type": "int",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "still_running",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_getcontent",
+    "type": "string",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_info_read",
+    "type": "array",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "msgs_in_queue",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "curl_multi_remove_handle",
+    "type": "int",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_select",
+    "type": "int",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_setopt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "mh",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "curl_multi_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "errornum",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "curl_pause",
+    "type": "int",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "bitmask",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "curl_reset",
+    "type": "void",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_setopt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "curl_setopt_array",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "curl_share_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "sh",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "curl_share_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "curl_share_setopt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "sh",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "curl_strerror",
+    "type": "string",
+    "args": [
+      {
+        "name": "errornum",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "curl_unescape",
+    "type": "string",
+    "args": [
+      {
+        "name": "ch",
+        "type": "resource"
+      },
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "curl_version",
+    "type": "array",
+    "args": [
+      {
+        "name": "age",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
 ]

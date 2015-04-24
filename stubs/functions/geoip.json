@@ -1,0 +1,157 @@
+[
+  {
+    "name": "geoip_continent_code_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_country_code3_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_country_code_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_country_name_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_database_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "database",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "geoip_db_avail",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "geoip_db_filename",
+    "type": "string",
+    "args": [
+      {
+        "name": "database",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "geoip_db_get_all_info",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "geoip_id_by_name",
+    "type": "int",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_isp_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_org_by_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_record_by_name",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_region_by_name",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_region_name_by_code",
+    "type": "string",
+    "args": [
+      {
+        "name": "country_code",
+        "type": "string"
+      },
+      {
+        "name": "region_code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "geoip_time_zone_by_country_and_region",
+    "type": "string",
+    "args": [
+      {
+        "name": "country_code",
+        "type": "string"
+      },
+      {
+        "name": "region_code",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

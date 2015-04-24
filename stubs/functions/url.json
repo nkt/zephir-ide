@@ -1,0 +1,137 @@
+[
+  {
+    "name": "base64_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "strict",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "base64_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_headers",
+    "type": "array",
+    "args": [
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_meta_tags",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "use_include_path",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "http_build_query",
+    "type": "string",
+    "args": [
+      {
+        "name": "query_data",
+        "type": "mixed"
+      },
+      {
+        "name": "numeric_prefix",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "arg_separator",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "enc_type",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "parse_url",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "component",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "rawurldecode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rawurlencode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "urldecode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "urlencode",
+    "type": "string",
+    "args": [
+      {
+        "name": "str",
+        "type": "string"
+      }
+    ]
+  }
+]

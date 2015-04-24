@@ -1,0 +1,1069 @@
+[
+  {
+    "name": "stats_absolute_deviation",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_beta",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_binomial",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_cauchy",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_chisquare",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_exponential",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_f",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_gamma",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_laplace",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_logistic",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_negative_binomial",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_noncentral_chisquare",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_noncentral_f",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "par4",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_poisson",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_uniform",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_cdf_weibull",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_covariance",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      },
+      {
+        "name": "b",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_den_uniform",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_beta",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_cauchy",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "ave",
+        "type": "float"
+      },
+      {
+        "name": "stdev",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_chisquare",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "dfr",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_exponential",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "scale",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_f",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "dfr1",
+        "type": "float"
+      },
+      {
+        "name": "dfr2",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_gamma",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "shape",
+        "type": "float"
+      },
+      {
+        "name": "scale",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_laplace",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "ave",
+        "type": "float"
+      },
+      {
+        "name": "stdev",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_logistic",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "ave",
+        "type": "float"
+      },
+      {
+        "name": "stdev",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_negative_binomial",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "n",
+        "type": "float"
+      },
+      {
+        "name": "pi",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_normal",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "ave",
+        "type": "float"
+      },
+      {
+        "name": "stdev",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_pmf_binomial",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "n",
+        "type": "float"
+      },
+      {
+        "name": "pi",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_pmf_hypergeometric",
+    "type": "float",
+    "args": [
+      {
+        "name": "n1",
+        "type": "float"
+      },
+      {
+        "name": "n2",
+        "type": "float"
+      },
+      {
+        "name": "N1",
+        "type": "float"
+      },
+      {
+        "name": "N2",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_pmf_poisson",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "lb",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "dfr",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_dens_weibull",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_harmonic_mean",
+    "type": "number",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_kurtosis",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_beta",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_chisquare",
+    "type": "float",
+    "args": [
+      {
+        "name": "df",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_exponential",
+    "type": "float",
+    "args": [
+      {
+        "name": "av",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_f",
+    "type": "float",
+    "args": [
+      {
+        "name": "dfn",
+        "type": "float"
+      },
+      {
+        "name": "dfd",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_funiform",
+    "type": "float",
+    "args": [
+      {
+        "name": "low",
+        "type": "float"
+      },
+      {
+        "name": "high",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_gamma",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_ibinomial",
+    "type": "int",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "pp",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_ibinomial_negative",
+    "type": "int",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "p",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_int",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "stats_rand_gen_ipoisson",
+    "type": "int",
+    "args": [
+      {
+        "name": "mu",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_iuniform",
+    "type": "int",
+    "args": [
+      {
+        "name": "low",
+        "type": "int"
+      },
+      {
+        "name": "high",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_noncenral_chisquare",
+    "type": "float",
+    "args": [
+      {
+        "name": "df",
+        "type": "float"
+      },
+      {
+        "name": "xnonc",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_noncentral_f",
+    "type": "float",
+    "args": [
+      {
+        "name": "dfn",
+        "type": "float"
+      },
+      {
+        "name": "dfd",
+        "type": "float"
+      },
+      {
+        "name": "xnonc",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_noncentral_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "df",
+        "type": "float"
+      },
+      {
+        "name": "xnonc",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_normal",
+    "type": "float",
+    "args": [
+      {
+        "name": "av",
+        "type": "float"
+      },
+      {
+        "name": "sd",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_gen_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "df",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_get_seeds",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "stats_rand_phrase_to_seeds",
+    "type": "array",
+    "args": [
+      {
+        "name": "phrase",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "stats_rand_ranf",
+    "type": "float",
+    "args": []
+  },
+  {
+    "name": "stats_rand_setall",
+    "type": "void",
+    "args": [
+      {
+        "name": "iseed1",
+        "type": "int"
+      },
+      {
+        "name": "iseed2",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_skew",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_standard_deviation",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      },
+      {
+        "name": "sample",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_binomial_coef",
+    "type": "float",
+    "args": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_correlation",
+    "type": "float",
+    "args": [
+      {
+        "name": "arr1",
+        "type": "array"
+      },
+      {
+        "name": "arr2",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_gennch",
+    "type": "float",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_independent_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "arr1",
+        "type": "array"
+      },
+      {
+        "name": "arr2",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_innerproduct",
+    "type": "float",
+    "args": [
+      {
+        "name": "arr1",
+        "type": "array"
+      },
+      {
+        "name": "arr2",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_noncentral_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "par1",
+        "type": "float"
+      },
+      {
+        "name": "par2",
+        "type": "float"
+      },
+      {
+        "name": "par3",
+        "type": "float"
+      },
+      {
+        "name": "which",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_paired_t",
+    "type": "float",
+    "args": [
+      {
+        "name": "arr1",
+        "type": "array"
+      },
+      {
+        "name": "arr2",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_percentile",
+    "type": "float",
+    "args": [
+      {
+        "name": "df",
+        "type": "float"
+      },
+      {
+        "name": "xnonc",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_stat_powersum",
+    "type": "float",
+    "args": [
+      {
+        "name": "arr",
+        "type": "array"
+      },
+      {
+        "name": "power",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "stats_variance",
+    "type": "float",
+    "args": [
+      {
+        "name": "a",
+        "type": "array"
+      },
+      {
+        "name": "sample",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]

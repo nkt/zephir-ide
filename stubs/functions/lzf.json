@@ -1,0 +1,27 @@
+[
+  {
+    "name": "lzf_compress",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "lzf_decompress",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "lzf_optimized_for",
+    "type": "int",
+    "args": []
+  }
+]

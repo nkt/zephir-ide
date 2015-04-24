@@ -1,0 +1,17 @@
+[
+  {
+    "name": "qdom_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "qdom_tree",
+    "type": "QDomDocument",
+    "args": [
+      {
+        "name": "doc",
+        "type": "string"
+      }
+    ]
+  }
+]

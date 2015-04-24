@@ -1,0 +1,17 @@
+[
+  {
+    "name": "locale_get_default",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "locale_set_default",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  }
+]

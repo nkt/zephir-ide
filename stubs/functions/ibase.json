@@ -1,0 +1,661 @@
+[
+  {
+    "name": "ibase_add_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "first_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "middle_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "last_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_backup",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "source_db",
+        "type": "string"
+      },
+      {
+        "name": "dest_file",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "verbose",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_blob_add",
+    "type": "void",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ibase_blob_cancel",
+    "type": "bool",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_blob_close",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_blob_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_blob_get",
+    "type": "string",
+    "args": [
+      {
+        "name": "blob_handle",
+        "type": "resource"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ibase_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection_id",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_or_trans_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_commit_ret",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_or_trans_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "buffers",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "dialect",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "sync",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_db_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "db",
+        "type": "string"
+      },
+      {
+        "name": "action",
+        "type": "int"
+      },
+      {
+        "name": "argument",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_delete_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ibase_drop_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_errcode",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "ibase_errmsg",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "ibase_execute",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "resource"
+      },
+      {
+        "name": "bind_arg",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "fetch_flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      },
+      {
+        "name": "fetch_flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "fetch_flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_field_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ibase_free_event_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_free_query",
+    "type": "bool",
+    "args": [
+      {
+        "name": "query",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_gen_id",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "generator",
+        "type": "string"
+      },
+      {
+        "name": "increment",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_maintain_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "db",
+        "type": "string"
+      },
+      {
+        "name": "action",
+        "type": "int"
+      },
+      {
+        "name": "argument",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_modify_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "user_name",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "first_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "middle_name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "last_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_name_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ibase_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result_id",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_num_params",
+    "type": "int",
+    "args": [
+      {
+        "name": "query",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ibase_param_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "query",
+        "type": "resource"
+      },
+      {
+        "name": "param_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ibase_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "buffers",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "dialect",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "sync",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "bind_args",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_restore",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "source_file",
+        "type": "string"
+      },
+      {
+        "name": "dest_db",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "verbose",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_or_trans_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_rollback_ret",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_or_trans_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ibase_server_info",
+    "type": "string",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      },
+      {
+        "name": "action",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ibase_service_attach",
+    "type": "resource",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "dba_username",
+        "type": "string"
+      },
+      {
+        "name": "dba_password",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ibase_service_detach",
+    "type": "bool",
+    "args": [
+      {
+        "name": "service_handle",
+        "type": "resource"
+      }
+    ]
+  }
+]

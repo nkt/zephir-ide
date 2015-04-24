@@ -1,0 +1,110 @@
+[
+  {
+    "name": "chdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "chroot",
+    "type": "bool",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "closedir",
+    "type": "void",
+    "args": [
+      {
+        "name": "dir_handle",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dir",
+    "type": "Directory",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getcwd",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "opendir",
+    "type": "resource",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "readdir",
+    "type": "string",
+    "args": [
+      {
+        "name": "dir_handle",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "rewinddir",
+    "type": "void",
+    "args": [
+      {
+        "name": "dir_handle",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "scandir",
+    "type": "array",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      },
+      {
+        "name": "sorting_order",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
+]

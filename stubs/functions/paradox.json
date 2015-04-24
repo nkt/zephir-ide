@@ -1,0 +1,363 @@
+[
+  {
+    "name": "px_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_create_fp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "file",
+        "type": "resource"
+      },
+      {
+        "name": "fielddesc",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "px_date2string",
+    "type": "string",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "int"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_delete_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "px_get_field",
+    "type": "array",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "fieldno",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "px_get_info",
+    "type": "array",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_get_parameter",
+    "type": "string",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_get_record",
+    "type": "array",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "px_get_schema",
+    "type": "array",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "px_get_value",
+    "type": "float",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_insert_record",
+    "type": "int",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "px_new",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "px_numfields",
+    "type": "int",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_numrecords",
+    "type": "int",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_open_fp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "file",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "px_put_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "record",
+        "type": "array"
+      },
+      {
+        "name": "recpos",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "px_retrieve_record",
+    "type": "array",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "px_set_blob_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_set_parameter",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_set_tablename",
+    "type": "void",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_set_targetencoding",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_set_value",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "px_timestamp2string",
+    "type": "string",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "px_update_record",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pxdoc",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "array"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      }
+    ]
+  }
+]

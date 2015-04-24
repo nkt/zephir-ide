@@ -1,0 +1,359 @@
+[
+  {
+    "name": "event_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_base_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "event_base",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_base_loop",
+    "type": "int",
+    "args": [
+      {
+        "name": "event_base",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_base_loopbreak",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event_base",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_base_loopexit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event_base",
+        "type": "resource"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_base_new",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "event_base_priority_init",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event_base",
+        "type": "resource"
+      },
+      {
+        "name": "npriorities",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_base_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      },
+      {
+        "name": "event_base",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_base_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "event_base",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_disable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "events",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_enable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "events",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_fd_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "fd",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_new",
+    "type": "resource",
+    "args": [
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "readcb",
+        "type": "mixed"
+      },
+      {
+        "name": "writecb",
+        "type": "mixed"
+      },
+      {
+        "name": "errorcb",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_priority_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "priority",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "data_size",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_set_callback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      },
+      {
+        "name": "readcb",
+        "type": "mixed"
+      },
+      {
+        "name": "writecb",
+        "type": "mixed"
+      },
+      {
+        "name": "errorcb",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_timeout_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "read_timeout",
+        "type": "int"
+      },
+      {
+        "name": "write_timeout",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_watermark_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "events",
+        "type": "int"
+      },
+      {
+        "name": "lowmark",
+        "type": "int"
+      },
+      {
+        "name": "highmark",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "event_buffer_write",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bevent",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "data_size",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "event_del",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "event_new",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "event_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "event",
+        "type": "resource"
+      },
+      {
+        "name": "fd",
+        "type": "mixed"
+      },
+      {
+        "name": "events",
+        "type": "int"
+      },
+      {
+        "name": "callback",
+        "type": "mixed"
+      },
+      {
+        "name": "arg",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  }
+]

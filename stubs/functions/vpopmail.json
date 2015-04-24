@@ -1,0 +1,278 @@
+[
+  {
+    "name": "vpopmail_add_alias_domain",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "aliasdomain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_add_alias_domain_ex",
+    "type": "bool",
+    "args": [
+      {
+        "name": "olddomain",
+        "type": "string"
+      },
+      {
+        "name": "newdomain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_add_domain",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "dir",
+        "type": "string"
+      },
+      {
+        "name": "uid",
+        "type": "int"
+      },
+      {
+        "name": "gid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_add_domain_ex",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "passwd",
+        "type": "string"
+      },
+      {
+        "name": "quota",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "bounce",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "apop",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_add_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "gecos",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "apop",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_alias_add",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "alias",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_alias_del",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_alias_del_domain",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_alias_get",
+    "type": "array",
+    "args": [
+      {
+        "name": "alias",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_alias_get_all",
+    "type": "array",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_auth_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "apop",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_del_domain",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_del_domain_ex",
+    "type": "bool",
+    "args": [
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_del_user",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "vpopmail_passwd",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "apop",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "vpopmail_set_user_quota",
+    "type": "bool",
+    "args": [
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "domain",
+        "type": "string"
+      },
+      {
+        "name": "quota",
+        "type": "string"
+      }
+    ]
+  }
+]

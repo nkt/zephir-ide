@@ -1,0 +1,644 @@
+[
+  {
+    "name": "snmp2_get",
+    "type": "string",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp2_getnext",
+    "type": "string",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp2_real_walk",
+    "type": "array",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp2_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp2_walk",
+    "type": "array",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp3_get",
+    "type": "string",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "sec_name",
+        "type": "string"
+      },
+      {
+        "name": "sec_level",
+        "type": "string"
+      },
+      {
+        "name": "auth_protocol",
+        "type": "string"
+      },
+      {
+        "name": "auth_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "priv_protocol",
+        "type": "string"
+      },
+      {
+        "name": "priv_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp3_getnext",
+    "type": "string",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "sec_name",
+        "type": "string"
+      },
+      {
+        "name": "sec_level",
+        "type": "string"
+      },
+      {
+        "name": "auth_protocol",
+        "type": "string"
+      },
+      {
+        "name": "auth_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "priv_protocol",
+        "type": "string"
+      },
+      {
+        "name": "priv_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp3_real_walk",
+    "type": "array",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "sec_name",
+        "type": "string"
+      },
+      {
+        "name": "sec_level",
+        "type": "string"
+      },
+      {
+        "name": "auth_protocol",
+        "type": "string"
+      },
+      {
+        "name": "auth_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "priv_protocol",
+        "type": "string"
+      },
+      {
+        "name": "priv_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp3_set",
+    "type": "bool",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "sec_name",
+        "type": "string"
+      },
+      {
+        "name": "sec_level",
+        "type": "string"
+      },
+      {
+        "name": "auth_protocol",
+        "type": "string"
+      },
+      {
+        "name": "auth_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "priv_protocol",
+        "type": "string"
+      },
+      {
+        "name": "priv_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp3_walk",
+    "type": "array",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "sec_name",
+        "type": "string"
+      },
+      {
+        "name": "sec_level",
+        "type": "string"
+      },
+      {
+        "name": "auth_protocol",
+        "type": "string"
+      },
+      {
+        "name": "auth_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "priv_protocol",
+        "type": "string"
+      },
+      {
+        "name": "priv_passphrase",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmp_get_quick_print",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "snmp_get_valueretrieval",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "snmp_read_mib",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "snmp_set_enum_print",
+    "type": "bool",
+    "args": [
+      {
+        "name": "enum_print",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "snmp_set_oid_numeric_print",
+    "type": "void",
+    "args": [
+      {
+        "name": "oid_format",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "snmp_set_oid_output_format",
+    "type": "bool",
+    "args": [
+      {
+        "name": "oid_format",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "snmp_set_quick_print",
+    "type": "bool",
+    "args": [
+      {
+        "name": "quick_print",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "snmp_set_valueretrieval",
+    "type": "bool",
+    "args": [
+      {
+        "name": "method",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "snmpget",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmpgetnext",
+    "type": "string",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmprealwalk",
+    "type": "array",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmpset",
+    "type": "bool",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "mixed"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmpwalk",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "snmpwalkoid",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "community",
+        "type": "string"
+      },
+      {
+        "name": "object_id",
+        "type": "string"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

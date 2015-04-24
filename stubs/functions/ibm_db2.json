@@ -1,0 +1,834 @@
+[
+  {
+    "name": "db2_autocommit",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_bind_param",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "parameter-number",
+        "type": "int"
+      },
+      {
+        "name": "variable-name",
+        "type": "string"
+      },
+      {
+        "name": "parameter-type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "data-type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "precision",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "scale",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_client_info",
+    "type": "object",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_column_privileges",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "schema",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "table-name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "column-name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_columns",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "schema",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "table-name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "column-name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_commit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_conn_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_conn_errormsg",
+    "type": "string",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_cursor_type",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_escape_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "string_literal",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_exec",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "statement",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_execute",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "parameters",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_fetch_both",
+    "type": "array",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_fetch_row",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_field_display_size",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_num",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_precision",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_scale",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_type",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_field_width",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_foreign_keys",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "table-name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_free_stmt",
+    "type": "bool",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_get_option",
+    "type": "string",
+    "args": [
+      {
+        "name": "resource",
+        "type": "resource"
+      },
+      {
+        "name": "option",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_last_insert_id",
+    "type": "string",
+    "args": [
+      {
+        "name": "resource",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_lob_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "colnum",
+        "type": "int"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "db2_next_result",
+    "type": "resource",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_pclose",
+    "type": "bool",
+    "args": [
+      {
+        "name": "resource",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "database",
+        "type": "string"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_prepare",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "statement",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_primary_keys",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "table-name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_procedure_columns",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "procedure",
+        "type": "string"
+      },
+      {
+        "name": "parameter",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_procedures",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "procedure",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "db2_result",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource"
+      },
+      {
+        "name": "column",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "db2_rollback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_server_info",
+    "type": "object",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "db2_set_option",
+    "type": "bool",
+    "args": [
+      {
+        "name": "resource",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "db2_special_columns",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "table_name",
+        "type": "string"
+      },
+      {
+        "name": "scope",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "db2_statistics",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string"
+      },
+      {
+        "name": "schema",
+        "type": "string"
+      },
+      {
+        "name": "table-name",
+        "type": "string"
+      },
+      {
+        "name": "unique",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "db2_stmt_error",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_stmt_errormsg",
+    "type": "string",
+    "args": [
+      {
+        "name": "stmt",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_table_privileges",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "schema",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "table_name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "db2_tables",
+    "type": "resource",
+    "args": [
+      {
+        "name": "connection",
+        "type": "resource"
+      },
+      {
+        "name": "qualifier",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "schema",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "table-name",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "table-type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

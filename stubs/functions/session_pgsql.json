@@ -1,0 +1,53 @@
+[
+  {
+    "name": "session_pgsql_add_error",
+    "type": "bool",
+    "args": [
+      {
+        "name": "error_level",
+        "type": "int"
+      },
+      {
+        "name": "error_message",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "session_pgsql_get_error",
+    "type": "array",
+    "args": [
+      {
+        "name": "with_error_message",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "session_pgsql_get_field",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "session_pgsql_reset",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "session_pgsql_set_field",
+    "type": "bool",
+    "args": [
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "session_pgsql_status",
+    "type": "array",
+    "args": []
+  }
+]

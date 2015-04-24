@@ -1,0 +1,455 @@
+[
+  {
+    "name": "checkdnsrr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "closelog",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "define_syslog_variables",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "dns_get_record",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "authns",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "addtl",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "raw",
+        "type": "bool",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fsockopen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "errno",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "errstr",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gethostbyaddr",
+    "type": "string",
+    "args": [
+      {
+        "name": "ip_address",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gethostbyname",
+    "type": "string",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gethostbynamel",
+    "type": "array",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gethostname",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "getmxrr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "mxhosts",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "weight",
+        "type": "array",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getprotobyname",
+    "type": "int",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "getprotobynumber",
+    "type": "string",
+    "args": [
+      {
+        "name": "number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "getservbyname",
+    "type": "int",
+    "args": [
+      {
+        "name": "service",
+        "type": "string"
+      },
+      {
+        "name": "protocol",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "getservbyport",
+    "type": "string",
+    "args": [
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "protocol",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "header",
+    "type": "void",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "replace",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "http_response_code",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "header_register_callback",
+    "type": "bool",
+    "args": [
+      {
+        "name": "callback",
+        "type": "callable"
+      }
+    ]
+  },
+  {
+    "name": "header_remove",
+    "type": "void",
+    "args": [
+      {
+        "name": "name",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "headers_list",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "headers_sent",
+    "type": "bool",
+    "args": [
+      {
+        "name": "file",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "line",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "http_response_code",
+    "type": "int",
+    "args": [
+      {
+        "name": "response_code",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "inet_ntop",
+    "type": "string",
+    "args": [
+      {
+        "name": "in_addr",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "inet_pton",
+    "type": "string",
+    "args": [
+      {
+        "name": "address",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ip2long",
+    "type": "int",
+    "args": [
+      {
+        "name": "ip_address",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "long2ip",
+    "type": "string",
+    "args": [
+      {
+        "name": "proper_address",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "openlog",
+    "type": "bool",
+    "args": [
+      {
+        "name": "ident",
+        "type": "string"
+      },
+      {
+        "name": "option",
+        "type": "int"
+      },
+      {
+        "name": "facility",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "pfsockopen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "hostname",
+        "type": "string"
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "errno",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "errstr",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      },
+      {
+        "name": "timeout",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "setcookie",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "expire",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "secure",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "httponly",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "setrawcookie",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "expire",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "secure",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "httponly",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "syslog",
+    "type": "bool",
+    "args": [
+      {
+        "name": "priority",
+        "type": "int"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      }
+    ]
+  }
+]

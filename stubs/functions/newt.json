@@ -1,0 +1,1938 @@
+[
+  {
+    "name": "newt_bell",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_button",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_button_bar",
+    "type": "resource",
+    "args": [
+      {
+        "name": "buttons",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "newt_centered_window",
+    "type": "int",
+    "args": [
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "def_value",
+        "type": "string"
+      },
+      {
+        "name": "seq",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_get_value",
+    "type": "string",
+    "args": [
+      {
+        "name": "checkbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_set_flags",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkbox",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "sense",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_set_value",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkbox",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_add_item",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "index",
+        "type": "int"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_find_item",
+    "type": "array",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_get_current",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_get_entry_value",
+    "type": "string",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_get_multi_selection",
+    "type": "array",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "seqnum",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_get_selection",
+    "type": "array",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_multi",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "seq",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_set_current",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_set_entry",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_set_entry_value",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkboxtree",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_checkbox_tree_set_width",
+    "type": "void",
+    "args": [
+      {
+        "name": "checkbox_tree",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_clear_key_buffer",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_cls",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_compact_button",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_component_add_callback",
+    "type": "void",
+    "args": [
+      {
+        "name": "component",
+        "type": "resource"
+      },
+      {
+        "name": "func_name",
+        "type": "mixed"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_component_takes_focus",
+    "type": "void",
+    "args": [
+      {
+        "name": "component",
+        "type": "resource"
+      },
+      {
+        "name": "takes_focus",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "newt_create_grid",
+    "type": "resource",
+    "args": [
+      {
+        "name": "cols",
+        "type": "int"
+      },
+      {
+        "name": "rows",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_cursor_off",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_cursor_on",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_delay",
+    "type": "void",
+    "args": [
+      {
+        "name": "microseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_draw_form",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_draw_root_text",
+    "type": "void",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_entry",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "init_value",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_entry_get_value",
+    "type": "string",
+    "args": [
+      {
+        "name": "entry",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_entry_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "entry",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "cursor_at_end",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_entry_set_filter",
+    "type": "void",
+    "args": [
+      {
+        "name": "entry",
+        "type": "resource"
+      },
+      {
+        "name": "filter",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_entry_set_flags",
+    "type": "void",
+    "args": [
+      {
+        "name": "entry",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "sense",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_finished",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "newt_form",
+    "type": "resource",
+    "args": [
+      {
+        "name": "vert_bar",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "help",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_form_add_component",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "component",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_add_components",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "components",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_add_hot_key",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_destroy",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_get_current",
+    "type": "resource",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_run",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "exit_struct",
+        "type": "array",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "newt_form_set_background",
+    "type": "void",
+    "args": [
+      {
+        "name": "from",
+        "type": "resource"
+      },
+      {
+        "name": "background",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_set_height",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_set_size",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_set_timer",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "milliseconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_set_width",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_form_watch_fd",
+    "type": "void",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "stream",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_get_screen_size",
+    "type": "void",
+    "args": [
+      {
+        "name": "cols",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "rows",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_add_components_to_form",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "form",
+        "type": "resource"
+      },
+      {
+        "name": "recurse",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_basic_window",
+    "type": "resource",
+    "args": [
+      {
+        "name": "text",
+        "type": "resource"
+      },
+      {
+        "name": "middle",
+        "type": "resource"
+      },
+      {
+        "name": "buttons",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_free",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "recurse",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_get_size",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resouce"
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "height",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_h_close_stacked",
+    "type": "resource",
+    "args": [
+      {
+        "name": "element1_type",
+        "type": "int"
+      },
+      {
+        "name": "element1",
+        "type": "resource"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_h_stacked",
+    "type": "resource",
+    "args": [
+      {
+        "name": "element1_type",
+        "type": "int"
+      },
+      {
+        "name": "element1",
+        "type": "resource"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_place",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_set_field",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "col",
+        "type": "int"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "resource"
+      },
+      {
+        "name": "pad_left",
+        "type": "int"
+      },
+      {
+        "name": "pad_top",
+        "type": "int"
+      },
+      {
+        "name": "pad_right",
+        "type": "int"
+      },
+      {
+        "name": "pad_bottom",
+        "type": "int"
+      },
+      {
+        "name": "anchor",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_simple_window",
+    "type": "resource",
+    "args": [
+      {
+        "name": "text",
+        "type": "resource"
+      },
+      {
+        "name": "middle",
+        "type": "resource"
+      },
+      {
+        "name": "buttons",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_v_close_stacked",
+    "type": "resource",
+    "args": [
+      {
+        "name": "element1_type",
+        "type": "int"
+      },
+      {
+        "name": "element1",
+        "type": "resource"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_v_stacked",
+    "type": "resource",
+    "args": [
+      {
+        "name": "element1_type",
+        "type": "int"
+      },
+      {
+        "name": "element1",
+        "type": "resource"
+      },
+      {
+        "name": "...",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_wrapped_window",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_grid_wrapped_window_at",
+    "type": "void",
+    "args": [
+      {
+        "name": "grid",
+        "type": "resource"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_init",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "newt_label",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_label_set_text",
+    "type": "void",
+    "args": [
+      {
+        "name": "label",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_append_entry",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_clear",
+    "type": "void",
+    "args": [
+      {
+        "name": "listobx",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_clear_selection",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_delete_entry",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_get_current",
+    "type": "string",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_get_selection",
+    "type": "array",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_insert_entry",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_item_count",
+    "type": "int",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_select_item",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      },
+      {
+        "name": "sense",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_set_current",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_set_current_by_key",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_set_data",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_set_entry",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_listbox_set_width",
+    "type": "void",
+    "args": [
+      {
+        "name": "listbox",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_listitem",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "is_default",
+        "type": "bool"
+      },
+      {
+        "name": "prev_item",
+        "type": "resouce"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_listitem_get_data",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "item",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_listitem_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "item",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_open_window",
+    "type": "int",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_pop_help_line",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_pop_window",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_push_help_line",
+    "type": "void",
+    "args": [
+      {
+        "name": "text",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_radio_get_current",
+    "type": "resource",
+    "args": [
+      {
+        "name": "set_member",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_radiobutton",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "is_default",
+        "type": "bool"
+      },
+      {
+        "name": "prev_button",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_redraw_help_line",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_reflow_text",
+    "type": "string",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "flex_down",
+        "type": "int"
+      },
+      {
+        "name": "flex_up",
+        "type": "int"
+      },
+      {
+        "name": "actual_width",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "actual_height",
+        "type": "int",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "newt_refresh",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_resize_screen",
+    "type": "void",
+    "args": [
+      {
+        "name": "redraw",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_resume",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_run_form",
+    "type": "resource",
+    "args": [
+      {
+        "name": "form",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_scale",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "full_value",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_scale_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "scale",
+        "type": "resource"
+      },
+      {
+        "name": "amount",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_scrollbar_set",
+    "type": "void",
+    "args": [
+      {
+        "name": "scrollbar",
+        "type": "resource"
+      },
+      {
+        "name": "where",
+        "type": "int"
+      },
+      {
+        "name": "total",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_set_help_callback",
+    "type": "void",
+    "args": [
+      {
+        "name": "function",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_set_suspend_callback",
+    "type": "void",
+    "args": [
+      {
+        "name": "function",
+        "type": "callable"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "newt_suspend",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_textbox",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_textbox_get_num_lines",
+    "type": "int",
+    "args": [
+      {
+        "name": "textbox",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "newt_textbox_reflowed",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "*text",
+        "type": "char"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "flex_down",
+        "type": "int"
+      },
+      {
+        "name": "flex_up",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_textbox_set_height",
+    "type": "void",
+    "args": [
+      {
+        "name": "textbox",
+        "type": "resource"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "newt_textbox_set_text",
+    "type": "void",
+    "args": [
+      {
+        "name": "textbox",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "newt_vertical_scrollbar",
+    "type": "resource",
+    "args": [
+      {
+        "name": "left",
+        "type": "int"
+      },
+      {
+        "name": "top",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "normal_colorset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "thumb_colorset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_wait_for_key",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "newt_win_choice",
+    "type": "int",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "button1_text",
+        "type": "string"
+      },
+      {
+        "name": "button2_text",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_win_entries",
+    "type": "int",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "suggested_width",
+        "type": "int"
+      },
+      {
+        "name": "flex_down",
+        "type": "int"
+      },
+      {
+        "name": "flex_up",
+        "type": "int"
+      },
+      {
+        "name": "data_width",
+        "type": "int"
+      },
+      {
+        "name": "items",
+        "type": "array",
+        "reference": true
+      },
+      {
+        "name": "button1",
+        "type": "string"
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_win_menu",
+    "type": "int",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "suggestedWidth",
+        "type": "int"
+      },
+      {
+        "name": "flexDown",
+        "type": "int"
+      },
+      {
+        "name": "flexUp",
+        "type": "int"
+      },
+      {
+        "name": "maxListHeight",
+        "type": "int"
+      },
+      {
+        "name": "items",
+        "type": "array"
+      },
+      {
+        "name": "listItem",
+        "type": "int",
+        "reference": true
+      },
+      {
+        "name": "button1",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_win_message",
+    "type": "void",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "button_text",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "newt_win_messagev",
+    "type": "void",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "button_text",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "newt_win_ternary",
+    "type": "int",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "button1_text",
+        "type": "string"
+      },
+      {
+        "name": "button2_text",
+        "type": "string"
+      },
+      {
+        "name": "button3_text",
+        "type": "string"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "apd_breakpoint",
+    "type": "bool",
+    "args": [
+      {
+        "name": "debug_level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "apd_callstack",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apd_clunk",
+    "type": "void",
+    "args": [
+      {
+        "name": "warning",
+        "type": "string"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apd_continue",
+    "type": "bool",
+    "args": [
+      {
+        "name": "debug_level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "apd_croak",
+    "type": "void",
+    "args": [
+      {
+        "name": "warning",
+        "type": "string"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apd_dump_function_table",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "apd_dump_persistent_resources",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apd_dump_regular_resources",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apd_echo",
+    "type": "bool",
+    "args": [
+      {
+        "name": "output",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "apd_get_active_symbols",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "apd_set_pprof_trace",
+    "type": "string",
+    "args": [
+      {
+        "name": "dump_directory",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "fragment",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apd_set_session",
+    "type": "void",
+    "args": [
+      {
+        "name": "debug_level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "apd_set_session_trace",
+    "type": "void",
+    "args": [
+      {
+        "name": "debug_level",
+        "type": "int"
+      },
+      {
+        "name": "dump_directory",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "apd_set_session_trace_socket",
+    "type": "bool",
+    "args": [
+      {
+        "name": "tcp_server",
+        "type": "string"
+      },
+      {
+        "name": "socket_type",
+        "type": "int"
+      },
+      {
+        "name": "port",
+        "type": "int"
+      },
+      {
+        "name": "debug_level",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "override_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "function_name",
+        "type": "string"
+      },
+      {
+        "name": "function_args",
+        "type": "string"
+      },
+      {
+        "name": "function_code",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "rename_function",
+    "type": "bool",
+    "args": [
+      {
+        "name": "original_name",
+        "type": "string"
+      },
+      {
+        "name": "new_name",
+        "type": "string"
+      }
+    ]
+  }
+]

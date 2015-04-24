@@ -1,0 +1,79 @@
+[
+  {
+    "name": "unicode_decode",
+    "type": "unicode",
+    "args": [
+      {
+        "name": "input",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "errmode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "unicode_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "input",
+        "type": "unicode"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "errmode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "unicode_get_error_mode",
+    "type": "int",
+    "args": [
+      {
+        "name": "direction",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "unicode_get_subst_char",
+    "type": "unicode",
+    "args": []
+  },
+  {
+    "name": "unicode_set_error_mode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "direction",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "unicode_set_subst_char",
+    "type": "bool",
+    "args": [
+      {
+        "name": "character",
+        "type": "unicode"
+      }
+    ]
+  }
+]

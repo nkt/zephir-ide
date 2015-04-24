@@ -1,0 +1,1090 @@
+[
+  {
+    "name": "imap_8bit",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_alerts",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "imap_append",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "internal_date",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_base64",
+    "type": "string",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_binary",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_body",
+    "type": "string",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_bodystruct",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "section",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_check",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_clearflag_full",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "sequence",
+        "type": "string"
+      },
+      {
+        "name": "flag",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_createmailbox",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_deletemailbox",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_errors",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "imap_expunge",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_fetch_overview",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "sequence",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_fetchbody",
+    "type": "string",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "section",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_fetchheader",
+    "type": "string",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_fetchmime",
+    "type": "string",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "section",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_fetchstructure",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_gc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "caches",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imap_get_quota",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "quota_root",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_get_quotaroot",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "quota_root",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_getacl",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_getmailboxes",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "ref",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_getsubscribed",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "ref",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_headerinfo",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "fromlength",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "subjectlength",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "defaulthost",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_headers",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_last_error",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "imap_list",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "ref",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_listscan",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "ref",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "content",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_lsub",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "ref",
+        "type": "string"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_mail",
+    "type": "bool",
+    "args": [
+      {
+        "name": "to",
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "additional_headers",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "cc",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "bcc",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "rpath",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_mail_compose",
+    "type": "string",
+    "args": [
+      {
+        "name": "envelope",
+        "type": "array"
+      },
+      {
+        "name": "body",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "imap_mail_copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msglist",
+        "type": "string"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_mail_move",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msglist",
+        "type": "string"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_mailboxmsginfo",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_mime_header_decode",
+    "type": "array",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_msgno",
+    "type": "int",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "uid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imap_num_msg",
+    "type": "int",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_num_recent",
+    "type": "int",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "n_retries",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_ping",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "imap_qprint",
+    "type": "string",
+    "args": [
+      {
+        "name": "string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_renamemailbox",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "old_mbox",
+        "type": "string"
+      },
+      {
+        "name": "new_mbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_reopen",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "n_retries",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_rfc822_parse_adrlist",
+    "type": "array",
+    "args": [
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "default_host",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_rfc822_parse_headers",
+    "type": "object",
+    "args": [
+      {
+        "name": "headers",
+        "type": "string"
+      },
+      {
+        "name": "defaulthost",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_rfc822_write_address",
+    "type": "string",
+    "args": [
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "host",
+        "type": "string"
+      },
+      {
+        "name": "personal",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_savebody",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "file",
+        "type": "mixed"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "part_number",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_search",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "criteria",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_set_quota",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "quota_root",
+        "type": "string"
+      },
+      {
+        "name": "quota_limit",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imap_setacl",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "rights",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_setflag_full",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "sequence",
+        "type": "string"
+      },
+      {
+        "name": "flag",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_sort",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "criteria",
+        "type": "int"
+      },
+      {
+        "name": "reverse",
+        "type": "int"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "search_criteria",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_status",
+    "type": "object",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imap_subscribe",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_thread",
+    "type": "array",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_timeout",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "timeout_type",
+        "type": "int"
+      },
+      {
+        "name": "timeout",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_uid",
+    "type": "int",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "imap_undelete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "msg_number",
+        "type": "int"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "imap_unsubscribe",
+    "type": "bool",
+    "args": [
+      {
+        "name": "imap_stream",
+        "type": "resource"
+      },
+      {
+        "name": "mailbox",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_utf7_decode",
+    "type": "string",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_utf7_encode",
+    "type": "string",
+    "args": [
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "imap_utf8",
+    "type": "string",
+    "args": [
+      {
+        "name": "mime_encoded_text",
+        "type": "string"
+      }
+    ]
+  }
+]

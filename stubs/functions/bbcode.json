@@ -1,0 +1,106 @@
+[
+  {
+    "name": "bbcode_add_element",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      },
+      {
+        "name": "tag_name",
+        "type": "string"
+      },
+      {
+        "name": "tag_rules",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "bbcode_add_smiley",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      },
+      {
+        "name": "smiley",
+        "type": "string"
+      },
+      {
+        "name": "replace_by",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bbcode_create",
+    "type": "resource",
+    "args": [
+      {
+        "name": "bbcode_initial_tags",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "bbcode_destroy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bbcode_parse",
+    "type": "string",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      },
+      {
+        "name": "to_parse",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "bbcode_set_arg_parser",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      },
+      {
+        "name": "bbcode_arg_parser",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "bbcode_set_flags",
+    "type": "bool",
+    "args": [
+      {
+        "name": "bbcode_container",
+        "type": "resource"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

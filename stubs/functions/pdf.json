@@ -1,0 +1,3043 @@
+[
+  {
+    "name": "PDF_activate_item",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_launchlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_locallink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "lowerleftx",
+        "type": "float"
+      },
+      {
+        "name": "lowerlefty",
+        "type": "float"
+      },
+      {
+        "name": "upperrightx",
+        "type": "float"
+      },
+      {
+        "name": "upperrighty",
+        "type": "float"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_nameddest",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_note",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "contents",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "string"
+      },
+      {
+        "name": "open",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_pdflink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "bottom_left_x",
+        "type": "float"
+      },
+      {
+        "name": "bottom_left_y",
+        "type": "float"
+      },
+      {
+        "name": "up_right_x",
+        "type": "float"
+      },
+      {
+        "name": "up_right_y",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_table_cell",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "table",
+        "type": "int"
+      },
+      {
+        "name": "column",
+        "type": "int"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_textflow",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "textflow",
+        "type": "int"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_thumbnail",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "image",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_add_weblink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "lowerleftx",
+        "type": "float"
+      },
+      {
+        "name": "lowerlefty",
+        "type": "float"
+      },
+      {
+        "name": "upperrightx",
+        "type": "float"
+      },
+      {
+        "name": "upperrighty",
+        "type": "float"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_arc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      },
+      {
+        "name": "beta",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_arcn",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      },
+      {
+        "name": "beta",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_attach_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "name": "author",
+        "type": "string"
+      },
+      {
+        "name": "mimetype",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_document",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_font",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "c",
+        "type": "float"
+      },
+      {
+        "name": "d",
+        "type": "float"
+      },
+      {
+        "name": "e",
+        "type": "float"
+      },
+      {
+        "name": "f",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_glyph",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "glyphname",
+        "type": "string"
+      },
+      {
+        "name": "wx",
+        "type": "float"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_item",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "tag",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_layer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "layer",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_page_ext",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_pattern",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "xstep",
+        "type": "float"
+      },
+      {
+        "name": "ystep",
+        "type": "float"
+      },
+      {
+        "name": "painttype",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_template",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_begin_template_ext",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_circle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "r",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_clip",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_close_image",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "image",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_close_pdi",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_close_pdi_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_closepath",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_closepath_fill_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_closepath_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_concat",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "c",
+        "type": "float"
+      },
+      {
+        "name": "d",
+        "type": "float"
+      },
+      {
+        "name": "e",
+        "type": "float"
+      },
+      {
+        "name": "f",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_continue_text",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_3dview",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_action",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_annotation",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_bookmark",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_field",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_fieldgroup",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_gstate",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_pvf",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_create_textflow",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_curveto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      },
+      {
+        "name": "x3",
+        "type": "float"
+      },
+      {
+        "name": "y3",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_define_layer",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_delete_pvf",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_delete_table",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "table",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_delete_textflow",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "textflow",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_encoding_set_char",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "slot",
+        "type": "int"
+      },
+      {
+        "name": "glyphname",
+        "type": "string"
+      },
+      {
+        "name": "uv",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_document",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_font",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_glyph",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_item",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_layer",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_page_ext",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_pattern",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_end_template",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_endpath",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fill_imageblock",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "blockname",
+        "type": "string"
+      },
+      {
+        "name": "image",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fill_pdfblock",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "blockname",
+        "type": "string"
+      },
+      {
+        "name": "contents",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fill_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fill_textblock",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "blockname",
+        "type": "string"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_findfont",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "fontname",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "embed",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fit_image",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "image",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fit_pdi_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fit_table",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "table",
+        "type": "int"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fit_textflow",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "textflow",
+        "type": "int"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_fit_textline",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_apiname",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_buffer",
+    "type": "string",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_errmsg",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_errnum",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_majorversion",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "PDF_get_minorversion",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "PDF_get_parameter",
+    "type": "string",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "modifier",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_pdi_parameter",
+    "type": "string",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "reserved",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_pdi_value",
+    "type": "float",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "reserved",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_get_value",
+    "type": "float",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "modifier",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_info_font",
+    "type": "float",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "keyword",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_info_matchbox",
+    "type": "float",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "boxname",
+        "type": "string"
+      },
+      {
+        "name": "num",
+        "type": "int"
+      },
+      {
+        "name": "keyword",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_info_table",
+    "type": "float",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "table",
+        "type": "int"
+      },
+      {
+        "name": "keyword",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_info_textflow",
+    "type": "float",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "textflow",
+        "type": "int"
+      },
+      {
+        "name": "keyword",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_info_textline",
+    "type": "float",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "keyword",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_initgraphics",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_lineto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_load_3ddata",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_load_font",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "fontname",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_load_iccprofile",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "profilename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_load_image",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "imagetype",
+        "type": "string"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_makespotcolor",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "spotname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_moveto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_new",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "PDF_open_ccitt",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "BitReverse",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "Blackls1",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_image",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "imagetype",
+        "type": "string"
+      },
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "components",
+        "type": "int"
+      },
+      {
+        "name": "bpc",
+        "type": "int"
+      },
+      {
+        "name": "params",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_image_file",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "imagetype",
+        "type": "string"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "stringparam",
+        "type": "string"
+      },
+      {
+        "name": "intparam",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_memory_image",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "image",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_pdi",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_pdi_document",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_open_pdi_page",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "pagenumber",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_pcos_get_number",
+    "type": "float",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_pcos_get_stream",
+    "type": "string",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_pcos_get_string",
+    "type": "string",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_place_image",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "image",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "scale",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_place_pdi_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "sx",
+        "type": "float"
+      },
+      {
+        "name": "sy",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_process_pdi",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "doc",
+        "type": "int"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_rect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_restore",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_resume_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_rotate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "phi",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_save",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_scale",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "sx",
+        "type": "float"
+      },
+      {
+        "name": "sy",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_border_color",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_border_dash",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "black",
+        "type": "float"
+      },
+      {
+        "name": "white",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_border_style",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "style",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_gstate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "gstate",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_info",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_layer_dependency",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_parameter",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_text_pos",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_set_value",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setcolor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "fstype",
+        "type": "string"
+      },
+      {
+        "name": "colorspace",
+        "type": "string"
+      },
+      {
+        "name": "c1",
+        "type": "float"
+      },
+      {
+        "name": "c2",
+        "type": "float"
+      },
+      {
+        "name": "c3",
+        "type": "float"
+      },
+      {
+        "name": "c4",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setdash",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "w",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setdashpattern",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setflat",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "flatness",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setfont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "fontsize",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setgray",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setgray_fill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setgray_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "g",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setlinecap",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "linecap",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setlinejoin",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setlinewidth",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setmatrix",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "a",
+        "type": "float"
+      },
+      {
+        "name": "b",
+        "type": "float"
+      },
+      {
+        "name": "c",
+        "type": "float"
+      },
+      {
+        "name": "d",
+        "type": "float"
+      },
+      {
+        "name": "e",
+        "type": "float"
+      },
+      {
+        "name": "f",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setmiterlimit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "miter",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setrgbcolor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setrgbcolor_fill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_setrgbcolor_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_shading",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "shtype",
+        "type": "string"
+      },
+      {
+        "name": "x0",
+        "type": "float"
+      },
+      {
+        "name": "y0",
+        "type": "float"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "c1",
+        "type": "float"
+      },
+      {
+        "name": "c2",
+        "type": "float"
+      },
+      {
+        "name": "c3",
+        "type": "float"
+      },
+      {
+        "name": "c4",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_shading_pattern",
+    "type": "int",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "shading",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_shfill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "shading",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "PDF_show",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_show_boxed",
+    "type": "int",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "left",
+        "type": "float"
+      },
+      {
+        "name": "top",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "feature",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_show_xy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_skew",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      },
+      {
+        "name": "beta",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_stringwidth",
+    "type": "float",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "font",
+        "type": "int"
+      },
+      {
+        "name": "fontsize",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "PDF_suspend_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_translate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "tx",
+        "type": "float"
+      },
+      {
+        "name": "ty",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "PDF_utf16_to_utf8",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "utf16string",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_utf32_to_utf16",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "utf32string",
+        "type": "string"
+      },
+      {
+        "name": "ordering",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "PDF_utf8_to_utf16",
+    "type": "string",
+    "args": [
+      {
+        "name": "pdfdoc",
+        "type": "resource"
+      },
+      {
+        "name": "utf8string",
+        "type": "string"
+      },
+      {
+        "name": "ordering",
+        "type": "string"
+      }
+    ]
+  }
+]

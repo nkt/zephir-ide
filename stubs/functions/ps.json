@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "ps_add_bookmark",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "parent",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "open",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_add_launchlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_add_locallink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_add_note",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "contents",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "string"
+      },
+      {
+        "name": "open",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_add_pdflink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "page",
+        "type": "int"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_add_weblink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "llx",
+        "type": "float"
+      },
+      {
+        "name": "lly",
+        "type": "float"
+      },
+      {
+        "name": "urx",
+        "type": "float"
+      },
+      {
+        "name": "ury",
+        "type": "float"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_arc",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "radius",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      },
+      {
+        "name": "beta",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_arcn",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "radius",
+        "type": "float"
+      },
+      {
+        "name": "alpha",
+        "type": "float"
+      },
+      {
+        "name": "beta",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_begin_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_begin_pattern",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "xstep",
+        "type": "float"
+      },
+      {
+        "name": "ystep",
+        "type": "float"
+      },
+      {
+        "name": "painttype",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_begin_template",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_circle",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "radius",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_clip",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_close_image",
+    "type": "void",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "imageid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_closepath",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_closepath_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_continue_text",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_curveto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "x2",
+        "type": "float"
+      },
+      {
+        "name": "y2",
+        "type": "float"
+      },
+      {
+        "name": "x3",
+        "type": "float"
+      },
+      {
+        "name": "y3",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_delete",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_end_page",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_end_pattern",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_end_template",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_fill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_fill_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_findfont",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "fontname",
+        "type": "string"
+      },
+      {
+        "name": "encoding",
+        "type": "string"
+      },
+      {
+        "name": "embed",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_get_buffer",
+    "type": "string",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_get_parameter",
+    "type": "string",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "modifier",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_get_value",
+    "type": "float",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "modifier",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_hyphenate",
+    "type": "array",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_include_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "file",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_lineto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_makespotcolor",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "reserved",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_moveto",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_new",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "ps_open_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_open_image",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "lenght",
+        "type": "int"
+      },
+      {
+        "name": "width",
+        "type": "int"
+      },
+      {
+        "name": "height",
+        "type": "int"
+      },
+      {
+        "name": "components",
+        "type": "int"
+      },
+      {
+        "name": "bpc",
+        "type": "int"
+      },
+      {
+        "name": "params",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_open_image_file",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "stringparam",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "intparam",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_open_memory_image",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "gd",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_place_image",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "imageid",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "scale",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_rect",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_restore",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_rotate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "rot",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_save",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_scale",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_border_color",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "red",
+        "type": "float"
+      },
+      {
+        "name": "green",
+        "type": "float"
+      },
+      {
+        "name": "blue",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_border_dash",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "black",
+        "type": "float"
+      },
+      {
+        "name": "white",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_border_style",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "style",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_info",
+    "type": "bool",
+    "args": [
+      {
+        "name": "p",
+        "type": "resource"
+      },
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "val",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_parameter",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_text_pos",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_set_value",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setcolor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "colorspace",
+        "type": "string"
+      },
+      {
+        "name": "c1",
+        "type": "float"
+      },
+      {
+        "name": "c2",
+        "type": "float"
+      },
+      {
+        "name": "c3",
+        "type": "float"
+      },
+      {
+        "name": "c4",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setdash",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "on",
+        "type": "float"
+      },
+      {
+        "name": "off",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setflat",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setfont",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "fontid",
+        "type": "int"
+      },
+      {
+        "name": "size",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setgray",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "gray",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setlinecap",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_setlinejoin",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_setlinewidth",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setmiterlimit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_setoverprintmode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_setpolydash",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "arr",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_shading",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "type",
+        "type": "string"
+      },
+      {
+        "name": "x0",
+        "type": "float"
+      },
+      {
+        "name": "y0",
+        "type": "float"
+      },
+      {
+        "name": "x1",
+        "type": "float"
+      },
+      {
+        "name": "y1",
+        "type": "float"
+      },
+      {
+        "name": "c1",
+        "type": "float"
+      },
+      {
+        "name": "c2",
+        "type": "float"
+      },
+      {
+        "name": "c3",
+        "type": "float"
+      },
+      {
+        "name": "c4",
+        "type": "float"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_shading_pattern",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "shadingid",
+        "type": "int"
+      },
+      {
+        "name": "optlist",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_shfill",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "shadingid",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_show",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ps_show2",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_show_boxed",
+    "type": "int",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "left",
+        "type": "float"
+      },
+      {
+        "name": "bottom",
+        "type": "float"
+      },
+      {
+        "name": "width",
+        "type": "float"
+      },
+      {
+        "name": "height",
+        "type": "float"
+      },
+      {
+        "name": "hmode",
+        "type": "string"
+      },
+      {
+        "name": "feature",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_show_xy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_show_xy2",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      },
+      {
+        "name": "xcoor",
+        "type": "float"
+      },
+      {
+        "name": "ycoor",
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "name": "ps_string_geometry",
+    "type": "array",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "fontid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "size",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_stringwidth",
+    "type": "float",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "fontid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "size",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_stroke",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ps_symbol",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "ord",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "ps_symbol_name",
+    "type": "string",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "ord",
+        "type": "int"
+      },
+      {
+        "name": "fontid",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_symbol_width",
+    "type": "float",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "ord",
+        "type": "int"
+      },
+      {
+        "name": "fontid",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "size",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ps_translate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "psdoc",
+        "type": "resource"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
+      }
+    ]
+  }
+]

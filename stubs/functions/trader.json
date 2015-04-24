@@ -1,0 +1,3162 @@
+[
+  {
+    "name": "trader_acos",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ad",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "volume",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_add",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_adosc",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "volume",
+        "type": "array"
+      },
+      {
+        "name": "fastPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowPeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_adx",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_adxr",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_apo",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "fastPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "mAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_aroon",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_aroonosc",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_asin",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_atan",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_atr",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_avgprice",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_bbands",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "nbDevUp",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "nbDevDn",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "mAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_beta",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_bop",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cci",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl2crows",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3blackcrows",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3inside",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3linestrike",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3outside",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3starsinsouth",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdl3whitesoldiers",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlabandonedbaby",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdladvanceblock",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlbelthold",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlbreakaway",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlclosingmarubozu",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlconcealbabyswall",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlcounterattack",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdldarkcloudcover",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdldoji",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdldojistar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdldragonflydoji",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlengulfing",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdleveningdojistar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdleveningstar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlgapsidesidewhite",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlgravestonedoji",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhammer",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhangingman",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlharami",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlharamicross",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhighwave",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhikkake",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhikkakemod",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlhomingpigeon",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlidentical3crows",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlinneck",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlinvertedhammer",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlkicking",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlkickingbylength",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlladderbottom",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdllongleggeddoji",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdllongline",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlmarubozu",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlmatchinglow",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlmathold",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlmorningdojistar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlmorningstar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "penetration",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlonneck",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlpiercing",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlrickshawman",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlrisefall3methods",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlseparatinglines",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlshootingstar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlshortline",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlspinningtop",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlstalledpattern",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlsticksandwich",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdltakuri",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdltasukigap",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlthrusting",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdltristar",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlunique3river",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlupsidegap2crows",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cdlxsidegap3methods",
+    "type": "array",
+    "args": [
+      {
+        "name": "open",
+        "type": "array"
+      },
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ceil",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cmo",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_correl",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_cos",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_cosh",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_dema",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_div",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_dx",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_ema",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_errno",
+    "type": "integer",
+    "args": []
+  },
+  {
+    "name": "trader_exp",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_floor",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_get_compat",
+    "type": "integer",
+    "args": []
+  },
+  {
+    "name": "trader_get_unstable_period",
+    "type": "integer",
+    "args": [
+      {
+        "name": "functionId",
+        "type": "integer"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_dcperiod",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_dcphase",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_phasor",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_sine",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_trendline",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ht_trendmode",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_kama",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_linearreg",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_linearreg_angle",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_linearreg_intercept",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_linearreg_slope",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_ln",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_log10",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ma",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "mAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_macd",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "fastPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "signalPeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_macdext",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "fastPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastMAType",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowMAType",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "signalPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "signalMAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_macdfix",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "signalPeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_mama",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "fastLimit",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "slowLimit",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_mavp",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "periods",
+        "type": "array"
+      },
+      {
+        "name": "minPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "maxPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "mAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_max",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_maxindex",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_medprice",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_mfi",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "volume",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_midpoint",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_midprice",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_min",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_minindex",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_minmax",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_minmaxindex",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_minus_di",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_minus_dm",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_mom",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_mult",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_natr",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_obv",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "volume",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_plus_di",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_plus_dm",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_ppo",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "fastPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowPeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "mAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_roc",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_rocp",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_rocr",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_rocr100",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_rsi",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_sar",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "acceleration",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "maximum",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_sarext",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "startValue",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "offsetOnReverse",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationInitLong",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationLong",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationMaxLong",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationInitShort",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationShort",
+        "type": "float",
+        "optional": true
+      },
+      {
+        "name": "accelerationMaxShort",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_set_compat",
+    "type": "void",
+    "args": [
+      {
+        "name": "compatId",
+        "type": "integer"
+      }
+    ]
+  },
+  {
+    "name": "trader_set_unstable_period",
+    "type": "void",
+    "args": [
+      {
+        "name": "functionId",
+        "type": "integer"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer"
+      }
+    ]
+  },
+  {
+    "name": "trader_sin",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_sinh",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_sma",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_sqrt",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_stddev",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "nbDev",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_stoch",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "fastK_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowK_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowK_MAType",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowD_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "slowD_MAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_stochf",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "fastK_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastD_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastD_MAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_stochrsi",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastK_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastD_Period",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "fastD_MAType",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_sub",
+    "type": "array",
+    "args": [
+      {
+        "name": "real0",
+        "type": "array"
+      },
+      {
+        "name": "real1",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_sum",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_t3",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "vFactor",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_tan",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_tanh",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_tema",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_trange",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_trima",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_trix",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_tsf",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_typprice",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_ultosc",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod1",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "timePeriod2",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "timePeriod3",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_var",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      },
+      {
+        "name": "nbDev",
+        "type": "float",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_wclprice",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "trader_willr",
+    "type": "array",
+    "args": [
+      {
+        "name": "high",
+        "type": "array"
+      },
+      {
+        "name": "low",
+        "type": "array"
+      },
+      {
+        "name": "close",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "trader_wma",
+    "type": "array",
+    "args": [
+      {
+        "name": "real",
+        "type": "array"
+      },
+      {
+        "name": "timePeriod",
+        "type": "integer",
+        "optional": true
+      }
+    ]
+  }
+]

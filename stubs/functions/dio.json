@@ -1,0 +1,141 @@
+[
+  {
+    "name": "dio_close",
+    "type": "void",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dio_fcntl",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "cmd",
+        "type": "int"
+      },
+      {
+        "name": "args",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dio_open",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dio_read",
+    "type": "string",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "len",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dio_seek",
+    "type": "int",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      },
+      {
+        "name": "whence",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dio_stat",
+    "type": "array",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "dio_tcsetattr",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "options",
+        "type": "array"
+      }
+    ]
+  },
+  {
+    "name": "dio_truncate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "dio_write",
+    "type": "int",
+    "args": [
+      {
+        "name": "fd",
+        "type": "resource"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      },
+      {
+        "name": "len",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  }
+]

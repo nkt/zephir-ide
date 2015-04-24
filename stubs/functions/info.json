@@ -1,0 +1,435 @@
+[
+  {
+    "name": "assert",
+    "type": "bool",
+    "args": [
+      {
+        "name": "assertion",
+        "type": "mixed"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "assert_options",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "what",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "cli_get_process_title",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "cli_set_process_title",
+    "type": "bool",
+    "args": [
+      {
+        "name": "title",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dl",
+    "type": "bool",
+    "args": [
+      {
+        "name": "library",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "extension_loaded",
+    "type": "bool",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gc_collect_cycles",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "gc_disable",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "gc_enable",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "gc_enabled",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "get_cfg_var",
+    "type": "string",
+    "args": [
+      {
+        "name": "option",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_current_user",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "get_defined_constants",
+    "type": "array",
+    "args": [
+      {
+        "name": "categorize",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_extension_funcs",
+    "type": "array",
+    "args": [
+      {
+        "name": "module_name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "get_include_path",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "get_included_files",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "get_loaded_extensions",
+    "type": "array",
+    "args": [
+      {
+        "name": "zend_extensions",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "get_magic_quotes_gpc",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "get_magic_quotes_runtime",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "getenv",
+    "type": "string",
+    "args": [
+      {
+        "name": "varname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "getlastmod",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "getmygid",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "getmyinode",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "getmypid",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "getmyuid",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "getopt",
+    "type": "array",
+    "args": [
+      {
+        "name": "options",
+        "type": "string"
+      },
+      {
+        "name": "longopts",
+        "type": "array",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "getrusage",
+    "type": "array",
+    "args": [
+      {
+        "name": "who",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ini_get",
+    "type": "string",
+    "args": [
+      {
+        "name": "varname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ini_get_all",
+    "type": "array",
+    "args": [
+      {
+        "name": "extension",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "details",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "ini_restore",
+    "type": "void",
+    "args": [
+      {
+        "name": "varname",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ini_set",
+    "type": "string",
+    "args": [
+      {
+        "name": "varname",
+        "type": "string"
+      },
+      {
+        "name": "newvalue",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "memory_get_peak_usage",
+    "type": "int",
+    "args": [
+      {
+        "name": "real_usage",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "memory_get_usage",
+    "type": "int",
+    "args": [
+      {
+        "name": "real_usage",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "php_ini_loaded_file",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "php_ini_scanned_files",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "php_logo_guid",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "php_sapi_name",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "php_uname",
+    "type": "string",
+    "args": [
+      {
+        "name": "mode",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "phpcredits",
+    "type": "bool",
+    "args": [
+      {
+        "name": "flag",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "phpinfo",
+    "type": "bool",
+    "args": [
+      {
+        "name": "what",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "phpversion",
+    "type": "string",
+    "args": [
+      {
+        "name": "extension",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "putenv",
+    "type": "bool",
+    "args": [
+      {
+        "name": "setting",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "restore_include_path",
+    "type": "void",
+    "args": []
+  },
+  {
+    "name": "set_include_path",
+    "type": "string",
+    "args": [
+      {
+        "name": "new_include_path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "set_magic_quotes_runtime",
+    "type": "bool",
+    "args": [
+      {
+        "name": "new_setting",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "name": "set_time_limit",
+    "type": "void",
+    "args": [
+      {
+        "name": "seconds",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sys_get_temp_dir",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "version_compare",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "version1",
+        "type": "string"
+      },
+      {
+        "name": "version2",
+        "type": "string"
+      },
+      {
+        "name": "operator",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "zend_logo_guid",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "zend_thread_id",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "zend_version",
+    "type": "string",
+    "args": []
+  }
+]

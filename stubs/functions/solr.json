@@ -1,0 +1,7 @@
+[
+  {
+    "name": "solr_get_version",
+    "type": "string",
+    "args": []
+  }
+]

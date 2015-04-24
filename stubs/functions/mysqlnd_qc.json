@@ -1,0 +1,108 @@
+[
+  {
+    "name": "mysqlnd_qc_clear_cache",
+    "type": "bool",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_get_available_handlers",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_get_cache_info",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_get_core_stats",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_get_normalized_query_trace_log",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_get_query_trace_log",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "mysqlnd_qc_set_cache_condition",
+    "type": "bool",
+    "args": [
+      {
+        "name": "condition_type",
+        "type": "int"
+      },
+      {
+        "name": "condition",
+        "type": "mixed"
+      },
+      {
+        "name": "condition_option",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_qc_set_is_select",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "callback",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_qc_set_storage_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handler",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mysqlnd_qc_set_user_handlers",
+    "type": "bool",
+    "args": [
+      {
+        "name": "get_hash",
+        "type": "string"
+      },
+      {
+        "name": "find_query_in_cache",
+        "type": "string"
+      },
+      {
+        "name": "return_to_cache",
+        "type": "string"
+      },
+      {
+        "name": "add_query_to_cache_if_not_exists",
+        "type": "string"
+      },
+      {
+        "name": "query_is_select",
+        "type": "string"
+      },
+      {
+        "name": "update_query_run_time_stats",
+        "type": "string"
+      },
+      {
+        "name": "get_stats",
+        "type": "string"
+      },
+      {
+        "name": "clear_cache",
+        "type": "string"
+      }
+    ]
+  }
+]

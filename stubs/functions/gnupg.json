@@ -1,0 +1,291 @@
+[
+  {
+    "name": "gnupg_adddecryptkey",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "fingerprint",
+        "type": "string"
+      },
+      {
+        "name": "passphrase",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_addencryptkey",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "fingerprint",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_addsignkey",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "fingerprint",
+        "type": "string"
+      },
+      {
+        "name": "passphrase",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "gnupg_cleardecryptkeys",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_clearencryptkeys",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_clearsignkeys",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_decrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_decryptverify",
+    "type": "array",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "plaintext",
+        "type": "string",
+        "reference": true
+      }
+    ]
+  },
+  {
+    "name": "gnupg_encrypt",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "plaintext",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_encryptsign",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "plaintext",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_export",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "fingerprint",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_geterror",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_getprotocol",
+    "type": "int",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_import",
+    "type": "array",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "keydata",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_init",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "gnupg_keyinfo",
+    "type": "array",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "pattern",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_setarmor",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "armor",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_seterrormode",
+    "type": "void",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "errormode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_setsignmode",
+    "type": "bool",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "signmode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_sign",
+    "type": "string",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "plaintext",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "gnupg_verify",
+    "type": "array",
+    "args": [
+      {
+        "name": "identifier",
+        "type": "resource"
+      },
+      {
+        "name": "signed_text",
+        "type": "string"
+      },
+      {
+        "name": "signature",
+        "type": "string"
+      },
+      {
+        "name": "plaintext",
+        "type": "string",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  }
+]

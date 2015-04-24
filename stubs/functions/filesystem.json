@@ -1,0 +1,1054 @@
+[
+  {
+    "name": "basename",
+    "type": "string",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "suffix",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "chgrp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "group",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "chmod",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "chown",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "user",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "clearstatcache",
+    "type": "void",
+    "args": [
+      {
+        "name": "clear_realpath_cache",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "copy",
+    "type": "bool",
+    "args": [
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "dest",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "dirname",
+    "type": "string",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "disk_free_space",
+    "type": "float",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "disk_total_space",
+    "type": "float",
+    "args": [
+      {
+        "name": "directory",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fclose",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "feof",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fflush",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fgetc",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fgetcsv",
+    "type": "array",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "enclosure",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "escape",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fgets",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fgetss",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "allowable_tags",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "file",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "file_exists",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "file_get_contents",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "use_include_path",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      },
+      {
+        "name": "offset",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "maxlen",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "file_put_contents",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "mixed"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fileatime",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filectime",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filegroup",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fileinode",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filemtime",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fileowner",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "fileperms",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filesize",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "filetype",
+    "type": "string",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "flock",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "operation",
+        "type": "int"
+      },
+      {
+        "name": "wouldblock",
+        "type": "int",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fnmatch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fopen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "use_include_path",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fpassthru",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "fputcsv",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "fields",
+        "type": "array"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "enclosure",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fread",
+    "type": "string",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "length",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fscanf",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      },
+      {
+        "name": "...",
+        "type": "mixed",
+        "reference": true,
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fseek",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "whence",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "fstat",
+    "type": "array",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftell",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "ftruncate",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "fwrite",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      },
+      {
+        "name": "string",
+        "type": "string"
+      },
+      {
+        "name": "length",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "glob",
+    "type": "array",
+    "args": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "flags",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "is_dir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_executable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_link",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_readable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_uploaded_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "is_writable",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "lchgrp",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "group",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "lchown",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "user",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "link",
+    "type": "bool",
+    "args": [
+      {
+        "name": "target",
+        "type": "string"
+      },
+      {
+        "name": "link",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "linkinfo",
+    "type": "int",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "lstat",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "mkdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "pathname",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "recursive",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "move_uploaded_file",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "destination",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "parse_ini_file",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "process_sections",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "scanner_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "parse_ini_string",
+    "type": "array",
+    "args": [
+      {
+        "name": "ini",
+        "type": "string"
+      },
+      {
+        "name": "process_sections",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "scanner_mode",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pathinfo",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      },
+      {
+        "name": "options",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "pclose",
+    "type": "int",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "popen",
+    "type": "resource",
+    "args": [
+      {
+        "name": "command",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "readfile",
+    "type": "int",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "use_include_path",
+        "type": "bool",
+        "optional": true
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "readlink",
+    "type": "string",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "realpath",
+    "type": "string",
+    "args": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "realpath_cache_get",
+    "type": "array",
+    "args": []
+  },
+  {
+    "name": "realpath_cache_size",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "rename",
+    "type": "bool",
+    "args": [
+      {
+        "name": "oldname",
+        "type": "string"
+      },
+      {
+        "name": "newname",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "rewind",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handle",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "rmdir",
+    "type": "bool",
+    "args": [
+      {
+        "name": "dirname",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "stat",
+    "type": "array",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "symlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "target",
+        "type": "string"
+      },
+      {
+        "name": "link",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "tempnam",
+    "type": "string",
+    "args": [
+      {
+        "name": "dir",
+        "type": "string"
+      },
+      {
+        "name": "prefix",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "tmpfile",
+    "type": "resource",
+    "args": []
+  },
+  {
+    "name": "touch",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "time",
+        "type": "int",
+        "optional": true
+      },
+      {
+        "name": "atime",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "umask",
+    "type": "int",
+    "args": [
+      {
+        "name": "mask",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "unlink",
+    "type": "bool",
+    "args": [
+      {
+        "name": "filename",
+        "type": "string"
+      },
+      {
+        "name": "context",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  }
+]

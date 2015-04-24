@@ -1,0 +1,137 @@
+[
+  {
+    "name": "win32_continue_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_create_service",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "details",
+        "type": "array"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_delete_service",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_get_last_control_message",
+    "type": "int",
+    "args": []
+  },
+  {
+    "name": "win32_pause_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_query_service_status",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_set_service_status",
+    "type": "bool",
+    "args": [
+      {
+        "name": "status",
+        "type": "int"
+      },
+      {
+        "name": "checkpoint",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_start_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "win32_start_service_ctrl_dispatcher",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "win32_stop_service",
+    "type": "int",
+    "args": [
+      {
+        "name": "servicename",
+        "type": "string"
+      },
+      {
+        "name": "machine",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  }
+]

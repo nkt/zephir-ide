@@ -1,123 +1,112 @@
 [
-    {
-        "name": "ctype_alnum",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_alnum.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_alpha",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_alpha.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_cntrl",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_cntrl.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_digit",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_digit.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_lower",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_lower.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_graph",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_graph.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_print",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_print.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_punct",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_punct.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_space",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_space.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_upper",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_upper.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    },
-    {
-        "name": "ctype_xdigit",
-        "type": "mixed",
-        "url": "http:\/\/php.net\/manual\/ru\/function.ctype_xdigit.php",
-        "args": [
-            {
-                "name": "text",
-                "type": "mixed"
-            }
-        ]
-    }
+  {
+    "name": "ctype_alnum",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_alpha",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_cntrl",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_digit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_graph",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_lower",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_print",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_punct",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_space",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_upper",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "ctype_xdigit",
+    "type": "bool",
+    "args": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ]
+  }
 ]

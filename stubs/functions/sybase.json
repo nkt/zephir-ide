@@ -1,0 +1,346 @@
+[
+  {
+    "name": "sybase_affected_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_close",
+    "type": "bool",
+    "args": [
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_connect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "servername",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "appname",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "new",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_data_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "row_number",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_deadlock_retry_count",
+    "type": "void",
+    "args": [
+      {
+        "name": "retry_count",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_fetch_array",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_fetch_assoc",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_fetch_field",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_fetch_object",
+    "type": "object",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "object",
+        "type": "mixed",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_fetch_row",
+    "type": "array",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_field_seek",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "field_offset",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_free_result",
+    "type": "bool",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_get_last_message",
+    "type": "string",
+    "args": []
+  },
+  {
+    "name": "sybase_min_client_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_min_error_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_min_message_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_min_server_severity",
+    "type": "void",
+    "args": [
+      {
+        "name": "severity",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "sybase_num_fields",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_num_rows",
+    "type": "int",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      }
+    ]
+  },
+  {
+    "name": "sybase_pconnect",
+    "type": "resource",
+    "args": [
+      {
+        "name": "servername",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "password",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "charset",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "appname",
+        "type": "string",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_query",
+    "type": "mixed",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_result",
+    "type": "string",
+    "args": [
+      {
+        "name": "result",
+        "type": "resource"
+      },
+      {
+        "name": "row",
+        "type": "int"
+      },
+      {
+        "name": "field",
+        "type": "mixed"
+      }
+    ]
+  },
+  {
+    "name": "sybase_select_db",
+    "type": "bool",
+    "args": [
+      {
+        "name": "database_name",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_set_message_handler",
+    "type": "bool",
+    "args": [
+      {
+        "name": "handler",
+        "type": "callable"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "sybase_unbuffered_query",
+    "type": "resource",
+    "args": [
+      {
+        "name": "query",
+        "type": "string"
+      },
+      {
+        "name": "link_identifier",
+        "type": "resource"
+      },
+      {
+        "name": "store_result",
+        "type": "bool",
+        "optional": true
+      }
+    ]
+  }
+]
