@@ -1,7 +1,7 @@
 const Promise = require('bluebird');
 const fs = Promise.promisifyAll(require('fs'));
 const path = require('path');
-const BaseProvider = require('./base-provider');
+const BaseProvider = require('./base');
 
 class StubFunctionProvider extends BaseProvider {
   constructor(dirName : string) {
