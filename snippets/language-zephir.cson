@@ -1,0 +1,89 @@
+# https://github.com/atom/language-php/blob/master/snippets/language-php.cson
+'.source.zep':
+  'function __construct':
+    'prefix': 'con'
+    'body': 'function __construct($1) {\n    ${2:this->$0 = $$0;}$0\n}'
+  'Start Docblock':
+    'prefix': '/**'
+    'body': '/**\n * $0\n */'
+  'class …':
+    'prefix': 'class'
+    'body': '/**\n * $1\n */\nclass ${2:ClassName} ${3:extends ${4:AnotherClass}}\n{\n    $5\n    function ${6:__construct}(${7:argument})\n    {\n        ${0:# code...}\n    }\n}\n'
+  'interface …':
+    'prefix': 'interface'
+    'body': '/**\n * $1\n */\ninterface ${2:InterfaceName}\n{\n    public function ${6:__toString()}(${7:argument});\n}\n'
+  'trait …':
+    'prefix': 'trait'
+    'body': '/**\n * $1\n */\ntrait ${2:TraitName}\n{\n    ${3:public} function ${4:functionName}(${5:argument})\n    {\n        ${6:# code...}\n    }\n}\n'
+  'do … while …':
+    'prefix': 'do'
+    'body': 'do {\n    ${0:# code...}\n} while $1;'
+  'echo "…"':
+    'prefix': 'echo'
+    'body': 'echo "${1:string}";$0'
+  'else …':
+    'prefix': 'else'
+    'body': 'else {\n    ${0:# code...}\n}'
+  'elseif …':
+    'prefix': 'elseif'
+    'body': 'elseif (${1:condition}) {\n    ${0:# code...}\n}'
+  'for … in …':
+    'prefix': 'for'
+    'body': 'for ${1:item} in ${2:this->${3:values}} { \n    ${4:# code...}\n}'
+  'while …':
+    'prefix': 'while'
+    'body': 'while (${1:a <= 10}) {\n    ${0:# code...}\n}'
+  'loop':
+    'prefix': 'loop'
+    'body': 'loop {\n    ${0:# code...}\n}'
+  'function …':
+    'prefix': 'fun'
+    'body': '${1:public }function ${2:FunctionName}(${3:$${4:value}${5:=\'\'}})\n{\n    ${0:# code...}\n}'
+  'if … else …':
+    'prefix': 'ifel'
+    'body': 'if ${1:condition} {\n    ${2:# code...}\n} else {\n    ${3:# code...}\n}\n$0'
+  'if …':
+    'prefix': 'if'
+    'body': 'if ${1:condition} {\n    ${0:# code...}\n}'
+  '… = ( … ) ? … : …':
+    'prefix': 'if?'
+    'body': '${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b} ;'
+  'fetch …, …':
+    'prefix': 'fetch'
+    'body': 'fetch ${1:value}, ${2:${3:arr}[${4:key}]}'
+  'if fetch …, …':
+    'prefix': 'ifetch'
+    'body': 'if fetch ${1:value}, ${2:${3:arr}[${4:key}]} {\n    ${5:# code...}\n}'
+  'typeof …':
+    'prefix': 'type'
+    'body': 'typeof ${1:variable}'
+  'if typeof … == "…"':
+    'prefix': 'itype'
+    'body': 'if typeof ${1:variable} == ${2:"${3:string}"} {\n    ${5:# code...}\n}'
+  'return':
+    'prefix': 'ret'
+    'body': 'return$1;$0'
+  'return false':
+    'prefix': 'ret0'
+    'body': 'return false;$0'
+  'return true':
+    'prefix': 'ret1'
+    'body': 'return true;$0'
+  'switch …':
+    'prefix': 'switch'
+    'body': 'switch ${1:variable} {\n    case \'${2:value}\':\n        ${3:# code...}\n        break;\n    $0\n    default:\n        ${4:# code...}\n        break;\n}'
+  'case …':
+    'prefix': 'case'
+    'body': 'case \'${1:variable}\':\n    ${0:# code...}\n    break;'
+  'this->…':
+    'prefix': 'this'
+    'body': 'this->$0'
+  'echo this->…':
+    'prefix': 'ethis'
+    'body': 'echo this->$0'
+  'Throw Exception':
+    'prefix': 'throw'
+    'body': 'throw new "${3:Error Processing Request};\n$0'
+  'try … catch …':
+    'prefix': 'try'
+    'body': 'try {\n    ${1:# code...}\n} catch ${2:\\Exception}, ${3:e} {\n    ${4:echo e->getMessage();}\n}'
