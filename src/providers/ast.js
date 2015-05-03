@@ -8,7 +8,6 @@ class AstProvider extends BaseProvider {
 
   getSuggestions({editor}) {
     this.index.update(editor.buffer.file.path).then((ast) => {
-      console.info(ast);
     });
   }
 }

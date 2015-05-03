@@ -9,7 +9,7 @@ class BaseProvider {
   getFunctionSnippet(name, args) {
     const argsSnippet = args.map((arg, i) => {
       return `\${${i + 1}:${arg.name}}`;
-    });
+    }).join(', ');
 
     return `${name}(${argsSnippet})$0`;
   }
