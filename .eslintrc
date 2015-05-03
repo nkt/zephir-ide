@@ -1,8 +1,7 @@
 {
   "parser": "babel-eslint",
   "globals": {
-    "atom": false,
-    "console": false
+    "atom": false
   },
   "env": {
     "browser": true,

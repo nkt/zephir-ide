@@ -4,6 +4,7 @@
     "ecma6"
   ],
   "plugins": {
-    "node": true
+    "node": {},
+    "doc_comment": {}
   }
 }
