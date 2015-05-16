@@ -1,7 +1,7 @@
 {
   "name": "zephir-ide",
   "main": "./lib/main",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Zephir language support for Atom",
   "repository": "https://github.com/nkt/zephir-ide.git",
   "license": "MIT",
